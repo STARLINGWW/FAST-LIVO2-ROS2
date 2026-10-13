@@ -1,0 +1,24 @@
+Unable to find image 'ubuntu:20.04' locally
+20.04: Pulling from library/ubuntu
+13b7e930469f: Pulling fs layer
+d49f7165cd13: Download complete
+13b7e930469f: Download complete
+13b7e930469f: Pull complete
+Digest: sha256:8feb4d8ca5354def3d8fce243717141ce31e2c428701f6682bd2fafe15388214
+Status: Downloaded newer image for ubuntu:20.04
+NAME="Ubuntu"
+VERSION="20.04.6 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.6 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+x86_64
+20.205.243.166  github.com
+SOURCE_MOUNT_READ_OK
+SOURCE_MOUNT_WRITE_OK

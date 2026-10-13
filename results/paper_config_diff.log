@@ -1,0 +1,34 @@
+{
+  "preprocess.point_filter_num": {
+    "released_config": 1,
+    "paper_aligned_experiment": 3
+  },
+  "lio.voxel_size": {
+    "released_config": 0.4,
+    "paper_aligned_experiment": 0.5
+  },
+  "lio.max_layer": {
+    "released_config": 2,
+    "paper_aligned_experiment": 3
+  },
+  "lio.dept_err": {
+    "released_config": 0.02,
+    "paper_aligned_experiment": 0.001
+  },
+  "lio.beam_err": {
+    "released_config": 0.05,
+    "paper_aligned_experiment": 0.001
+  },
+  "vio.img_point_cov": {
+    "released_config": 1000,
+    "paper_aligned_experiment": 100.0
+  },
+  "vio.normal_en": {
+    "released_config": true,
+    "paper_aligned_experiment": false
+  },
+  "vio.raycast_en": {
+    "released_config": false,
+    "paper_aligned_experiment": true
+  }
+}

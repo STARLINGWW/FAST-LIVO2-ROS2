@@ -1,0 +1,106 @@
+{
+  "captured_at": "2026-09-24T01:33:47.8346454+08:00",
+  "os": {
+    "Caption": "Microsoft Windows 11 专业版",
+    "Version": "10.0.26200",
+    "OSArchitecture": "64 位",
+    "TotalVisibleMemorySize": 33264868,
+    "FreePhysicalMemory": 8997344
+  },
+  "cpu": {
+    "Name": "Intel(R) Core(TM) i7-14700K",
+    "NumberOfCores": 20,
+    "NumberOfLogicalProcessors": 28
+  },
+  "computer": {
+    "HypervisorPresent": true,
+    "TotalPhysicalMemory": 34063224832
+  },
+  "drives": [
+    {
+      "Name": "C",
+      "Root": "C:\\",
+      "Used": 303667707904,
+      "Free": 695535038464
+    },
+    {
+      "Name": "D",
+      "Root": "D:\\",
+      "Used": 479204110336,
+      "Free": 584336113664
+    },
+    {
+      "Name": "Temp",
+      "Root": "C:\\Users\\STARLING\\AppData\\Local\\Temp\\",
+      "Used": 303667707904,
+      "Free": 695535038464
+    }
+  ],
+  "adapters": [
+    {
+      "Name": "WLAN",
+      "InterfaceDescription": "MediaTek Wi-Fi 6 MT7902LEN Wireless LAN Card",
+      "Status": "Disconnected",
+      "LinkSpeed": "573.5 Mbps"
+    },
+    {
+      "Name": "以太网",
+      "InterfaceDescription": "Realtek Gaming 2.5GbE Family Controller",
+      "Status": "Up",
+      "LinkSpeed": "100 Mbps"
+    }
+  ],
+  "sensor_usb_matches": [],
+  "commands": [
+    {
+      "Name": "git.exe",
+      "Source": "D:\\_AAA_STARLING_ProgramFile\\Git\\cmd\\git.exe"
+    },
+    {
+      "Name": "python.exe",
+      "Source": "D:\\_AAA_STARLING_ProgramFile\\Anaconda\\python.exe"
+    },
+    {
+      "Name": "wsl.exe",
+      "Source": "C:\\WINDOWS\\system32\\wsl.exe"
+    },
+    {
+      "Name": "docker.exe",
+      "Source": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe"
+    }
+  ],
+  "gpu": [
+    "NVIDIA GeForce RTX 5070 Ti, 16303 MiB, 595.97"
+  ],
+  "docker_summary": [
+    "Server=29.6.1 OS=linux Arch=x86_64 CPUs=28 MemoryBytes=16618557440 Kernel=6.18.33.2-microsoft-standard-WSL2"
+  ],
+  "docker_images": [
+    "hello-world:latest 25.9kB",
+    "ubuntu:20.04 111MB"
+  ],
+  "wsl_list": [
+    "  NAME              STATE           VERSION",
+    "",
+    "* docker-desktop    Running         2",
+    "",
+    ""
+  ],
+  "wsl_version": [
+    "WSL �汾: 2.7.10.0",
+    "",
+    "�ں˰汾: 6.18.33.2-2",
+    "",
+    "WSLg �汾: 1.0.73.2",
+    "",
+    "MSRDC �汾: 1.2.6676",
+    "",
+    "Direct3D �汾: 1.611.1-81528511",
+    "",
+    "DXCore �汾: 10.0.26100.1-240331-1435.ge-release",
+    "",
+    "Windows: 10.0.26200.8246",
+    "",
+    ""
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "reference": "results\\runs\\hilti_ros2_1x_01\\trajectory.tum",
+  "estimate": "results\\runs\\repro_check_ros2_01\\trajectory.tum",
+  "reference_kind": "ros1_baseline_interpolated",
+  "metric": "baseline_trajectory_difference",
+  "alignment": "SE3, scale fixed to 1",
+  "association": "interpolate_estimate_to_ros1_reference_time",
+  "max_time_difference_s": 0.02,
+  "max_interpolation_gap_s": 0.25,
+  "reference_rows": 736,
+  "estimate_rows": 738,
+  "matched_rows": 736,
+  "estimate_association_fraction": 0.997289972899729,
+  "reference_association_fraction": 1.0,
+  "matched_span_s": 73.49206805229187,
+  "aligned_rmse_m": 0.013497566451236174,
+  "aligned_median_m": 0.010446643295795657,
+  "aligned_p95_m": 0.025154087354342908,
+  "aligned_max_m": 0.03994643000919635,
+  "unaligned_rmse_m": 0.1138076495918169,
+  "rpe_1second_pairs": 726,
+  "rpe_translation_rmse_m": 0.008207191159740139,
+  "rpe_rotation_rmse_deg": 0.4378234172645518,
+  "alignment_rotation": [
+    [
+      0.9999415364572635,
+      -0.001955433198766688,
+      -0.01063484595525146
+    ],
+    [
+      0.0018601446048723592,
+      0.9999581053316555,
+      -0.008962557870035658
+    ],
+    [
+      0.010651926095112783,
+      0.008942251535823224,
+      0.9999032816267451
+    ]
+  ],
+  "alignment_translation": [
+    0.010505618189440735,
+    0.005003344168821755,
+    -0.0031874072069260073
+  ]
+}

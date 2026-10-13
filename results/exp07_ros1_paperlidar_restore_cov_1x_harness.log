@@ -1,0 +1,27 @@
+{
+  "run_id": "exp07_ros1_paperlidar_restore_cov_1x",
+  "rate": 1.0,
+  "recorded_duration_seconds": 132.258302,
+  "peak_rss_kib": 1653476,
+  "status": "playback_completed",
+  "command": [
+    "/opt/fastlivo_ws/devel/lib/fast_livo/fastlivo_mapping",
+    "/mavros/vision_pose/pose:=/fastlivo2/raw_vision_pose"
+  ],
+  "player_command": [
+    "rosbag",
+    "play",
+    "--clock",
+    "--rate",
+    "1.0",
+    "--delay",
+    "2",
+    "/datasets/hilti_exp07_3topics.bag"
+  ],
+  "playback_exit": 0,
+  "playback_wall_seconds": 135.16466214200045,
+  "algorithm_exit_after_signal": 0,
+  "trajectory_rows": 1319,
+  "max_trajectory_radius_m": 95.20605216743361,
+  "max_segment_speed_mps": 1.6656479693711956
+}

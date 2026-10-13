@@ -1,0 +1,30 @@
+{
+  "run_id": "repro_check_ros1_01",
+  "rate": 1.0,
+  "recorded_duration_seconds": 74.012804,
+  "peak_rss_kib": 1031752,
+  "status": "playback_completed",
+  "command": [
+    "/opt/fastlivo_ws/devel/lib/fast_livo/fastlivo_mapping",
+    "/mavros/vision_pose/pose:=/fastlivo2/raw_vision_pose"
+  ],
+  "player_command": [
+    "rosbag",
+    "play",
+    "--clock",
+    "--rate",
+    "1.0",
+    "--delay",
+    "2",
+    "/datasets/hilti_exp14_3topics.bag"
+  ],
+  "playback_exit": 0,
+  "playback_wall_seconds": 78.10369571899992,
+  "drain_seconds": 7.011,
+  "algorithm_exit_after_signal": 0,
+  "trajectory_rows": 738,
+  "max_trajectory_radius_m": 21.40602754929639,
+  "max_segment_speed_mps": 1.6901095458770348,
+  "trajectory_span_seconds": 73.69204616546631,
+  "trajectory_coverage_fraction": 0.995666184535669
+}

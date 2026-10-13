@@ -1,0 +1,80 @@
+-- main project dir: /home/livo/repro/deps/Livox-SDK2
+-- main project dir: /home/livo/repro/deps/Livox-SDK2/samples
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/livo/repro/deps/Livox-SDK2/build
+Consolidate compiler generated dependencies of target livox_lidar_sdk_shared
+Consolidate compiler generated dependencies of target livox_lidar_sdk_static
+[  1%] Linking CXX static library liblivox_lidar_sdk_static.a
+[ 41%] Built target livox_lidar_sdk_shared
+[ 81%] Built target livox_lidar_sdk_static
+Consolidate compiler generated dependencies of target multi_lidars_upgrade
+Consolidate compiler generated dependencies of target debug_point_cloud
+Consolidate compiler generated dependencies of target logger
+Consolidate compiler generated dependencies of target livox_lidar_quick_start
+[ 84%] Linking CXX executable livox_lidar_quick_start
+[ 83%] Linking CXX executable multi_lidars_upgrade
+[ 83%] Linking CXX executable logger
+[ 86%] Linking CXX executable debug_point_cloud
+[ 88%] Built target multi_lidars_upgrade
+[ 88%] Built target livox_lidar_quick_start
+[ 89%] Built target debug_point_cloud
+[ 90%] Built target logger
+Consolidate compiler generated dependencies of target lidar_cmd_observer
+Consolidate compiler generated dependencies of target livox_lidar_rmc_time_sync
+Consolidate compiler generated dependencies of target livox_lidar_ip_set
+[ 91%] Linking CXX executable lidar_cmd_observer
+[ 92%] Linking CXX executable livox_lidar_rmc_time_sync
+Consolidate compiler generated dependencies of target livox_lidar_info_get
+[ 93%] Linking CXX executable livox_lidar_ip_set
+[ 94%] Linking CXX executable livox_lidar_info_get
+[ 95%] Built target lidar_cmd_observer
+[ 97%] Built target livox_lidar_rmc_time_sync
+[ 98%] Built target livox_lidar_ip_set
+[100%] Built target livox_lidar_info_get
+-- Install configuration: "Release"
+-- Installing: /usr/local/lib/liblivox_lidar_sdk_static.a
+-- Up-to-date: /usr/local/include/livox_lidar_def.h
+-- Up-to-date: /usr/local/include/livox_lidar_api.h
+-- Up-to-date: /usr/local/include/livox_lidar_cfg.h
+-- Up-to-date: /usr/local/lib/liblivox_lidar_sdk_shared.so
+Starting >>> livox_ros_driver2
+Finished <<< livox_ros_driver2 [46.7s]
+Starting >>> vikit_common
+Finished <<< vikit_common [0.12s]
+Starting >>> vikit_py
+Finished <<< vikit_py [0.07s]
+Starting >>> vikit_ros
+--- stderr: vikit_ros
+Current CPU architecture: x86_64
+Processor number: 28
+Cores for MP: 3
+---
+Finished <<< vikit_ros [15.7s]
+Starting >>> fast_livo
+--- stderr: fast_livo
+CMake Warning (dev) at CMakeLists.txt:95 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DISTRO_ROS
+    ROS_EDITION
+
+
+---
+Finished <<< fast_livo [1min 41s]
+
+Summary: 5 packages finished [2min 44s]
+  2 packages had stderr output: fast_livo vikit_ros
+ROS2_BUILD_OK

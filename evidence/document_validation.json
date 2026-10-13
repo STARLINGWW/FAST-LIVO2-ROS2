@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-09-24T01:49:54.800441+08:00",
+  "markdown_count": 9,
+  "broken_local_links": [],
+  "launch_xml": "pass",
+  "inventory_json": "pass",
+  "scope": "Static checks only; ROS builds, dataset replay and hardware not tested"
+}

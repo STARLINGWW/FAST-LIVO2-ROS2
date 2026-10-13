@@ -1,0 +1,12 @@
+Starting >>> vikit_ros
+--- stderr: vikit_ros
+Current CPU architecture: x86_64
+Processor number: 28
+Cores for MP: 3
+---
+Finished <<< vikit_ros [11.0s]
+Starting >>> fast_livo
+Finished <<< fast_livo [36.9s]
+
+Summary: 2 packages finished [48.1s]
+  1 package had stderr output: vikit_ros

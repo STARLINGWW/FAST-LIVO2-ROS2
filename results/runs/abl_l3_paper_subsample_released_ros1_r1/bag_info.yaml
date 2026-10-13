@@ -1,0 +1,26 @@
+compression: none
+duration: 132.258302
+end: 1646404334.296929
+indexed: true
+messages: 59367
+path: /datasets/hilti_exp07_3topics.bag
+size: 5949871601
+start: 1646404202.038627
+topics:
+- messages: 5288
+  topic: /alphasense/cam0/image_raw
+  type: sensor_msgs/Image
+- messages: 52757
+  topic: /alphasense/imu
+  type: sensor_msgs/Imu
+- messages: 1322
+  topic: /hesai/pandar
+  type: sensor_msgs/PointCloud2
+types:
+- md5: 060021388200f6f0f447d0fcd9c64743
+  type: sensor_msgs/Image
+- md5: 6a62c6daae103f4ff57a132d6f95cec2
+  type: sensor_msgs/Imu
+- md5: 1158d486dd51d683ce2f1be655c3c181
+  type: sensor_msgs/PointCloud2
+version: 2.0

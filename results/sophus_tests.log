@@ -1,0 +1,17 @@
+Test project /opt/Sophus/build
+    Start 1: test_so2
+1/6 Test #1: test_so2 .........................   Passed    0.00 sec
+    Start 2: test_se2
+2/6 Test #2: test_se2 .........................   Passed    0.00 sec
+    Start 3: test_so3
+3/6 Test #3: test_so3 .........................   Passed    0.00 sec
+    Start 4: test_scso3
+4/6 Test #4: test_scso3 .......................   Passed    0.00 sec
+    Start 5: test_se3
+5/6 Test #5: test_se3 .........................   Passed    0.00 sec
+    Start 6: test_sim3
+6/6 Test #6: test_sim3 ........................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Total Test time (real) =   0.01 sec

@@ -1,0 +1,47 @@
+# Engineering checklist only. NOT a directly loadable FAST-LIVO2 config.
+# null fields must come from measurement, not guessed identity matrices.
+status: uncalibrated_not_for_flight
+source_commit: 0d2c0346107b75b59934975adec9a6eeeb913c64
+topics:
+  lidar: /livox/lidar
+  imu: /livox/imu
+  image: /camera/color/image_raw
+  camera_info: /camera/color/camera_info
+lidar:
+  source_message_type: livox_ros_driver2/CustomMsg
+  algorithm_message_adapter_verified: false
+  lidar_type: 1
+  scan_line: 4
+  blind_initial_m: 0.5
+camera:
+  actual_width: null
+  actual_height: null
+  fps: null
+  encoding: null
+  distortion_model: null
+  fx_fy_cx_cy: null
+  distortion_coefficients: null
+  scale: null
+calibration:
+  convention: p_A_equals_R_AB_p_B_plus_t_AB
+  T_IL_verified: false
+  mid360_reference_translation_m: [-0.011, -0.02329, 0.04412]
+  R_CL: null
+  t_CL_m: null
+  T_BI: null
+timing:
+  camera_timestamp_domain: null
+  lidar_timestamp_domain: null
+  imu_time_offset_s: null
+  img_time_offset_s: null
+  residual_p95_ms: null
+  verified_after_restart: false
+px4:
+  board: null
+  firmware: null
+  companion_computer: null
+  mavros_version: null
+  body_and_world_frame_verified: false
+  measurement_timestamp_verified: false
+  covariance_verified: false
+  reset_and_dropout_verified: false

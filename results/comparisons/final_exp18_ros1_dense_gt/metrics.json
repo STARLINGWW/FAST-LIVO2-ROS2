@@ -1,0 +1,46 @@
+{
+  "reference": "data\\raw\\HILTI22\\exp18_corridor_lower_gallery_2_imu.txt",
+  "estimate": "results\\runs\\exp18_ros1_1x_01\\trajectory.tum",
+  "reference_kind": "ground_truth",
+  "metric": "ATE",
+  "alignment": "SE3, scale fixed to 1",
+  "association": "interpolate_ground_truth_to_estimate_time",
+  "max_time_difference_s": 0.02,
+  "max_interpolation_gap_s": 0.25,
+  "reference_rows": 789,
+  "estimate_rows": 1092,
+  "matched_rows": 807,
+  "estimate_association_fraction": 0.739010989010989,
+  "reference_association_fraction": 0.9961977186311787,
+  "matched_span_s": 86.39461994171143,
+  "aligned_rmse_m": 0.2456713952390762,
+  "aligned_median_m": 0.22337057332444044,
+  "aligned_p95_m": 0.5093318846311372,
+  "aligned_max_m": 0.5346627683631611,
+  "unaligned_rmse_m": 119.26307598046625,
+  "rpe_1second_pairs": 750,
+  "rpe_translation_rmse_m": 0.03194836057018383,
+  "rpe_rotation_rmse_deg": 0.7072974208163266,
+  "alignment_rotation": [
+    [
+      -0.521629427750357,
+      0.8526144937858524,
+      0.03084258567515396
+    ],
+    [
+      0.8531721309661736,
+      0.5212983903317925,
+      0.01858233516325692
+    ],
+    [
+      -0.00023462197754878396,
+      0.036007127402453,
+      -0.9993515055918758
+    ]
+  ],
+  "alignment_translation": [
+    106.89323439067263,
+    34.01037643813347,
+    0.07444807140558729
+  ]
+}

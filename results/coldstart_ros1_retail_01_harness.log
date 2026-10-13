@@ -1,0 +1,30 @@
+{
+  "run_id": "coldstart_ros1_retail_01",
+  "rate": 1.0,
+  "recorded_duration_seconds": 135.470252,
+  "peak_rss_kib": 1014284,
+  "status": "playback_completed",
+  "command": [
+    "/opt/fastlivo_ws/devel/lib/fast_livo/fastlivo_mapping",
+    "/mavros/vision_pose/pose:=/fastlivo2/raw_vision_pose"
+  ],
+  "player_command": [
+    "rosbag",
+    "play",
+    "--clock",
+    "--rate",
+    "1.0",
+    "--delay",
+    "2",
+    "/datasets/Retail_Street_from_ros2_mirror.bag"
+  ],
+  "playback_exit": 0,
+  "playback_wall_seconds": 139.19253023199963,
+  "drain_seconds": 22.038,
+  "algorithm_exit_after_signal": 0,
+  "trajectory_rows": 1351,
+  "max_trajectory_radius_m": 26.13121235257404,
+  "max_segment_speed_mps": 1.2304487735851952,
+  "trajectory_span_seconds": 134.9999680519104,
+  "trajectory_coverage_fraction": 0.9965285076159038
+}

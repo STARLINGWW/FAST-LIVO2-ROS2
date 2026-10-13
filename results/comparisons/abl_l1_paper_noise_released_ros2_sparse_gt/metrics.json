@@ -1,0 +1,49 @@
+{
+  "reference": "data\\raw\\HILTI22\\exp07_long_corridor.txt",
+  "estimate": "results\\runs\\abl_l1_paper_noise_released_ros2\\trajectory.tum",
+  "reference_kind": "sparse_ground_truth",
+  "metric": "sparse_position_error",
+  "alignment": "SE3, scale fixed to 1",
+  "association": "interpolate_estimate_to_sparse_ground_truth_time",
+  "max_time_difference_s": 0.02,
+  "max_interpolation_gap_s": 0.25,
+  "reference_rows": 6,
+  "estimate_rows": 1319,
+  "matched_rows": 6,
+  "estimate_association_fraction": null,
+  "reference_association_fraction": 1.0,
+  "matched_span_s": 128.77995538711548,
+  "aligned_rmse_m": 2.483412732969084,
+  "aligned_median_m": 1.6004337852784352,
+  "aligned_p95_m": 4.216513654292093,
+  "aligned_max_m": 5.074016738392657,
+  "unaligned_rmse_m": 1384.426946499727,
+  "rpe_1second_pairs": 0,
+  "rpe_translation_rmse_m": null,
+  "rpe_rotation_rmse_deg": null,
+  "alignment_rotation": [
+    [
+      0.8065612613358398,
+      -0.5899005910461059,
+      -0.03842166570822507
+    ],
+    [
+      -0.5897446593825453,
+      -0.7984620166871091,
+      -0.12107701944514954
+    ],
+    [
+      0.04074516464692725,
+      0.12031500567847096,
+      -0.9918992544439615
+    ]
+  ],
+  "alignment_translation": [
+    962.7258524668619,
+    1025.1430552458648,
+    98.52727516789633
+  ],
+  "sparse_reference_points": 6,
+  "sparse_alignment_condition_ratio": 0.0072985154339151315,
+  "sparse_quaternions_are_placeholders": true
+}

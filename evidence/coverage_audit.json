@@ -1,0 +1,685 @@
+{
+  "gate": 0.99,
+  "definition": "trajectory span (last minus first pose stamp) / played bag duration",
+  "checked_runs": 64,
+  "counted_violations": [],
+  "excluded_violations": [
+    {
+      "run": "abl_l3_paper_subsample_released_ros1",
+      "status": "incomplete_coverage",
+      "coverage": 0.065,
+      "trajectory_span_seconds": 8.599,
+      "recorded_duration_seconds": 132.258302
+    },
+    {
+      "run": "abl_l3_paper_subsample_released_ros1_node_exited_01",
+      "status": "incomplete_coverage",
+      "coverage": 0.3478,
+      "trajectory_span_seconds": 45.994,
+      "recorded_duration_seconds": 132.258302
+    },
+    {
+      "run": "exp07_ros2_paperlidar_restore_normal_1x",
+      "status": "failed",
+      "coverage": 0.6396,
+      "trajectory_span_seconds": 84.589,
+      "recorded_duration_seconds": 132.258302377
+    },
+    {
+      "run": "exp07_ros2_paperlidar_restore_raycast_1x",
+      "status": "failed",
+      "coverage": 0.0476,
+      "trajectory_span_seconds": 6.299,
+      "recorded_duration_seconds": 132.258302377
+    },
+    {
+      "run": "repro_check_ros2_01_contended",
+      "status": "playback_completed",
+      "coverage": 0.9011,
+      "trajectory_span_seconds": 66.693,
+      "recorded_duration_seconds": 74.012803978
+    },
+    {
+      "run": "repro_check_ros2_01_graph_collision",
+      "status": "incomplete_coverage",
+      "coverage": 0.0838,
+      "trajectory_span_seconds": 6.199,
+      "recorded_duration_seconds": 74.012803978
+    },
+    {
+      "run": "repro_check_ros2_01_tail_truncated",
+      "status": "incomplete_coverage",
+      "coverage": 0.8538,
+      "trajectory_span_seconds": 63.193,
+      "recorded_duration_seconds": 74.012803978
+    }
+  ],
+  "missing_trajectory": [],
+  "runs": [
+    {
+      "run": "abl_l1_paper_noise_released_ros1",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "abl_l1_paper_noise_released_ros2",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "abl_l2_paper_structure_released_ros1",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "abl_l2_paper_structure_released_ros2",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "abl_l3_paper_subsample_released_ros1",
+      "status": "incomplete_coverage",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 87,
+      "trajectory_span_seconds": 8.599,
+      "trajectory_coverage_fraction": 0.065,
+      "violation": true
+    },
+    {
+      "run": "abl_l3_paper_subsample_released_ros1_node_exited_01",
+      "status": "incomplete_coverage",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 461,
+      "trajectory_span_seconds": 45.994,
+      "trajectory_coverage_fraction": 0.3478,
+      "violation": true
+    },
+    {
+      "run": "abl_l3_paper_subsample_released_ros1_r1",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "abl_l3_paper_subsample_released_ros2",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 1318,
+      "trajectory_span_seconds": 131.682,
+      "trajectory_coverage_fraction": 0.9956
+    },
+    {
+      "run": "coldstart_ros1_retail_01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252,
+      "trajectory_rows": 1351,
+      "trajectory_span_seconds": 135.0,
+      "trajectory_coverage_fraction": 0.9965
+    },
+    {
+      "run": "exp07_ros1_paper_1x",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "exp07_ros1_paper_lio_1x",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 1320,
+      "trajectory_span_seconds": 131.884,
+      "trajectory_coverage_fraction": 0.9972
+    },
+    {
+      "run": "exp07_ros1_paperlidar_release_vio_1x",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "exp07_ros1_paperlidar_restore_cov_1x",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "exp07_ros1_paperlidar_restore_normal_1x",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "exp07_ros1_paperlidar_restore_raycast_1x",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "exp07_ros1_release_light_showcase",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "exp07_ros1_release_showcase",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "exp07_ros1_released_1x",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "exp07_ros2_paper_1x",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377
+    },
+    {
+      "run": "exp07_ros2_paper_lio_1x",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 1320,
+      "trajectory_span_seconds": 131.884,
+      "trajectory_coverage_fraction": 0.9972
+    },
+    {
+      "run": "exp07_ros2_paper_retry01_1x",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 1318,
+      "trajectory_span_seconds": 131.682,
+      "trajectory_coverage_fraction": 0.9956
+    },
+    {
+      "run": "exp07_ros2_paperlidar_release_vio_1x",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "exp07_ros2_paperlidar_restore_cov_1x",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "exp07_ros2_paperlidar_restore_normal_1x",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 847,
+      "trajectory_span_seconds": 84.589,
+      "trajectory_coverage_fraction": 0.6396,
+      "violation": true
+    },
+    {
+      "run": "exp07_ros2_paperlidar_restore_normal_retry01_1x",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 1317,
+      "trajectory_span_seconds": 131.582,
+      "trajectory_coverage_fraction": 0.9949
+    },
+    {
+      "run": "exp07_ros2_paperlidar_restore_raycast_1x",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 64,
+      "trajectory_span_seconds": 6.299,
+      "trajectory_coverage_fraction": 0.0476,
+      "violation": true
+    },
+    {
+      "run": "exp07_ros2_paperlidar_restore_raycast_retry01_1x",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 1318,
+      "trajectory_span_seconds": 131.682,
+      "trajectory_coverage_fraction": 0.9956
+    },
+    {
+      "run": "exp07_ros2_release_showcase",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "exp07_ros2_released_1x",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 132.258302377,
+      "trajectory_rows": 1319,
+      "trajectory_span_seconds": 131.782,
+      "trajectory_coverage_fraction": 0.9964
+    },
+    {
+      "run": "exp18_ros1_1x_01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 109.404904,
+      "trajectory_rows": 1092,
+      "trajectory_span_seconds": 109.093,
+      "trajectory_coverage_fraction": 0.9972
+    },
+    {
+      "run": "exp18_ros1_1x_02",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 109.404904
+    },
+    {
+      "run": "exp18_ros1_1x_03",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 109.404904
+    },
+    {
+      "run": "exp18_ros2_1x_01",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": null
+    },
+    {
+      "run": "exp18_ros2_1x_02",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 109.404904317,
+      "trajectory_rows": 1092,
+      "trajectory_span_seconds": 109.093,
+      "trajectory_coverage_fraction": 0.9972
+    },
+    {
+      "run": "exp18_ros2_1x_03",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": null
+    },
+    {
+      "run": "exp18_ros2_1x_04",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 109.404904317,
+      "trajectory_rows": 1092,
+      "trajectory_span_seconds": 109.093,
+      "trajectory_coverage_fraction": 0.9972
+    },
+    {
+      "run": "hilti_ros1_1x_01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 74.012804,
+      "trajectory_rows": 738,
+      "trajectory_span_seconds": 73.692,
+      "trajectory_coverage_fraction": 0.9957
+    },
+    {
+      "run": "hilti_ros1_half_01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 74.012804,
+      "trajectory_rows": 738,
+      "trajectory_span_seconds": 73.692,
+      "trajectory_coverage_fraction": 0.9957
+    },
+    {
+      "run": "hilti_ros1_showcase",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 74.012804,
+      "trajectory_rows": 738,
+      "trajectory_span_seconds": 73.692,
+      "trajectory_coverage_fraction": 0.9957
+    },
+    {
+      "run": "hilti_ros2_1x_01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 74.012803978,
+      "trajectory_rows": 736,
+      "trajectory_span_seconds": 73.492,
+      "trajectory_coverage_fraction": 0.993
+    },
+    {
+      "run": "hilti_ros2_half_01",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 74.012803978
+    },
+    {
+      "run": "hilti_ros2_half_02",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 74.012803978,
+      "trajectory_rows": 737,
+      "trajectory_span_seconds": 73.592,
+      "trajectory_coverage_fraction": 0.9943
+    },
+    {
+      "run": "hilti_ros2_showcase",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 74.012803978
+    },
+    {
+      "run": "hilti_ros2_showcase_retry01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 74.012803978,
+      "trajectory_rows": 738,
+      "trajectory_span_seconds": 73.692,
+      "trajectory_coverage_fraction": 0.9957
+    },
+    {
+      "run": "repro_check_ros1_01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 74.012804,
+      "trajectory_rows": 738,
+      "trajectory_span_seconds": 73.692,
+      "trajectory_coverage_fraction": 0.9957
+    },
+    {
+      "run": "repro_check_ros2_01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 74.012803978,
+      "trajectory_rows": 738,
+      "trajectory_span_seconds": 73.692,
+      "trajectory_coverage_fraction": 0.9957
+    },
+    {
+      "run": "repro_check_ros2_01_contended",
+      "status": "playback_completed",
+      "counted": false,
+      "quarantined": true,
+      "recorded_duration_seconds": 74.012803978,
+      "trajectory_rows": 668,
+      "trajectory_span_seconds": 66.693,
+      "trajectory_coverage_fraction": 0.9011,
+      "violation": true
+    },
+    {
+      "run": "repro_check_ros2_01_graph_collision",
+      "status": "incomplete_coverage",
+      "counted": false,
+      "quarantined": true,
+      "recorded_duration_seconds": 74.012803978,
+      "trajectory_rows": 63,
+      "trajectory_span_seconds": 6.199,
+      "trajectory_coverage_fraction": 0.0838,
+      "violation": true
+    },
+    {
+      "run": "repro_check_ros2_01_tail_truncated",
+      "status": "incomplete_coverage",
+      "counted": false,
+      "quarantined": true,
+      "recorded_duration_seconds": 74.012803978,
+      "trajectory_rows": 633,
+      "trajectory_span_seconds": 63.193,
+      "trajectory_coverage_fraction": 0.8538,
+      "violation": true
+    },
+    {
+      "run": "retail_ros1_1x_01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252,
+      "trajectory_rows": 1350,
+      "trajectory_span_seconds": 134.9,
+      "trajectory_coverage_fraction": 0.9958
+    },
+    {
+      "run": "retail_ros1_1x_02",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252,
+      "trajectory_rows": 1350,
+      "trajectory_span_seconds": 134.9,
+      "trajectory_coverage_fraction": 0.9958
+    },
+    {
+      "run": "retail_ros1_1x_03",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252,
+      "trajectory_rows": 1350,
+      "trajectory_span_seconds": 134.9,
+      "trajectory_coverage_fraction": 0.9958
+    },
+    {
+      "run": "retail_ros1_half_01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252,
+      "trajectory_rows": 1351,
+      "trajectory_span_seconds": 135.0,
+      "trajectory_coverage_fraction": 0.9965
+    },
+    {
+      "run": "retail_ros1_lio_01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252,
+      "trajectory_rows": 1351,
+      "trajectory_span_seconds": 135.001,
+      "trajectory_coverage_fraction": 0.9965
+    },
+    {
+      "run": "retail_ros1_showcase",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252,
+      "trajectory_rows": 1350,
+      "trajectory_span_seconds": 134.9,
+      "trajectory_coverage_fraction": 0.9958
+    },
+    {
+      "run": "retail_ros2_1x_01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252209,
+      "trajectory_rows": 1352,
+      "trajectory_span_seconds": 135.1,
+      "trajectory_coverage_fraction": 0.9973
+    },
+    {
+      "run": "retail_ros2_1x_02",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252209,
+      "trajectory_rows": 1352,
+      "trajectory_span_seconds": 135.1,
+      "trajectory_coverage_fraction": 0.9973
+    },
+    {
+      "run": "retail_ros2_1x_03",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252209,
+      "trajectory_rows": 1352,
+      "trajectory_span_seconds": 135.1,
+      "trajectory_coverage_fraction": 0.9973
+    },
+    {
+      "run": "retail_ros2_half_02",
+      "status": "infrastructure_interrupted",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": null
+    },
+    {
+      "run": "retail_ros2_half_03",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252209,
+      "trajectory_rows": 1352,
+      "trajectory_span_seconds": 135.1,
+      "trajectory_coverage_fraction": 0.9973
+    },
+    {
+      "run": "retail_ros2_half_04",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252209,
+      "trajectory_rows": 1352,
+      "trajectory_span_seconds": 135.1,
+      "trajectory_coverage_fraction": 0.9973
+    },
+    {
+      "run": "retail_ros2_lio_01",
+      "status": "failed",
+      "counted": false,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252209,
+      "trajectory_rows": 1350,
+      "trajectory_span_seconds": 134.9,
+      "trajectory_coverage_fraction": 0.9958
+    },
+    {
+      "run": "retail_ros2_lio_retry_01",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252209,
+      "trajectory_rows": 1353,
+      "trajectory_span_seconds": 135.2,
+      "trajectory_coverage_fraction": 0.998
+    },
+    {
+      "run": "retail_ros2_showcase",
+      "status": "playback_completed",
+      "counted": true,
+      "quarantined": false,
+      "recorded_duration_seconds": 135.470252209,
+      "trajectory_rows": 1352,
+      "trajectory_span_seconds": 135.1,
+      "trajectory_coverage_fraction": 0.9973
+    }
+  ],
+  "counted_runs": 42,
+  "status": "passed"
+}

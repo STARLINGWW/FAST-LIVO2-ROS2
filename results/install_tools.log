@@ -1,0 +1,69 @@
+Collecting rosbags
+  Using cached rosbags-0.11.5-py3-none-any.whl.metadata (5.0 kB)
+Collecting numpy
+  Downloading numpy-2.5.3-cp313-cp313-win_amd64.whl.metadata (6.6 kB)
+Collecting scipy
+  Downloading scipy-1.18.1-cp313-cp313-win_amd64.whl.metadata (61 kB)
+Collecting pyyaml
+  Downloading pyyaml-6.0.3-cp313-cp313-win_amd64.whl.metadata (2.4 kB)
+Collecting matplotlib
+  Downloading matplotlib-3.11.2-cp313-cp313-win_amd64.whl.metadata (80 kB)
+Collecting apsw (from rosbags)
+  Downloading apsw-3.53.4.0-cp313-cp313-win_amd64.whl.metadata (4.5 kB)
+Collecting lz4 (from rosbags)
+  Downloading lz4-4.4.5-cp313-cp313-win_amd64.whl.metadata (3.9 kB)
+Collecting ruamel.yaml (from rosbags)
+  Using cached ruamel_yaml-0.19.1-py3-none-any.whl.metadata (16 kB)
+Collecting typing_extensions>=4.5 (from rosbags)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting zstandard (from rosbags)
+  Downloading zstandard-0.25.0-cp313-cp313-win_amd64.whl.metadata (3.3 kB)
+Collecting contourpy>=1.0.1 (from matplotlib)
+  Downloading contourpy-1.4.0-cp313-cp313-win_amd64.whl.metadata (3.8 kB)
+Collecting cycler>=0.10 (from matplotlib)
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.28.2 (from matplotlib)
+  Downloading fonttools-4.66.0-cp313-cp313-win_amd64.whl.metadata (131 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib)
+  Downloading kiwisolver-1.5.1-cp313-cp313-win_amd64.whl.metadata (5.2 kB)
+Collecting packaging>=20.0 (from matplotlib)
+  Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pillow>=9 (from matplotlib)
+  Downloading pillow-12.3.0-cp313-cp313-win_amd64.whl.metadata (9.3 kB)
+Collecting pyparsing>=3 (from matplotlib)
+  Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+Collecting python-dateutil>=2.7 (from matplotlib)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Using cached rosbags-0.11.5-py3-none-any.whl (144 kB)
+Downloading numpy-2.5.3-cp313-cp313-win_amd64.whl (12.6 MB)
+   ---------------------------------------- 12.6/12.6 MB 2.6 MB/s  0:00:04
+Downloading scipy-1.18.1-cp313-cp313-win_amd64.whl (36.6 MB)
+   ---------------------------------------- 36.6/36.6 MB 4.4 MB/s  0:00:08
+Downloading pyyaml-6.0.3-cp313-cp313-win_amd64.whl (154 kB)
+Downloading matplotlib-3.11.2-cp313-cp313-win_amd64.whl (9.3 MB)
+   ---------------------------------------- 9.3/9.3 MB 5.4 MB/s  0:00:01
+Downloading contourpy-1.4.0-cp313-cp313-win_amd64.whl (234 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.66.0-cp313-cp313-win_amd64.whl (2.5 MB)
+   ---------------------------------------- 2.5/2.5 MB 3.8 MB/s  0:00:00
+Downloading kiwisolver-1.5.1-cp313-cp313-win_amd64.whl (70 kB)
+Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Downloading pillow-12.3.0-cp313-cp313-win_amd64.whl (7.2 MB)
+   ---------------------------------------- 7.2/7.2 MB 4.0 MB/s  0:00:01
+Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading apsw-3.53.4.0-cp313-cp313-win_amd64.whl (3.3 MB)
+   ---------------------------------------- 3.3/3.3 MB 4.1 MB/s  0:00:00
+Downloading lz4-4.4.5-cp313-cp313-win_amd64.whl (99 kB)
+Using cached ruamel_yaml-0.19.1-py3-none-any.whl (118 kB)
+Downloading zstandard-0.25.0-cp313-cp313-win_amd64.whl (506 kB)
+Installing collected packages: zstandard, typing_extensions, six, ruamel.yaml, pyyaml, pyparsing, pillow, packaging, numpy, lz4, kiwisolver, fonttools, cycler, apsw, scipy, rosbags, python-dateutil, contourpy, matplotlib
+
+Successfully installed apsw-3.53.4.0 contourpy-1.4.0 cycler-0.12.1 fonttools-4.66.0 kiwisolver-1.5.1 lz4-4.4.5 matplotlib-3.11.2 numpy-2.5.3 packaging-26.3 pillow-12.3.0 pyparsing-3.3.3 python-dateutil-2.9.0.post0 pyyaml-6.0.3 rosbags-0.11.5 ruamel.yaml-0.19.1 scipy-1.18.1 six-1.17.0 typing_extensions-4.16.0 zstandard-0.25.0
+
+[notice] A new release of pip is available: 25.2 -> 26.2.1
+[notice] To update, run: D:\_AAA_CODE_ALL\Tech_reproduction\FASTLIVO2_reproduction\.venv-tools\Scripts\python.exe -m pip install --upgrade pip

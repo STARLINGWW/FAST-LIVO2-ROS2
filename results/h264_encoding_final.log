@@ -1,0 +1,8 @@
+PASS exp07_ros1_release_light_showcase 661 frames
+SKIP exp07_ros1_release_showcase
+SKIP exp07_ros2_release_showcase
+SKIP hilti_ros1_showcase
+SKIP hilti_ros2_showcase_retry01
+SKIP retail_ros1
+SKIP retail_ros1_showcase
+SKIP retail_ros2_showcase

@@ -1,0 +1,28 @@
+{
+  "run_id": "abl_l3_paper_subsample_released_ros1",
+  "rate": 1.0,
+  "recorded_duration_seconds": 132.258302,
+  "peak_rss_kib": 277220,
+  "status": "incomplete_coverage",
+  "command": [
+    "/opt/fastlivo_ws/devel/lib/fast_livo/fastlivo_mapping",
+    "/mavros/vision_pose/pose:=/fastlivo2/raw_vision_pose"
+  ],
+  "player_command": [
+    "rosbag",
+    "play",
+    "--clock",
+    "--rate",
+    "1.0",
+    "--delay",
+    "2",
+    "/datasets/hilti_exp07_3topics.bag"
+  ],
+  "error": "Algorithm exited during playback; trajectory coverage 0.065 below 0.99; the node fell behind playback and stopped consuming sensor data before the bag ended",
+  "algorithm_exit_after_signal": 0,
+  "trajectory_rows": 87,
+  "max_trajectory_radius_m": 2.9601683778261667,
+  "max_segment_speed_mps": 1.6211056718671817,
+  "trajectory_span_seconds": 8.598850011825562,
+  "trajectory_coverage_fraction": 0.06501557846875701
+}

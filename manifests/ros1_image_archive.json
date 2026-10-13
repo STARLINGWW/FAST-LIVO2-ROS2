@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-09-24T11:32:23.690907+08:00",
+  "image": "fastlivo2:noetic-local",
+  "image_id": "sha256:c37e61a5c612d452fd03c2807ae58e3d19464667d1d20b8fbb8c75ae0e8b614c",
+  "archive": "data/image_archives/fastlivo2_noetic_local_image.tar",
+  "bytes": 1022951936,
+  "sha256": "a567931ba1dd5b2451f1fd9d9eb8d4d4901284110c45b5c629401bbfe7cba6ca",
+  "restore_command": "docker load -i data/image_archives/fastlivo2_noetic_local_image.tar",
+  "contains": "ROS Noetic workspace /opt/fastlivo_ws (official FAST-LIVO2 build) and the entrypoint; the container writable layer (/datasets bags and per-run outputs) is NOT part of the image",
+  "datasets_note": "Repopulate /datasets inside the container from this repository if the container is recreated, e.g. docker cp data/raw/Retail_Street_from_ros2_mirror.bag fastlivo2-ros1:/datasets/ ; docker cp data/derived/hilti_exp14_3topics.bag fastlivo2-ros1:/datasets/ ; docker cp data/derived/hilti_exp07_3topics.bag fastlivo2-ros1:/datasets/ ; docker cp data/derived/hilti_exp18_3topics.bag fastlivo2-ros1:/datasets/"
+}

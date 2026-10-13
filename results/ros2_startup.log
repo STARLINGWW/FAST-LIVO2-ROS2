@@ -1,0 +1,12 @@
+[INFO] [launch]: All log files can be found below /home/livo/.ros/log/2026-09-24-02-10-40-711131-STARLING-OVO-450
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [fastlivo_mapping-1]: process started with pid [451]
+[fastlivo_mapping-1] 1790187041.082747 [73] fastlivo_m: selected interface "lo" is not multicast-capable: disabling multicast
+[fastlivo_mapping-1] scale: 0.5
+[fastlivo_mapping-1] intrinsic: 646.784720, 646.657750, 313.456795, 261.399612
+[fastlivo_mapping-1] width: 640, height: 512, scale: 0.500000
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[INFO] [fastlivo_mapping-1]: sending signal 'SIGINT' to process[fastlivo_mapping-1]
+[fastlivo_mapping-1] [INFO] [1790187051.623290238] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ERROR] [fastlivo_mapping-1]: process has died [pid 451, exit code -2, cmd '/home/livo/repro/fastlivo2_ws/install/fast_livo/lib/fast_livo/fastlivo_mapping --ros-args -r __node:=laserMapping --params-file /home/livo/repro/fastlivo2_ws/install/fast_livo/share/fast_livo/config/avia.yaml --params-file /home/livo/repro/fastlivo2_ws/install/fast_livo/share/fast_livo/config/camera_pinhole.yaml --params-file /tmp/launch_params_o1rotz1o -r /mavros/vision_pose/pose:=/fastlivo2/raw_vision_pose'].

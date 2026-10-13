@@ -1,0 +1,52 @@
+{
+  "release_vio": {
+    "restored_vio_keys": [
+      "img_point_cov",
+      "normal_en",
+      "raycast_en"
+    ],
+    "fixed_paper_lidar_keys": [
+      "preprocess.point_filter_num",
+      "lio.voxel_size",
+      "lio.max_layer",
+      "lio.dept_err",
+      "lio.beam_err"
+    ]
+  },
+  "restore_cov": {
+    "restored_vio_keys": [
+      "img_point_cov"
+    ],
+    "fixed_paper_lidar_keys": [
+      "preprocess.point_filter_num",
+      "lio.voxel_size",
+      "lio.max_layer",
+      "lio.dept_err",
+      "lio.beam_err"
+    ]
+  },
+  "restore_normal": {
+    "restored_vio_keys": [
+      "normal_en"
+    ],
+    "fixed_paper_lidar_keys": [
+      "preprocess.point_filter_num",
+      "lio.voxel_size",
+      "lio.max_layer",
+      "lio.dept_err",
+      "lio.beam_err"
+    ]
+  },
+  "restore_raycast": {
+    "restored_vio_keys": [
+      "raycast_en"
+    ],
+    "fixed_paper_lidar_keys": [
+      "preprocess.point_filter_num",
+      "lio.voxel_size",
+      "lio.max_layer",
+      "lio.dept_err",
+      "lio.beam_err"
+    ]
+  }
+}

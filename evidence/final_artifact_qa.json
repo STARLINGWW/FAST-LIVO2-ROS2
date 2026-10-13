@@ -1,0 +1,71 @@
+{
+  "selected_showcases": [
+    {
+      "run": "retail_ros1_showcase",
+      "frames": 677,
+      "duration_s": 135.4,
+      "codec": "h264",
+      "cloud_events_in_video": 1349,
+      "map_points": 100620
+    },
+    {
+      "run": "retail_ros2_showcase",
+      "frames": 678,
+      "duration_s": 135.6,
+      "codec": "h264",
+      "cloud_events_in_video": 1351,
+      "map_points": 100710
+    },
+    {
+      "run": "hilti_ros1_showcase",
+      "frames": 370,
+      "duration_s": 74.0,
+      "codec": "h264",
+      "cloud_events_in_video": 737,
+      "map_points": 38825
+    },
+    {
+      "run": "hilti_ros2_showcase_retry01",
+      "frames": 370,
+      "duration_s": 74.0,
+      "codec": "h264",
+      "cloud_events_in_video": 312,
+      "map_points": 39509
+    },
+    {
+      "run": "exp07_ros1_release_light_showcase",
+      "frames": 661,
+      "duration_s": 132.2,
+      "codec": "h264",
+      "cloud_events_in_video": 551,
+      "map_points": 117229
+    },
+    {
+      "run": "exp07_ros2_release_showcase",
+      "frames": 662,
+      "duration_s": 132.4,
+      "codec": "h264",
+      "cloud_events_in_video": 535,
+      "map_points": 117567
+    },
+    {
+      "run": "exp18_ros1_showcase",
+      "frames": 548,
+      "duration_s": 109.6,
+      "codec": "h264",
+      "cloud_events_in_video": 1091,
+      "map_points": 123788
+    },
+    {
+      "run": "exp18_ros2_showcase",
+      "frames": 547,
+      "duration_s": 109.4,
+      "codec": "h264",
+      "cloud_events_in_video": 385,
+      "map_points": 124820
+    }
+  ],
+  "report_local_link_count": 51,
+  "missing_local_links": [],
+  "status": "passed"
+}

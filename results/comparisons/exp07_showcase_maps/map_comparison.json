@@ -1,0 +1,21 @@
+{
+  "label": "ROS1/ROS2 estimated-map agreement, not map-to-survey ground truth",
+  "alignment": "SE3 from run-specific odometry, no scale",
+  "ros1_full_points": 117634,
+  "ros2_full_points": 117567,
+  "ros1_sample_points": 80000,
+  "ros2_sample_points": 80000,
+  "ros2_to_ros1_nearest": {
+    "median_m": 0.06437661371288114,
+    "p95_m": 0.13127684328125458,
+    "rmse_m": 0.08291278097427712,
+    "within_10cm_fraction": 0.807225
+  },
+  "ros1_to_ros2_nearest": {
+    "median_m": 0.06454976661910612,
+    "p95_m": 0.13203939857919023,
+    "rmse_m": 0.08460324230764572,
+    "within_10cm_fraction": 0.8049
+  },
+  "matched_within_10cm_color_abs_mean_0_to_255": 6.947846015670971
+}

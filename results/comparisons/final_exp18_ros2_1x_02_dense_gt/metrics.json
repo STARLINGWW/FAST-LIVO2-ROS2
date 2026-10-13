@@ -1,0 +1,46 @@
+{
+  "reference": "D:\\_AAA_CODE_ALL\\Tech_reproduction\\FASTLIVO2_reproduction\\data\\raw\\HILTI22\\exp18_corridor_lower_gallery_2_imu.txt",
+  "estimate": "D:\\_AAA_CODE_ALL\\Tech_reproduction\\FASTLIVO2_reproduction\\results\\runs\\exp18_ros2_1x_02\\trajectory.tum",
+  "reference_kind": "ground_truth",
+  "metric": "ATE",
+  "alignment": "SE3, scale fixed to 1",
+  "association": "interpolate_ground_truth_to_estimate_time",
+  "max_time_difference_s": 0.02,
+  "max_interpolation_gap_s": 0.25,
+  "reference_rows": 789,
+  "estimate_rows": 1092,
+  "matched_rows": 807,
+  "estimate_association_fraction": 0.739010989010989,
+  "reference_association_fraction": 0.9961977186311787,
+  "matched_span_s": 86.39461994171143,
+  "aligned_rmse_m": 0.12380251179657842,
+  "aligned_median_m": 0.09051716726875857,
+  "aligned_p95_m": 0.21906641827531795,
+  "aligned_max_m": 0.24918685855965206,
+  "unaligned_rmse_m": 119.25237482435415,
+  "rpe_1second_pairs": 750,
+  "rpe_translation_rmse_m": 0.0337540564100946,
+  "rpe_rotation_rmse_deg": 0.6758821468999502,
+  "alignment_rotation": [
+    [
+      -0.5097137265685336,
+      0.8603180421624532,
+      0.006692030886183274
+    ],
+    [
+      0.8601107152615368,
+      0.5097412116955239,
+      -0.01932497325914738
+    ],
+    [
+      -0.020036827091778436,
+      -0.004094316663689908,
+      -0.9997908591956376
+    ]
+  ],
+  "alignment_translation": [
+    106.9060536781859,
+    34.005140700041856,
+    -0.22813899982472807
+  ]
+}

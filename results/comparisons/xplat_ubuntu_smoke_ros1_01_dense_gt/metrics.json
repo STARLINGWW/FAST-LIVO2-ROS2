@@ -1,0 +1,46 @@
+{
+  "reference": "data\\raw\\HILTI22\\exp14_basement_2_imu.txt",
+  "estimate": "results\\runs\\xplat_ubuntu_smoke_ros1_01\\trajectory.tum",
+  "reference_kind": "ground_truth",
+  "metric": "ATE",
+  "alignment": "SE3, scale fixed to 1",
+  "association": "interpolate_ground_truth_to_estimate_time",
+  "max_time_difference_s": 0.02,
+  "max_interpolation_gap_s": 0.25,
+  "reference_rows": 689,
+  "estimate_rows": 738,
+  "matched_rows": 677,
+  "estimate_association_fraction": 0.9173441734417345,
+  "reference_association_fraction": 0.9956458635703919,
+  "matched_span_s": 73.5920569896698,
+  "aligned_rmse_m": 0.040072347997007866,
+  "aligned_median_m": 0.02359093501293439,
+  "aligned_p95_m": 0.061728823955288906,
+  "aligned_max_m": 0.15531654203140732,
+  "unaligned_rmse_m": 114.48296211550135,
+  "rpe_1second_pairs": 622,
+  "rpe_translation_rmse_m": 0.021016908582682053,
+  "rpe_rotation_rmse_deg": 0.37541441772301204,
+  "alignment_rotation": [
+    [
+      0.03739728485837231,
+      0.9992661252965067,
+      -0.008285766115914382
+    ],
+    [
+      0.999134625352999,
+      -0.03723873425383439,
+      0.018527738445242553
+    ],
+    [
+      0.018205589964205016,
+      -0.008971482936404757,
+      -0.9997940132787243
+    ]
+  ],
+  "alignment_translation": [
+    122.65337035562159,
+    17.140568409559002,
+    -1.1281434318440149
+  ]
+}

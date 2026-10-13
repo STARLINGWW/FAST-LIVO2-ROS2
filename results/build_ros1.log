@@ -1,0 +1,19 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2.02kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ros:noetic-ros-base-focal
+#2 ERROR: failed to authorize: failed to fetch anonymous token: Get "https://auth.docker.io/token?scope=repository%3Alibrary%2Fros%3Apull&service=registry.docker.io": dial tcp 103.230.123.190:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+------
+ > [internal] load metadata for docker.io/library/ros:noetic-ros-base-focal:
+------
+Dockerfile:2
+--------------------
+   1 |     # Research baseline. Prepared from the inspected sources; not built in this audit.
+   2 | >>> FROM ros:noetic-ros-base-focal
+   3 |     SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+   4 |     ARG DEBIAN_FRONTEND=noninteractive
+--------------------
+ERROR: failed to build: failed to solve: failed to fetch anonymous token: Get "https://auth.docker.io/token?scope=repository%3Alibrary%2Fros%3Apull&service=registry.docker.io": dial tcp 103.230.123.190:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.

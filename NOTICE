@@ -1,0 +1,72 @@
+FAST-LIVO2 reproduction — attribution and modification notice
+============================================================
+
+This repository is an independent reproduction and verification project around
+FAST-LIVO2. It contains a patched ROS2 port, the harness used to run and score
+the system, and documentation. It is not an official release of FAST-LIVO2.
+
+Upstream software
+-----------------
+
+* FAST-LIVO2 (official, ROS1/Noetic), hku-mars/FAST-LIVO2
+  commit 0d2c0346107b75b59934975adec9a6eeeb913c64
+  Licensed under GPL-2.0 (see LICENSE). Used here unmodified as the ROS1
+  reference implementation ("A environment").
+  Paper: Zheng et al., "FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry",
+  IEEE T-RO 2024, arXiv:2408.14035.
+
+* ROS2 port, Robotic-Developer-Road/FAST-LIVO2 (branch "humble"),
+  commit 837b7bbc1431cb04cf936528e52c83c835efba8e
+  Licensed under GPL-2.0 (inherited). This is the base of ros2/FAST-LIVO2.
+
+* rpg_vikit (ROS2 branch used by the port), commit 4b7abc838f5d2ca9137f70f122eaaeff9eaf0f50.
+
+* Livox-SDK2 (commit c0796f04c143143899c87a773d9f6b7136453c0b) and
+  livox_ros_driver2 (commit 21445540f0d100dc86a7e6df312dd70bbdb4afdf),
+  MIT-style licences; used as external dependencies, not modified here
+  (livox_ros_driver2 is built in ROS2 mode by copying package_ROS2.xml to
+  package.xml and launch_ROS2/ to launch/).
+
+* Sophus (commit a621ff2e) and PCL/Eigen/OpenCV from the Ubuntu 22.04 repositories.
+
+Modifications made by this project
+----------------------------------
+
+Relative to the pinned ROS2 port, this project changes (see
+manifests/ros2_fastlivo.patch and manifests/ros2_vikit.patch, and docs/09):
+
+* restored official parameter semantics: `lio.max_iterations` key name,
+  `vio.img_point_cov`/`outlier_threshold` as doubles, official defaults for
+  `inv_expo_cov`, `patch_pyrimid_level`, `imu_int_frame`, `imu_en`;
+* implemented parameter reads that were declared but never used
+  (`preprocess.hilti_en`, `pcd_save.type`, `image_save.*`);
+* fixed node lifetime/signal handling and the ImageTransport node in main.cpp;
+* build fixes: Eigen/PCL 16-byte allocation ABI, x86 `-march=x86-64`, ament
+  linking for vikit instead of hard-coded library paths;
+* eight YAML configurations restored to the official ROS1 values
+  (audited in manifests/config_equivalence.json);
+* added the harness: coverage-gated runners, trajectory evaluator, map/video
+  rendering, conversion audits, claim audit, cross-platform scripts and docs.
+
+Datasets (not distributed here)
+-------------------------------
+
+* Hilti SLAM Challenge 2022 sequences (exp07, exp14, exp18): CC BY-NC-SA 3.0,
+  published by Hilti-Research on Hugging Face. Raw bags and derived media that
+  we rendered from them are NOT part of this repository; fetch them with
+  scripts/download_hf_resumable.py and convert them with scripts/prepare_hilti.py.
+  Files under results/ that were derived from these sequences (map previews and
+  comparison plots) stay under the same CC BY-NC-SA 3.0 terms: attribution
+  required, non-commercial, share-alike.
+
+* Retail_Street: obtained from the public ROS2 mirror referenced by
+  DeepRoboticsLab/fast-livo2-deep-robotics. Redistribution terms are unclear,
+  therefore this repository ships only the conversion/audit scripts and the
+  checksums it computed locally (manifests/data_checksums.json).
+
+Publications to cite
+--------------------
+
+See CITATION.cff. If you use the ROS2 port, please also cite the original
+FAST-LIVO2 work; if you use the calibration tooling mentioned in the docs,
+cite FAST-Calib.

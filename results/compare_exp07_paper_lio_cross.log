@@ -1,0 +1,46 @@
+{
+  "reference": "results\\runs\\exp07_ros1_paper_lio_1x\\trajectory.tum",
+  "estimate": "results\\runs\\exp07_ros2_paper_lio_1x\\trajectory.tum",
+  "reference_kind": "ros1_baseline",
+  "metric": "baseline_trajectory_difference",
+  "alignment": "SE3, scale fixed to 1",
+  "association": "nearest_one_to_one",
+  "max_time_difference_s": 0.02,
+  "max_interpolation_gap_s": 0.25,
+  "reference_rows": 1320,
+  "estimate_rows": 1320,
+  "matched_rows": 1320,
+  "estimate_association_fraction": 1.0,
+  "reference_association_fraction": 1.0,
+  "matched_span_s": 131.88417506217957,
+  "aligned_rmse_m": 0.004521575519376276,
+  "aligned_median_m": 0.002759516556485881,
+  "aligned_p95_m": 0.009164545646594312,
+  "aligned_max_m": 0.01688457982188414,
+  "unaligned_rmse_m": 0.007402915195288693,
+  "rpe_1second_pairs": 1310,
+  "rpe_translation_rmse_m": 0.004762246398581322,
+  "rpe_rotation_rmse_deg": 0.17631203816811483,
+  "alignment_rotation": [
+    [
+      0.9999999957869442,
+      7.429703727471002e-05,
+      5.3907893532694027e-05
+    ],
+    [
+      -7.432229716206238e-05,
+      0.9999998873868444,
+      0.0004687243253925972
+    ],
+    [
+      -5.387306263330637e-05,
+      -0.00046872832997683634,
+      0.9999998886957165
+    ]
+  ],
+  "alignment_translation": [
+    -0.0022291309208952725,
+    -4.634802718905817e-05,
+    -0.0008539060582420793
+  ]
+}

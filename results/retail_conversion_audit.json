@@ -1,0 +1,56 @@
+{
+  "source": "data\\ros2_mirror\\Retail_Street",
+  "destination": "data\\raw\\Retail_Street_from_ros2_mirror.bag",
+  "origin": "DeepRoboticsLab public ROS2 Retail_Street mirror; original ROS1 download quota exceeded",
+  "all_message_roundtrips_passed": true,
+  "topics": {
+    "/livox/imu": {
+      "messages": 27447,
+      "byte_exact_roundtrips": 27447,
+      "semantic_roundtrips": 0,
+      "header_backwards": 0,
+      "source_type": "sensor_msgs/msg/Imu",
+      "target_type": "sensor_msgs/msg/Imu",
+      "expected_messages": 27447,
+      "first_record_ns": 1664265583030094834,
+      "first_header_ns": 946685437510941982,
+      "last_record_ns": 1664265718500347043,
+      "last_header_ns": 946685573018302917,
+      "source_record_stream_sha256": "f14cac178d71157ffed627a91aa0c784341e1b7ade7fd33662dba0fbd5cb96fb"
+    },
+    "/livox/lidar": {
+      "messages": 1355,
+      "byte_exact_roundtrips": 1355,
+      "semantic_roundtrips": 0,
+      "header_backwards": 0,
+      "source_type": "livox_ros_driver2/msg/CustomMsg",
+      "target_type": "livox_ros_driver/msg/CustomMsg",
+      "expected_messages": 1355,
+      "first_record_ns": 1664265583031406241,
+      "first_header_ns": 946685437499511003,
+      "last_record_ns": 1664265718496507668,
+      "last_header_ns": 946685572899635911,
+      "total_points": 32520000,
+      "source_record_stream_sha256": "87f0299f0e37b64c4ffbd0b50187e9dea457a444ba309165e5ed447da958ca3c"
+    },
+    "/left_camera/image": {
+      "messages": 1355,
+      "byte_exact_roundtrips": 1355,
+      "semantic_roundtrips": 0,
+      "header_backwards": 0,
+      "source_type": "sensor_msgs/msg/Image",
+      "target_type": "sensor_msgs/msg/Image",
+      "expected_messages": 1355,
+      "first_record_ns": 1664265583036557182,
+      "first_header_ns": 946685437499511003,
+      "last_record_ns": 1664265718497365400,
+      "last_header_ns": 946685572899635911,
+      "image_profile": [
+        640,
+        512,
+        "rgb8"
+      ],
+      "source_record_stream_sha256": "9a5d0c0e45d7061a1f715f3f05099b319e786f1abdab7c955eddfec4eff58d42"
+    }
+  }
+}

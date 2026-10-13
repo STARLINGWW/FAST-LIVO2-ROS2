@@ -1,0 +1,257 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2.79kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ros:noetic-ros-base-focal@sha256:72b8bc59035dc0a5b8e07aae28c16caa84192971d72d207c72ed734fb1d5e97d
+#2 DONE 2.5s
+
+#3 [stage-0  1/11] FROM docker.io/library/ros:noetic-ros-base-focal@sha256:72b8bc59035dc0a5b8e07aae28c16caa84192971d72d207c72ed734fb1d5e97d
+#3 resolve docker.io/library/ros:noetic-ros-base-focal@sha256:72b8bc59035dc0a5b8e07aae28c16caa84192971d72d207c72ed734fb1d5e97d 0.0s done
+#3 CACHED
+
+#4 [internal] load .dockerignore
+#4 transferring context: 389B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 70.33MB 5.2s
+#5 transferring context: 136.58MB 10.2s
+#5 transferring context: 204.16MB 15.4s
+#5 transferring context: 272.26MB 20.5s
+#5 transferring context: 352.65MB 25.5s
+#5 transferring context: 380.56MB 27.6s done
+#5 DONE 27.6s
+
+#6 [stage-0  2/11] RUN --mount=type=cache,target=/var/cache/apt,id=fastlivo-noetic-apt     --mount=type=bind,source=downloads/noetic_debs,target=/seed-debs     rm -f /etc/apt/apt.conf.d/docker-clean     && mkdir -p /var/cache/apt/archives     && for deb in /seed-debs/*.deb; do          name=$(dpkg-deb --showformat='${Package}_${Version}_${Architecture}.deb' -W "$deb");          cp -n "$deb" "/var/cache/apt/archives/${name/:/%3a}";        done     && sed -i -e 's|http://archive.ubuntu.com/ubuntu|http://mirrors.aliyun.com/ubuntu|g'               -e 's|http://security.ubuntu.com/ubuntu|http://mirrors.aliyun.com/ubuntu|g' /etc/apt/sources.list     && apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update     && apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 install -y --no-install-recommends     build-essential cmake git ca-certificates python3-yaml python3-pip     libeigen3-dev libopencv-dev libpcl-dev libboost-thread-dev     ros-noetic-pcl-ros ros-noetic-eigen-conversions ros-noetic-cv-bridge     ros-noetic-image-transport ros-noetic-compressed-image-transport     ros-noetic-tf ros-noetic-rviz ros-noetic-image-proc     && rm -rf /var/lib/apt/lists/*
+#6 4.036 Get:1 http://mirrors.aliyun.com/ubuntu focal InRelease [265 kB]
+#6 4.102 Get:2 http://snapshots.ros.org/noetic/final/ubuntu focal InRelease [13.8 kB]
+#6 5.350 Get:3 http://mirrors.aliyun.com/ubuntu focal-updates InRelease [128 kB]
+#6 6.147 Get:4 http://snapshots.ros.org/noetic/final/ubuntu focal/main amd64 Packages [1054 kB]
+#6 6.678 Get:5 http://mirrors.aliyun.com/ubuntu focal-backports InRelease [128 kB]
+#6 8.405 Get:6 http://mirrors.aliyun.com/ubuntu focal-security InRelease [128 kB]
+#6 10.24 Get:7 http://mirrors.aliyun.com/ubuntu focal/multiverse amd64 Packages [177 kB]
+#6 13.22 Get:8 http://mirrors.aliyun.com/ubuntu focal/main amd64 Packages [1275 kB]
+#6 29.87 Get:9 http://mirrors.aliyun.com/ubuntu focal/universe amd64 Packages [11.3 MB]
+#6 32.29 Get:10 http://mirrors.aliyun.com/ubuntu focal/restricted amd64 Packages [33.4 kB]
+#6 40.78 Get:11 http://mirrors.aliyun.com/ubuntu focal-updates/restricted amd64 Packages [4904 kB]
+#6 44.40 Get:12 http://mirrors.aliyun.com/ubuntu focal-updates/universe amd64 Packages [1588 kB]
+#6 45.73 Get:13 http://mirrors.aliyun.com/ubuntu focal-updates/multiverse amd64 Packages [36.2 kB]
+#6 52.61 Get:14 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 Packages [4850 kB]
+#6 54.41 Get:15 http://mirrors.aliyun.com/ubuntu focal-backports/universe amd64 Packages [28.4 kB]
+#6 55.76 Get:16 http://mirrors.aliyun.com/ubuntu focal-backports/main amd64 Packages [54.7 kB]
+#6 58.73 Get:17 http://mirrors.aliyun.com/ubuntu focal-security/universe amd64 Packages [1300 kB]
+#6 66.43 Get:18 http://mirrors.aliyun.com/ubuntu focal-security/main amd64 Packages [4368 kB]
+#6 72.94 Get:19 http://mirrors.aliyun.com/ubuntu focal-security/restricted amd64 Packages [4710 kB]
+#6 74.46 Get:20 http://mirrors.aliyun.com/ubuntu focal-security/multiverse amd64 Packages [32.5 kB]
+#6 74.47 Fetched 36.4 MB in 1min 17s (470 kB/s)
+#6 74.47 Reading package lists...
+#6 75.25 Reading package lists...
+#6 75.26 Building dependency tree...
+#6 75.40 Reading state information...
+#6 75.53 libboost-thread-dev is already the newest version (1.71.0.0ubuntu2).
+#6 75.53 libboost-thread-dev set to manually installed.
+#6 75.53 build-essential is already the newest version (12.8ubuntu1.1).
+#6 75.53 ca-certificates is already the newest version (20240203~20.04.1).
+#6 75.53 cmake is already the newest version (3.16.3-1ubuntu1.20.04.1).
+#6 75.53 cmake set to manually installed.
+#6 75.53 python3-yaml is already the newest version (5.3.1-1ubuntu0.1).
+#6 75.53 python3-yaml set to manually installed.
+#6 75.53 The following additional packages will be installed:
+#6 75.53   adwaita-icon-theme cython3 dbus dbus-user-session dconf-gsettings-backend
+#6 75.53   dconf-service fontconfig fontconfig-config fonts-dejavu-core gdal-data
+#6 75.53   git-man glib-networking glib-networking-common glib-networking-services
+#6 75.53   graphviz gsettings-desktop-schemas gtk-update-icon-cache hdf5-helpers
+#6 75.53   hicolor-icon-theme humanity-icon-theme iso-codes libaec-dev libaec0 libann0
+#6 75.53   libaom0 libapparmor1 libargon2-1 libarmadillo-dev libarmadillo9 libarpack2
+#6 75.53   libarpack2-dev libassimp-dev libassimp5 libatk-bridge2.0-0 libatk1.0-0
+#6 75.53   libatk1.0-data libatspi2.0-0 libavahi-client3 libavahi-common-data
+#6 75.53   libavahi-common3 libavcodec-dev libavcodec58 libavformat-dev libavformat58
+#6 75.53   libavresample-dev libavresample4 libavutil-dev libavutil56 libblas-dev
+#6 75.53   libbluray2 libcairo-gobject2 libcairo2 libcap2 libcap2-bin libcdt5
+#6 75.53   libcfitsio-dev libcfitsio8 libcgraph6 libcharls-dev libcharls2
+#6 75.53   libchromaprint1 libclang1-10 libcodec2-0.9 libcolord2 libcryptsetup12
+#6 75.53   libcups2 libcurl3-gnutls libcurl4-gnutls-dev libdap-dev libdap25
+#6 75.53   libdapclient6v5 libdapserver7v5 libdatrie1 libdbus-1-3 libdc1394-22
+#6 75.53   libdc1394-22-dev libdconf1 libdevmapper1.02.1 libdouble-conversion3
+#6 75.53   libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1
+#6 75.53   libdrm2 libegl-dev libegl-mesa0 libegl1 libelf1 libepoxy0 libepsilon-dev
+#6 75.53   libepsilon1 liberror-perl libevdev2 libexif-dev libexif12 libflann-dev
+#6 75.53   libflann1.9 libfontconfig1 libfontconfig1-dev libfreeimage3 libfreetype-dev
+#6 75.53   libfreetype6 libfreetype6-dev libfreexl-dev libfreexl1 libfribidi0
+#6 75.53   libfyba-dev libfyba0 libgbm1 libgd3 libgdal-dev libgdal26 libgdcm-dev
+#6 75.53   libgdcm3.0 libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-common libgeos-3.8.0
+#6 75.53   libgeos-c1v5 libgeos-dev libgeotiff-dev libgeotiff5 libgif-dev libgif7
+#6 75.53   libgl-dev libgl1 libgl1-mesa-dev libgl1-mesa-dri libgl2ps-dev libgl2ps1.4
+#6 75.53   libglapi-mesa libgles-dev libgles1 libgles2 libglew-dev libglew2.1
+#6 75.53   libglu1-mesa libglu1-mesa-dev libglvnd-dev libglvnd0 libglx-dev libglx-mesa0
+#6 75.53   libglx0 libgme0 libgphoto2-6 libgphoto2-dev libgphoto2-port12 libgraphite2-3
+#6 75.53   libgsm1 libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libgtk-3-0
+#6 75.53   libgtk-3-common libgts-0.7-5 libgudev-1.0-0 libgvc6 libgvpr2 libharfbuzz0b
+#6 75.53   libhdf4-0-alt libhdf4-alt-dev libhdf5-103 libhdf5-cpp-103 libhdf5-dev
+#6 75.53   libhdf5-mpi-dev libhdf5-openmpi-103 libhdf5-openmpi-dev libhyphen0
+#6 75.53   libice-dev libice6 libilmbase-dev libilmbase24 libinput-bin libinput10
+#6 75.53   libip4tc2 libjbig-dev libjbig0 libjpeg-dev libjpeg-turbo8 libjpeg-turbo8-dev
+#6 75.53   libjpeg8 libjpeg8-dev libjson-c-dev libjson-c4 libjson-glib-1.0-0
+#6 75.53   libjson-glib-1.0-common libjsoncpp-dev libjxr0 libkml-dev libkmlbase1
+#6 75.53   libkmlconvenience1 libkmldom1 libkmlengine1 libkmlregionator1 libkmlxsd1
+#6 75.53   libkmod2 liblab-gamut1 liblapack-dev liblcms2-2 liblept5 libllvm10 libllvm12
+#6 75.53   liblzma-dev libminizip-dev libminizip1 libmp3lame0 libmpg123-0 libmtdev1
+#6 75.53   libnetcdf-c++4 libnetcdf-cxx-legacy-dev libnetcdf-dev libnetcdf15 libnspr4
+#6 75.53   libnss3 libogdi-dev libogdi4.1 libogg-dev libogg0 libogre-1.9-dev
+#6 75.53   libogre-1.9.0v5 libopencv-calib3d-dev libopencv-calib3d4.2
+#6 75.53   libopencv-contrib-dev libopencv-contrib4.2 libopencv-core-dev
+#6 75.53   libopencv-core4.2 libopencv-dnn-dev libopencv-dnn4.2
+#6 75.53   libopencv-features2d-dev libopencv-features2d4.2 libopencv-flann-dev
+#6 75.53   libopencv-flann4.2 libopencv-highgui-dev libopencv-highgui4.2
+#6 75.53   libopencv-imgcodecs-dev libopencv-imgcodecs4.2 libopencv-imgproc-dev
+#6 75.53   libopencv-imgproc4.2 libopencv-ml-dev libopencv-ml4.2
+#6 75.53   libopencv-objdetect-dev libopencv-objdetect4.2 libopencv-photo-dev
+#6 75.53   libopencv-photo4.2 libopencv-shape-dev libopencv-shape4.2
+#6 75.53   libopencv-stitching-dev libopencv-stitching4.2 libopencv-superres-dev
+#6 75.53   libopencv-superres4.2 libopencv-ts-dev libopencv-video-dev
+#6 75.53   libopencv-video4.2 libopencv-videoio-dev libopencv-videoio4.2
+#6 75.53   libopencv-videostab-dev libopencv-videostab4.2 libopencv-viz-dev
+#6 75.53   libopencv-viz4.2 libopencv4.2-java libopencv4.2-jni libopenexr-dev
+#6 75.53   libopenexr24 libopengl-dev libopengl0 libopenjp2-7 libopenjp2-7-dev
+#6 75.53   libopenmpt0 libopenni-dev libopenni0 libopenni2-0 libopenni2-dev libopus0
+#6 75.53   liborc-0.4-0 liborocos-kdl-dev liborocos-kdl1.4 libpam-systemd
+#6 75.53   libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpathplan4 libpcap0.8
+#6 75.53   libpcl-apps1.10 libpcl-common1.10 libpcl-features1.10 libpcl-filters1.10
+#6 75.53   libpcl-io1.10 libpcl-kdtree1.10 libpcl-keypoints1.10 libpcl-ml1.10
+#6 75.53   libpcl-octree1.10 libpcl-outofcore1.10 libpcl-people1.10
+#6 75.53   libpcl-recognition1.10 libpcl-registration1.10 libpcl-sample-consensus1.10
+#6 75.53   libpcl-search1.10 libpcl-segmentation1.10 libpcl-stereo1.10
+#6 75.53   libpcl-surface1.10 libpcl-tracking1.10 libpcl-visualization1.10
+#6 75.53   libpcre2-16-0 libpixman-1-0 libpng-dev libpng16-16 libpoppler-dev
+#6 75.53   libpoppler-private-dev libpoppler97 libpq-dev libpq5 libproj-dev libproj15
+#6 75.53   libprotobuf17 libproxy1v5 libpthread-stubs0-dev libpyside2-dev
+#6 75.53   libpyside2-py3-5.14 libqhull-dev libqhull-r7 libqhull7 libqt5concurrent5
+#6 75.53   libqt5core5a libqt5dbus5 libqt5designer5 libqt5designercomponents5
+#6 75.53   libqt5gui5 libqt5help5 libqt5network5 libqt5opengl5 libqt5opengl5-dev
+#6 75.53   libqt5positioning5 libqt5printsupport5 libqt5qml5 libqt5quick5
+#6 75.53   libqt5quickparticles5 libqt5quickshapes5 libqt5quicktest5
+#6 75.53   libqt5quickwidgets5 libqt5sensors5 libqt5sql5 libqt5sql5-sqlite libqt5svg5
+#6 75.53   libqt5test5 libqt5webchannel5 libqt5webkit5 libqt5webkit5-dev libqt5widgets5
+#6 75.53   libqt5x11extras5 libqt5xml5 libraw1394-11 libraw1394-dev libraw19
+#6 75.53   librest-0.7-0 librsvg2-2 librsvg2-common libsensors-config libsensors5
+#6 75.53   libshiboken2-dev libshiboken2-py3-5.14 libshine3 libsm-dev libsm6
+#6 75.53   libsnappy1v5 libsocket++1 libsoup-gnome2.4-1 libsoup2.4-1 libsoxr0
+#6 75.53   libspatialite-dev libspatialite7 libspeex1 libssh-gcrypt-4 libsuperlu-dev
+#6 75.53   libsuperlu5 libswresample-dev libswresample3 libswscale-dev libswscale5
+#6 75.53   libsz2 libtbb-dev libtbb2 libtcl8.6 libtesseract4 libthai-data libthai0
+#6 75.53   libtheora-dev libtheora0 libtiff-dev libtiff5 libtiffxx5 libtinyxml-dev
+#6 75.53   libtinyxml2.6.2v5 libtk8.6 libturbojpeg libturbojpeg0-dev libtwolame0
+#6 75.53   liburdfdom-dev liburdfdom-headers-dev liburdfdom-model
+#6 75.53   liburdfdom-model-state liburdfdom-sensor liburdfdom-world liburiparser-dev
+#6 75.53   liburiparser1 libusb-1.0-0 libva-drm2 libva-x11-2 libva2 libvdpau1
+#6 75.53   libvorbis0a libvorbisenc2 libvorbisfile3 libvpx6 libvtk6.3 libvtk7-dev
+#6 75.53   libvtk7-java libvtk7-jni libvtk7-qt-dev libvtk7.1p libvtk7.1p-qt
+#6 75.53   libvulkan-dev libvulkan1 libwacom-common libwacom2 libwavpack1
+#6 75.53   libwayland-client0 libwayland-cursor0 libwayland-egl1 libwayland-server0
+#6 75.53   libwebp-dev libwebp6 libwebpdemux2 libwebpmux3 libwoff1 libx11-dev
+#6 75.53   libx11-xcb1 libx264-155 libx265-179 libxau-dev libxaw7 libxcb-dri2-0
+#6 75.53   libxcb-dri3-0 libxcb-glx0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1
+#6 75.53   libxcb-present0 libxcb-randr0 libxcb-render-util0 libxcb-render0
+#6 75.53   libxcb-shape0 libxcb-shm0 libxcb-sync1 libxcb-util1 libxcb-xfixes0
+#6 75.53   libxcb-xinerama0 libxcb-xinput0 libxcb-xkb1 libxcb1-dev libxcomposite1
+#6 75.53   libxcursor1 libxdamage1 libxdmcp-dev libxerces-c-dev libxerces-c3.2
+#6 75.53   libxext-dev libxfixes3 libxft-dev libxft2 libxi6 libxinerama1
+#6 75.53   libxkbcommon-x11-0 libxkbcommon0 libxml2-dev libxmu6 libxpm4 libxrandr2
+#6 75.53   libxrender-dev libxrender1 libxshmfence1 libxslt1.1 libxss-dev libxss1
+#6 75.53   libxt-dev libxt6 libxvidcore4 libxxf86vm1 libyaml-cpp-dev libyaml-cpp0.6
+#6 75.53   libzstd-dev libzvbi-common libzvbi0 libzzip-0-13 odbcinst odbcinst1debian2
+#6 75.53   proj-data pyqt5-dev python-pip-whl python3-attr python3-autobahn
+#6 75.53   python3-automat python3-cbor python3-constantly python3-hamcrest
+#6 75.53   python3-hyperlink python3-idna python3-incremental python3-lz4
+#6 75.53   python3-mpi4py python3-opencv python3-openssl python3-pyasn1
+#6 75.53   python3-pyasn1-modules python3-pykdl python3-pyqrcode python3-pyqt5
+#6 75.53   python3-pyqt5.qtsvg python3-pyside2.qtcore python3-pyside2.qtgui
+#6 75.53   python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-service-identity
+#6 75.53   python3-sip python3-sip-dev python3-snappy python3-trie python3-twisted
+#6 75.53   python3-twisted-bin python3-txaio python3-u-msgpack python3-ubjson
+#6 75.53   python3-vtk7 python3-wheel python3-wsaccel python3-zope.interface qdoc-qt5
+#6 75.53   qhelpgenerator-qt5 qt5-assistant qt5-qmake qt5-qmake-bin
+#6 75.53   qt5-qmltooling-plugins qtattributionsscanner-qt5 qtbase5-dev
+#6 75.53   qtbase5-dev-tools qtchooser qtdeclarative5-dev qtdeclarative5-dev-tools
+#6 75.53   qttools5-dev qttools5-dev-tools qttools5-private-dev ros-noetic-angles
+#6 75.53   ros-noetic-image-geometry ros-noetic-interactive-markers
+#6 75.53   ros-noetic-laser-geometry ros-noetic-map-msgs ros-noetic-media-export
+#6 75.53   ros-noetic-pcl-conversions ros-noetic-pcl-msgs ros-noetic-python-qt-binding
+#6 75.53   ros-noetic-resource-retriever ros-noetic-tf2 ros-noetic-tf2-eigen
+#6 75.53   ros-noetic-tf2-geometry-msgs ros-noetic-tf2-msgs ros-noetic-tf2-py
+#6 75.53   ros-noetic-tf2-ros ros-noetic-urdf shared-mime-info shiboken2 sip-dev
+#6 75.53   systemd systemd-sysv systemd-timesyncd tcl tcl-dev tcl-vtk7 tcl8.6
+#6 75.53   tcl8.6-dev tk tk-dev tk8.6 tk8.6-dev ubuntu-mono ucf unixodbc-dev vtk7
+#6 75.53   x11-common x11proto-core-dev x11proto-dev x11proto-scrnsaver-dev
+#6 75.53   x11proto-xext-dev xkb-data xorg-sgml-doctools xtrans-dev
+#6 75.53 Suggested packages:
+#6 75.53   cython-doc gettext-base git-daemon-run | git-daemon-sysvinit git-doc git-el
+#6 75.53   git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn gsfonts
+#6 75.53   graphviz-doc isoquery libitpp-dev liblapack-doc libbluray-bdj colord
+#6 75.53   cups-common libcurl4-doc libgnutls28-dev libidn11-dev libkrb5-dev
+#6 75.53   librtmp-dev libssh2-1-dev libeigen3-doc libmpfrc++-dev freetype2-doc
+#6 75.53   libgd-tools libgdal-doc libgeotiff-epsg geotiff-bin gdal-bin glew-utils
+#6 75.53   gphoto2 libvisual-0.4-plugins gstreamer1.0-tools gvfs libhdf4-doc hdf4-tools
+#6 75.53   libhdf5-doc libice-doc liblcms2-utils liblzma-doc netcdf-bin netcdf-doc
+#6 75.53   ogdi-bin ogre-1.9-doc libogre-1.9.0v5-dbg opencv-doc openni-doc openni2-doc
+#6 75.53   opus-tools libpcl-doc postgresql-doc-12 proj-bin qt5-image-formats-plugins
+#6 75.53   qtwayland5 libraw1394-doc librsvg2-bin lm-sensors libsm-doc speex
+#6 75.53   libsuperlu-doc libtbb-doc libtinyxml-doc vtk7-doc vtk7-examples
+#6 75.53   java-virtual-machine libx11-doc libxcb-doc libxerces-c-doc libxext-doc
+#6 75.53   libxt-doc python-attr-doc python-openssl-doc python3-openssl-dbg
+#6 75.53   python3-pyqt5-dbg python-pyside2-doc python-sip-doc python-trie-doc
+#6 75.53   python3-tk python3-pampy python3-qt4 python3-serial python3-wxgtk2.8
+#6 75.53   python3-twisted-bin-dbg python-txaio-doc mayavi2 qt5-doc firebird-dev
+#6 75.53   systemd-container policykit-1 tcl-doc tcl-tclreadline tcl8.6-doc tk-doc
+#6 75.53   tk8.6-doc
+#6 75.53 Recommended packages:
+#6 75.53   less fonts-liberation at-spi2-core libaacs0 libpam-cap libcfitsio-doc
+#6 75.53   dmsetup libexif-doc proj-bin libgdk-pixbuf2.0-bin libgphoto2-l10n
+#6 75.53   gstreamer1.0-plugins-base libgtk-3-bin libgts-bin opencv-data
+#6 75.53   libopenni-sensor-pointclouds0 | libopenni-sensor-primesense0 libpng-tools
+#6 75.53   poppler-data qttranslations5-l10n qt5-gtk-platformtheme geoclue-2.0
+#6 75.53   libraw1394-tools va-driver-all | va-driver vdpau-driver-all | vdpau-driver
+#6 75.53   mesa-vulkan-drivers | vulkan-icd libwacom-bin python3-click python3-png
+#6 75.53   networkd-dispatcher libnss-systemd xterm | x-terminal-emulator
+#6 75.53 E: Could not get lock /var/cache/apt/archives/lock. It is held by process 0
+#6 75.53 E: Unable to lock directory /var/cache/apt/archives/
+#6 ERROR: process "/bin/bash -o pipefail -c rm -f /etc/apt/apt.conf.d/docker-clean     && mkdir -p /var/cache/apt/archives     && for deb in /seed-debs/*.deb; do          name=$(dpkg-deb --showformat='${Package}_${Version}_${Architecture}.deb' -W \"$deb\");          cp -n \"$deb\" \"/var/cache/apt/archives/${name//:/%3a}\";        done     && sed -i -e 's|http://archive.ubuntu.com/ubuntu|http://mirrors.aliyun.com/ubuntu|g'               -e 's|http://security.ubuntu.com/ubuntu|http://mirrors.aliyun.com/ubuntu|g' /etc/apt/sources.list     && apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update     && apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 install -y --no-install-recommends     build-essential cmake git ca-certificates python3-yaml python3-pip     libeigen3-dev libopencv-dev libpcl-dev libboost-thread-dev     ros-noetic-pcl-ros ros-noetic-eigen-conversions ros-noetic-cv-bridge     ros-noetic-image-transport ros-noetic-compressed-image-transport     ros-noetic-tf ros-noetic-rviz ros-noetic-image-proc     && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 100
+------
+ > [stage-0  2/11] RUN --mount=type=cache,target=/var/cache/apt,id=fastlivo-noetic-apt     --mount=type=bind,source=downloads/noetic_debs,target=/seed-debs     rm -f /etc/apt/apt.conf.d/docker-clean     && mkdir -p /var/cache/apt/archives     && for deb in /seed-debs/*.deb; do          name=$(dpkg-deb --showformat='${Package}_${Version}_${Architecture}.deb' -W "$deb");          cp -n "$deb" "/var/cache/apt/archives/${name/:/%3a}";        done     && sed -i -e 's|http://archive.ubuntu.com/ubuntu|http://mirrors.aliyun.com/ubuntu|g'               -e 's|http://security.ubuntu.com/ubuntu|http://mirrors.aliyun.com/ubuntu|g' /etc/apt/sources.list     && apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update     && apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 install -y --no-install-recommends     build-essential cmake git ca-certificates python3-yaml python3-pip     libeigen3-dev libopencv-dev libpcl-dev libboost-thread-dev     ros-noetic-pcl-ros ros-noetic-eigen-conversions ros-noetic-cv-bridge     ros-noetic-image-transport ros-noetic-compressed-image-transport     ros-noetic-tf ros-noetic-rviz ros-noetic-image-proc     && rm -rf /var/lib/apt/lists/*:
+75.53   less fonts-liberation at-spi2-core libaacs0 libpam-cap libcfitsio-doc
+75.53   dmsetup libexif-doc proj-bin libgdk-pixbuf2.0-bin libgphoto2-l10n
+75.53   gstreamer1.0-plugins-base libgtk-3-bin libgts-bin opencv-data
+75.53   libopenni-sensor-pointclouds0 | libopenni-sensor-primesense0 libpng-tools
+75.53   poppler-data qttranslations5-l10n qt5-gtk-platformtheme geoclue-2.0
+75.53   libraw1394-tools va-driver-all | va-driver vdpau-driver-all | vdpau-driver
+75.53   mesa-vulkan-drivers | vulkan-icd libwacom-bin python3-click python3-png
+75.53   networkd-dispatcher libnss-systemd xterm | x-terminal-emulator
+75.53 E: Could not get lock /var/cache/apt/archives/lock. It is held by process 0
+75.53 E: Unable to lock directory /var/cache/apt/archives/
+------
+Dockerfile:7
+--------------------
+   6 |     ARG VIKIT_COMMIT=6c886c8e5d83997806e00294826d528cea3581dd
+   7 | >>> RUN --mount=type=cache,target=/var/cache/apt,id=fastlivo-noetic-apt \
+   8 | >>>     --mount=type=bind,source=downloads/noetic_debs,target=/seed-debs \
+   9 | >>>     rm -f /etc/apt/apt.conf.d/docker-clean \
+  10 | >>>     && mkdir -p /var/cache/apt/archives \
+  11 | >>>     && for deb in /seed-debs/*.deb; do \
+  12 | >>>          name=$(dpkg-deb --showformat='${Package}_${Version}_${Architecture}.deb' -W "$deb"); \
+  13 | >>>          cp -n "$deb" "/var/cache/apt/archives/${name//:/%3a}"; \
+  14 | >>>        done \
+  15 | >>>     && sed -i -e 's|http://archive.ubuntu.com/ubuntu|http://mirrors.aliyun.com/ubuntu|g' \
+  16 | >>>               -e 's|http://security.ubuntu.com/ubuntu|http://mirrors.aliyun.com/ubuntu|g' /etc/apt/sources.list \
+  17 | >>>     && apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update \
+  18 | >>>     && apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 install -y --no-install-recommends \
+  19 | >>>     build-essential cmake git ca-certificates python3-yaml python3-pip \
+  20 | >>>     libeigen3-dev libopencv-dev libpcl-dev libboost-thread-dev \
+  21 | >>>     ros-noetic-pcl-ros ros-noetic-eigen-conversions ros-noetic-cv-bridge \
+  22 | >>>     ros-noetic-image-transport ros-noetic-compressed-image-transport \
+  23 | >>>     ros-noetic-tf ros-noetic-rviz ros-noetic-image-proc \
+  24 | >>>     && rm -rf /var/lib/apt/lists/*
+  25 |     COPY upstream/Sophus_pinned/ /opt/Sophus/
+--------------------
+ERROR: failed to build: failed to solve: process "/bin/bash -o pipefail -c rm -f /etc/apt/apt.conf.d/docker-clean     && mkdir -p /var/cache/apt/archives     && for deb in /seed-debs/*.deb; do          name=$(dpkg-deb --showformat='${Package}_${Version}_${Architecture}.deb' -W \"$deb\");          cp -n \"$deb\" \"/var/cache/apt/archives/${name//:/%3a}\";        done     && sed -i -e 's|http://archive.ubuntu.com/ubuntu|http://mirrors.aliyun.com/ubuntu|g'               -e 's|http://security.ubuntu.com/ubuntu|http://mirrors.aliyun.com/ubuntu|g' /etc/apt/sources.list     && apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update     && apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 install -y --no-install-recommends     build-essential cmake git ca-certificates python3-yaml python3-pip     libeigen3-dev libopencv-dev libpcl-dev libboost-thread-dev     ros-noetic-pcl-ros ros-noetic-eigen-conversions ros-noetic-cv-bridge     ros-noetic-image-transport ros-noetic-compressed-image-transport     ros-noetic-tf ros-noetic-rviz ros-noetic-image-proc     && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 100

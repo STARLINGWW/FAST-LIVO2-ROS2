@@ -1,0 +1,8 @@
+Collecting imageio-ffmpeg
+  Using cached imageio_ffmpeg-0.6.0-py3-none-win_amd64.whl.metadata (1.5 kB)
+Using cached imageio_ffmpeg-0.6.0-py3-none-win_amd64.whl (31.2 MB)
+Installing collected packages: imageio-ffmpeg
+Successfully installed imageio-ffmpeg-0.6.0
+
+[notice] A new release of pip is available: 25.2 -> 26.2.1
+[notice] To update, run: D:\_AAA_CODE_ALL\Tech_reproduction\FASTLIVO2_reproduction\.venv-tools\Scripts\python.exe -m pip install --upgrade pip

@@ -1,0 +1,7 @@
+PASS exp07_ros1_release_showcase 661 frames
+PASS exp07_ros2_release_showcase 662 frames
+PASS hilti_ros1_showcase 370 frames
+PASS hilti_ros2_showcase_retry01 370 frames
+PASS retail_ros1 677 frames
+PASS retail_ros1_showcase 677 frames
+PASS retail_ros2_showcase 678 frames

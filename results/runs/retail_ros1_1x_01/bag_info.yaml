@@ -1,0 +1,26 @@
+compression: none
+duration: 135.470252
+end: 1664265718.500347
+indexed: true
+messages: 30157
+path: /datasets/Retail_Street_from_ros2_mirror.bag
+size: 1961102980
+start: 1664265583.030095
+topics:
+- messages: 1355
+  topic: /left_camera/image
+  type: sensor_msgs/Image
+- messages: 27447
+  topic: /livox/imu
+  type: sensor_msgs/Imu
+- messages: 1355
+  topic: /livox/lidar
+  type: livox_ros_driver/CustomMsg
+types:
+- md5: e4d6829bdfe657cb6c21a746c86b21a6
+  type: livox_ros_driver/CustomMsg
+- md5: 060021388200f6f0f447d0fcd9c64743
+  type: sensor_msgs/Image
+- md5: 6a62c6daae103f4ff57a132d6f95cec2
+  type: sensor_msgs/Imu
+version: 2.0

@@ -1,0 +1,8 @@
+1790216711.942048 [137] fastlivo_m: selected interface "lo" is not multicast-capable: disabling multicast
+[INFO] [1790216711.955452124] [laserMapping]: Found parameter: cam_width, value: 1280
+[INFO] [1790216711.956318459] [laserMapping]: Found parameter: cam_height, value: 1024
+[INFO] [1790216711.956849080] [laserMapping]: Found parameter: cam_fx, value: 1293.57
+[INFO] [1790216711.957571301] [laserMapping]: Found parameter: cam_fy, value: 1293.32
+scale: 0.5
+intrinsic: 646.784720, 646.657750, 313.456795, 261.399612
+width: 640, height: 512, scale: 0.500000

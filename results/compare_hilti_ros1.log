@@ -1,0 +1,44 @@
+{
+  "reference": "data\\raw\\HILTI22\\exp14_basement_2_imu.txt",
+  "estimate": "results\\runs\\hilti_ros1_1x_01\\trajectory.tum",
+  "reference_kind": "ground_truth",
+  "metric": "ATE",
+  "alignment": "SE3, scale fixed to 1",
+  "max_time_difference_s": 0.02,
+  "reference_rows": 689,
+  "estimate_rows": 738,
+  "matched_rows": 680,
+  "estimate_association_fraction": 0.9214092140921409,
+  "reference_association_fraction": 0.9869375907111756,
+  "matched_span_s": 73.5920569896698,
+  "aligned_rmse_m": 0.040165309905855526,
+  "aligned_median_m": 0.025384666205327075,
+  "aligned_p95_m": 0.06407829660884871,
+  "aligned_max_m": 0.1591304313420043,
+  "unaligned_rmse_m": 114.48149912114617,
+  "rpe_1second_pairs": 628,
+  "rpe_translation_rmse_m": 0.024003678532258297,
+  "rpe_rotation_rmse_deg": 0.6136378914912046,
+  "alignment_rotation": [
+    [
+      0.036731358049897925,
+      0.9992912829836499,
+      -0.008230375975652873
+    ],
+    [
+      0.9991433346602447,
+      -0.03656631975195656,
+      0.01937784982402868
+    ],
+    [
+      0.019063161852513423,
+      -0.00893510003794487,
+      -0.9997783553605748
+    ]
+  ],
+  "alignment_translation": [
+    122.64893502046134,
+    17.144139720973133,
+    -1.1310543819347998
+  ]
+}

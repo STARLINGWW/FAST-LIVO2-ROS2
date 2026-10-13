@@ -1,0 +1,87 @@
+{
+  "purpose": "Cold-start re-verification of the ROS2 port after the host was restarted; all numbers re-derived from artifacts in this repository.",
+  "verified_at_local": "2026-09-24T10:31:00+08:00",
+  "run": {
+    "run_id": "repro_check_ros2_01",
+    "dataset": "HILTI22 exp14_basement_2 (74.012803978 s bag)",
+    "rate": 1.0,
+    "ros_domain_id": "137",
+    "status": "playback_completed",
+    "algorithm_exit_after_signal": 0,
+    "trajectory_rows": 738,
+    "trajectory_span_seconds": 73.6920461654663,
+    "trajectory_coverage_fraction": 0.995666184831627,
+    "drain_seconds": 44.057,
+    "peak_rss_kib": 1801784,
+    "max_trajectory_radius_m": 21.400751731436,
+    "max_segment_speed_mps": 1.69119972791794,
+    "imu_timestamp_jump_warnings": 0
+  },
+  "accuracy": {
+    "metric": "ATE, SE(3) aligned, scale fixed to 1, ground truth interpolated to estimate time",
+    "aligned_rmse_m": 0.04265935862166744,
+    "aligned_median_m": 0.03359630355144206,
+    "aligned_p95_m": 0.05927157375150031,
+    "aligned_max_m": 0.16543200299248925,
+    "matched_rows": 677,
+    "estimate_rows": 738,
+    "estimate_association_fraction": 0.9173441734417345,
+    "rpe_1s_translation_rmse_m": 0.022169332725077706,
+    "rpe_1s_rotation_rmse_deg": 0.40336543051376006,
+    "published_ros2_reference_rmse_m": 0.038479931947877785,
+    "published_ros1_reference_rmse_m": 0.038335,
+    "difference_vs_published_ros2_m": 0.004179426673789655,
+    "tolerance": "max(5% of baseline, 0.02 m) = 0.02 m -> within tolerance",
+    "comparison_dir": "results/comparisons/repro_check_ros2_dense_gt"
+  },
+  "repeatability": {
+    "reference_run": "hilti_ros2_1x_01",
+    "association": "interpolate_estimate_to_reference_time",
+    "matched_rows": 736,
+    "aligned_rmse_m": 0.013497566451236174,
+    "aligned_median_m": 0.010446643295795657,
+    "aligned_p95_m": 0.025154087354342908,
+    "aligned_max_m": 0.03994643000919635,
+    "comparison_dir": "results/comparisons/repro_check_ros2_vs_published_ros2",
+    "note": "Same implementation, same config, same data; the cross-version ROS1-vs-ROS2 difference (1.34 cm) is the same size as this run-to-run spread, so equivalence claims must stay within run-to-run tolerance."
+  },
+  "environment": {
+    "docker_image": "fastlivo2:noetic-local",
+    "docker_image_id": "sha256:c37e61a5c612d452fd03c2807ae58e3d19464667d1d20b8fbb8c75ae0e8b614c",
+    "docker_container": "fastlivo2-ros1 (network none, /work bind-mounted, /datasets inside the container layer)",
+    "wsl_distro": "FASTLIVO-Ubuntu-22.04 (user livo)",
+    "ros2_workspace": "/home/livo/repro/fastlivo2_ws",
+    "ros2_binary_sha256": "64a432246af1d8ba1c5a74d9d87eb1d6d392fe3625c109fc1667dadfac6d7d92"
+  },
+  "patch_rebuildability": {
+    "manifests/ros2_fastlivo.patch": {"fork_base": "837b7bbc1431cb04cf936528e52c83c835efba8e", "git_apply_check_on_pristine_clone": "ok"},
+    "manifests/ros2_vikit.patch": {"fork_base": "4b7abc838f5d2ca9137f70f122eaaeff9eaf0f50", "git_apply_check_on_pristine_clone": "ok"}
+  },
+  "interface_regression": {
+    "script": "scripts/test_ros2_startup.py",
+    "pinhole_variant": "passed",
+    "fisheye_hilti_variant": "passed",
+    "checks": [
+      "node stays alive without sensors",
+      "calibration read from local node without parameter_blackboard",
+      "fractional photometric covariance and outlier threshold accepted",
+      "official lio.max_iterations key accepted",
+      "simulated clock enabled"
+    ]
+  },
+  "coverage_audit": {
+    "script": "scripts/audit_coverage.py",
+    "report": "evidence/coverage_audit.json",
+    "gate": 0.99,
+    "runs_checked": 45,
+    "counted_runs": 30,
+    "counted_violations": 0,
+    "excluded_violations": 5
+  },
+  "harness_changes": [
+    "scripts/run_ros2_bag.py: refuses to start when another fastlivo_mapping/ros2 bag play process is alive (records competing_processes, status=failed)",
+    "scripts/run_ros1_bag.py and run_ros2_bag.py: record trajectory_span_seconds/trajectory_coverage_fraction, end with status=incomplete_coverage below 0.99, and replace the fixed 8 s drain with drain_until_stable() (bounded 120 s, 6 s quiet window, records drain_seconds)",
+    "scripts/aggregate_results.py: adds a trajectory_time_coverage column",
+    "scripts/audit_coverage.py: re-derives coverage for every stored run and honours QUARANTINE.md markers"
+  ]
+}

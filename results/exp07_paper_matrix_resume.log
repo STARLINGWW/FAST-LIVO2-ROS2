@@ -1,0 +1,9 @@
+SKIP verified exp07_ros1_released_1x
+SKIP verified exp07_ros2_released_1x
+SKIP verified exp07_ros1_paper_1x
+START exp07_ros2_paper_retry01_1x 2026-09-24T04:40:54.8206753+08:00
+PASS exp07_ros2_paper_retry01_1x 2026-09-24T04:43:24.7331078+08:00
+START exp07_ros1_paper_lio_1x 2026-09-24T04:43:24.7345966+08:00
+PASS exp07_ros1_paper_lio_1x 2026-09-24T04:45:53.5707236+08:00
+START exp07_ros2_paper_lio_1x 2026-09-24T04:45:53.5725314+08:00
+PASS exp07_ros2_paper_lio_1x 2026-09-24T04:48:23.1648288+08:00

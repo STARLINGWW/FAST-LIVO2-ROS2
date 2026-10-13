@@ -1,0 +1,52 @@
+{
+  "noise": {
+    "restored_released_lidar_keys": {
+      "lio.dept_err": {
+        "paper_value": 0.001,
+        "released_value": 0.02
+      },
+      "lio.beam_err": {
+        "paper_value": 0.001,
+        "released_value": 0.05
+      }
+    },
+    "fixed_paper_vio_keys": [
+      "vio.img_point_cov",
+      "vio.normal_en",
+      "vio.raycast_en"
+    ],
+    "run_id": "abl_l1_paper_noise_released_ros1"
+  },
+  "structure": {
+    "restored_released_lidar_keys": {
+      "lio.voxel_size": {
+        "paper_value": 0.5,
+        "released_value": 0.4
+      },
+      "lio.max_layer": {
+        "paper_value": 3,
+        "released_value": 2
+      }
+    },
+    "fixed_paper_vio_keys": [
+      "vio.img_point_cov",
+      "vio.normal_en",
+      "vio.raycast_en"
+    ],
+    "run_id": "abl_l2_paper_structure_released_ros1"
+  },
+  "subsample": {
+    "restored_released_lidar_keys": {
+      "preprocess.point_filter_num": {
+        "paper_value": 3,
+        "released_value": 1
+      }
+    },
+    "fixed_paper_vio_keys": [
+      "vio.img_point_cov",
+      "vio.normal_en",
+      "vio.raycast_en"
+    ],
+    "run_id": "abl_l3_paper_subsample_released_ros1"
+  }
+}

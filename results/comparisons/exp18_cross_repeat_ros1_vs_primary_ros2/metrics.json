@@ -1,0 +1,46 @@
+{
+  "reference": "D:\\_AAA_CODE_ALL\\Tech_reproduction\\FASTLIVO2_reproduction\\results\\runs\\exp18_ros1_1x_04\\trajectory.tum",
+  "estimate": "D:\\_AAA_CODE_ALL\\Tech_reproduction\\FASTLIVO2_reproduction\\results\\runs\\exp18_ros2_1x_02\\trajectory.tum",
+  "reference_kind": "ros1_baseline_interpolated",
+  "metric": "baseline_trajectory_difference",
+  "alignment": "SE3, scale fixed to 1",
+  "association": "interpolate_estimate_to_ros1_reference_time",
+  "max_time_difference_s": 0.02,
+  "max_interpolation_gap_s": 0.25,
+  "reference_rows": 1092,
+  "estimate_rows": 1092,
+  "matched_rows": 1092,
+  "estimate_association_fraction": 1.0,
+  "reference_association_fraction": 1.0,
+  "matched_span_s": 109.09320497512817,
+  "aligned_rmse_m": 0.18664057366847273,
+  "aligned_median_m": 0.15783856881356667,
+  "aligned_p95_m": 0.31951227720228337,
+  "aligned_max_m": 0.3450940664861779,
+  "unaligned_rmse_m": 0.5433466866404745,
+  "rpe_1second_pairs": 1082,
+  "rpe_translation_rmse_m": 0.025704303872757978,
+  "rpe_rotation_rmse_deg": 0.4406411651157142,
+  "alignment_rotation": [
+    [
+      0.9999077634239018,
+      -0.010041648056064716,
+      -0.009144941165929198
+    ],
+    [
+      0.009589303674629991,
+      0.9987901230410211,
+      -0.048232098966731723
+    ],
+    [
+      0.009618206675150787,
+      0.04813995658513846,
+      0.9987942904724342
+    ]
+  ],
+  "alignment_translation": [
+    -0.0027164897596119175,
+    0.021836322732416757,
+    0.31557567121882096
+  ]
+}

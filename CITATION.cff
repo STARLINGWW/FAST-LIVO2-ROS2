@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this reproduction, evaluation harness or ROS2 port, please cite the FAST-LIVO2 paper; if you use the datasets, cite the dataset owners."
+title: "FAST-LIVO2 reproduction: ROS1/ROS2 cross-validated harness (Windows Docker+WSL2 and Ubuntu 22.04)"
+abstract: >-
+  Reproduction and verification project for FAST-LIVO2. It pins the official
+  ROS1 implementation and a community ROS2 (Humble) port, restores official
+  parameter semantics in the port, and provides a harness that runs full 1x
+  replays, evaluates trajectories against published ground truth, audits every
+  reported number, and documents the environment (Docker/Noetic for ROS1,
+  Ubuntu 22.04/Humble for ROS2, on Windows+WSL2 or native Linux).
+type: software
+license: GPL-2.0-only
+version: "0.1.0"
+date-released: "2026-10-13"
+repository-code: "https://github.com/<your-account>/fastlivo2-reproduction"
+keywords:
+  - SLAM
+  - LiDAR-inertial-visual odometry
+  - FAST-LIVO2
+  - ROS2 Humble
+  - reproducibility
+authors:
+  - name: "FAST-LIVO2 reproduction project"
+references:
+  - type: article
+    title: "FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry"
+    authors:
+      - family-names: Zheng
+        given-names: Chunran
+      - family-names: Xu
+        given-names: Wei
+      - family-names: Zou
+        given-names: Zuhao
+      - family-names: Zheng
+        given-names: Tongda
+      - family-names: Cao
+        given-names: Qingyan
+      - family-names: Yan
+        given-names: Fei
+      - family-names: Zhang
+        given-names: Fu
+    journal: "IEEE Transactions on Robotics"
+    year: 2024
+    url: "https://arxiv.org/abs/2408.14035"
+  - type: software
+    title: "FAST-LIVO2 (official ROS1 implementation)"
+    authors:
+      - name: "MARS Lab, The University of Hong Kong"
+    url: "https://github.com/hku-mars/FAST-LIVO2"
+    license: GPL-2.0-only
+  - type: software
+    title: "FAST-LIVO2 ROS2 (humble) port"
+    authors:
+      - name: "Robotic-Developer-Road"
+    url: "https://github.com/Robotic-Developer-Road/FAST-LIVO2"
+    license: GPL-2.0-only
+  - type: dataset
+    title: "Hilti SLAM Challenge 2022 dataset"
+    authors:
+      - name: "Hilti-Research"
+    url: "https://huggingface.co/datasets/Hilti-Research/hilti-slam-challenge-2022"
+    license: "CC-BY-NC-SA-3.0"

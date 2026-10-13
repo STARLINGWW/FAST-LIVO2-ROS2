@@ -1,0 +1,10 @@
+{
+  "Sophus_pinned": {
+    "dest": "upstream/Sophus_pinned",
+    "url": "https://codeload.github.com/strasdat/Sophus/tar.gz/a621ff2e",
+    "archive_sha256": "1a723d8a40a49900f8a6554740d323fafe43ec61337803f71cd1fc1cafa07642",
+    "expected_sha256": "1a723d8a40a49900f8a6554740d323fafe43ec61337803f71cd1fc1cafa07642",
+    "status": "extracted",
+    "checked_at": "2026-10-13T15:15:24.814318+08:00"
+  }
+}

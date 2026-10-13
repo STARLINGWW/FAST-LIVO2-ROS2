@@ -1,0 +1,3440 @@
+[
+  {
+    "file": "libatk1.0-data_2.35.1-1ubuntu2_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/a/atk1.0/libatk1.0-data_2.35.1-1ubuntu2_all.deb",
+    "status": "downloaded",
+    "bytes": 2964
+  },
+  {
+    "file": "libavahi-client3_0.7-4ubuntu7.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/a/avahi/libavahi-client3_0.7-4ubuntu7.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 25500
+  },
+  {
+    "file": "libatk1.0-0_2.35.1-1ubuntu2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/a/atk1.0/libatk1.0-0_2.35.1-1ubuntu2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 45520
+  },
+  {
+    "file": "libatspi2.0-0_2.36.0-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/a/at-spi2-core/libatspi2.0-0_2.36.0-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 64244
+  },
+  {
+    "file": "libatk-bridge2.0-0_2.34.2-0ubuntu2~20.04.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/a/at-spi2-atk/libatk-bridge2.0-0_2.34.2-0ubuntu2~20.04.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 58212
+  },
+  {
+    "file": "libavahi-common3_0.7-4ubuntu7.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/a/avahi/libavahi-common3_0.7-4ubuntu7.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 21888
+  },
+  {
+    "file": "libcairo-gobject2_1.16.0-4ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/c/cairo/libcairo-gobject2_1.16.0-4ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 17196
+  },
+  {
+    "file": "python3-automat_0.8.0-1ubuntu1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/a/automat/python3-automat_0.8.0-1ubuntu1_all.deb",
+    "status": "downloaded",
+    "bytes": 27500
+  },
+  {
+    "file": "libavahi-common-data_0.7-4ubuntu7.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/a/avahi/libavahi-common-data_0.7-4ubuntu7.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 21448
+  },
+  {
+    "file": "python3-constantly_15.1.0-1build1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/c/constantly/python3-constantly_15.1.0-1build1_all.deb",
+    "status": "downloaded",
+    "bytes": 8244
+  },
+  {
+    "file": "libcolord2_1.4.4-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/c/colord/libcolord2_1.4.4-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 133436
+  },
+  {
+    "file": "dbus-user-session_1.12.16-2ubuntu2.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/d/dbus/dbus-user-session_1.12.16-2ubuntu2.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 9424
+  },
+  {
+    "file": "dconf-gsettings-backend_0.36.0-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/d/dconf/dconf-gsettings-backend_0.36.0-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 22468
+  },
+  {
+    "file": "dbus_1.12.16-2ubuntu2.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/d/dbus/dbus_1.12.16-2ubuntu2.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 151244
+  },
+  {
+    "file": "libcups2_2.3.1-9ubuntu1.9_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/c/cups/libcups2_2.3.1-9ubuntu1.9_amd64.deb",
+    "status": "downloaded",
+    "bytes": 233504
+  },
+  {
+    "file": "libcurl3-gnutls_7.68.0-1ubuntu2.25_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/c/curl/libcurl3-gnutls_7.68.0-1ubuntu2.25_amd64.deb",
+    "status": "downloaded",
+    "bytes": 232608
+  },
+  {
+    "file": "libdbus-1-3_1.12.16-2ubuntu2.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/d/dbus/libdbus-1-3_1.12.16-2ubuntu2.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 179056
+  },
+  {
+    "file": "libelf1_0.176-1.1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/e/elfutils/libelf1_0.176-1.1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 44180
+  },
+  {
+    "file": "libdconf1_0.36.0-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/d/dconf/libdconf1_0.36.0-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 37384
+  },
+  {
+    "file": "dconf-service_0.36.0-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/d/dconf/dconf-service_0.36.0-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 29780
+  },
+  {
+    "file": "fontconfig-config_2.13.1-2ubuntu3_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/f/fontconfig/fontconfig-config_2.13.1-2ubuntu3_all.deb",
+    "status": "downloaded",
+    "bytes": 28780
+  },
+  {
+    "file": "libcurl4-gnutls-dev_7.68.0-1ubuntu2.25_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/c/curl/libcurl4-gnutls-dev_7.68.0-1ubuntu2.25_amd64.deb",
+    "status": "downloaded",
+    "bytes": 320264
+  },
+  {
+    "file": "libfontconfig1_2.13.1-2ubuntu3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/f/fontconfig/libfontconfig1_2.13.1-2ubuntu3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 114072
+  },
+  {
+    "file": "libcairo2_1.16.0-4ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/c/cairo/libcairo2_1.16.0-4ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 583488
+  },
+  {
+    "file": "fontconfig_2.13.1-2ubuntu3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/f/fontconfig/fontconfig_2.13.1-2ubuntu3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 171216
+  },
+  {
+    "file": "libfreetype6-dev_2.10.1-2ubuntu0.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/f/freetype/libfreetype6-dev_2.10.1-2ubuntu0.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 9808
+  },
+  {
+    "file": "libfribidi0_1.0.8-2ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/f/fribidi/libfribidi0_1.0.8-2ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 24168
+  },
+  {
+    "file": "libgdk-pixbuf2.0-common_2.40.0+dfsg-3ubuntu0.5_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/gdk-pixbuf/libgdk-pixbuf2.0-common_2.40.0+dfsg-3ubuntu0.5_all.deb",
+    "status": "downloaded",
+    "bytes": 4628
+  },
+  {
+    "file": "libgif-dev_5.1.9-1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/giflib/libgif-dev_5.1.9-1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 20656
+  },
+  {
+    "file": "libgif7_5.1.9-1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/giflib/libgif7_5.1.9-1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 32416
+  },
+  {
+    "file": "libgdk-pixbuf2.0-0_2.40.0+dfsg-3ubuntu0.5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/gdk-pixbuf/libgdk-pixbuf2.0-0_2.40.0+dfsg-3ubuntu0.5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 168800
+  },
+  {
+    "file": "glib-networking-common_2.64.2-1ubuntu0.1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/glib-networking/glib-networking-common_2.64.2-1ubuntu0.1_all.deb",
+    "status": "downloaded",
+    "bytes": 5040
+  },
+  {
+    "file": "glib-networking-services_2.64.2-1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/glib-networking/glib-networking-services_2.64.2-1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 10648
+  },
+  {
+    "file": "libfreetype6_2.10.1-2ubuntu0.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/f/freetype/libfreetype6_2.10.1-2ubuntu0.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 340804
+  },
+  {
+    "file": "glib-networking_2.64.2-1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/glib-networking/glib-networking_2.64.2-1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 58244
+  },
+  {
+    "file": "libgraphite2-3_1.3.13-11build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/graphite2/libgraphite2-3_1.3.13-11build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 73548
+  },
+  {
+    "file": "libfreetype-dev_2.10.1-2ubuntu0.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/f/freetype/libfreetype-dev_2.10.1-2ubuntu0.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 492748
+  },
+  {
+    "file": "libfontconfig1-dev_2.13.1-2ubuntu3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/f/fontconfig/libfontconfig1-dev_2.13.1-2ubuntu3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 730984
+  },
+  {
+    "file": "gsettings-desktop-schemas_3.36.0-1ubuntu1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/gsettings-desktop-schemas/gsettings-desktop-schemas_3.36.0-1ubuntu1_all.deb",
+    "status": "downloaded",
+    "bytes": 28976
+  },
+  {
+    "file": "gtk-update-icon-cache_3.24.20-0ubuntu1.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/gtk+3.0/gtk-update-icon-cache_3.24.20-0ubuntu1.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 28324
+  },
+  {
+    "file": "libgtk-3-common_3.24.20-0ubuntu1.2_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/gtk+3.0/libgtk-3-common_3.24.20-0ubuntu1.2_all.deb",
+    "status": "downloaded",
+    "bytes": 233916
+  },
+  {
+    "file": "fonts-dejavu-core_2.37-1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/f/fonts-dejavu/fonts-dejavu-core_2.37-1_all.deb",
+    "status": "downloaded",
+    "bytes": 1040712
+  },
+  {
+    "file": "hicolor-icon-theme_0.17-2_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/h/hicolor-icon-theme/hicolor-icon-theme_0.17-2_all.deb",
+    "status": "downloaded",
+    "bytes": 9976
+  },
+  {
+    "file": "git-man_2.25.1-1ubuntu3.14_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/git/git-man_2.25.1-1ubuntu3.14_all.deb",
+    "status": "downloaded",
+    "bytes": 886704
+  },
+  {
+    "file": "python3-hyperlink_19.0.0-1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/h/hyperlink/python3-hyperlink_19.0.0-1_all.deb",
+    "status": "downloaded",
+    "bytes": 33544
+  },
+  {
+    "file": "libgstreamer-plugins-base1.0-0_1.16.3-0ubuntu1.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-0_1.16.3-0ubuntu1.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 740876
+  },
+  {
+    "file": "libhyphen0_2.8.8-7_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/h/hyphen/libhyphen0_2.8.8-7_amd64.deb",
+    "status": "downloaded",
+    "bytes": 26964
+  },
+  {
+    "file": "libharfbuzz0b_2.6.4-1ubuntu4.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/h/harfbuzz/libharfbuzz0b_2.6.4-1ubuntu4.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 391136
+  },
+  {
+    "file": "python3-incremental_16.10.1-3.2_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/i/incremental/python3-incremental_16.10.1-3.2_all.deb",
+    "status": "downloaded",
+    "bytes": 14892
+  },
+  {
+    "file": "libjbig-dev_2.1-3.1ubuntu0.20.04.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/j/jbigkit/libjbig-dev_2.1-3.1ubuntu0.20.04.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 25676
+  },
+  {
+    "file": "libjbig0_2.1-3.1ubuntu0.20.04.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/j/jbigkit/libjbig0_2.1-3.1ubuntu0.20.04.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 27272
+  },
+  {
+    "file": "libgstreamer1.0-0_1.16.3-0ubuntu1.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/gstreamer1.0/libgstreamer1.0-0_1.16.3-0ubuntu1.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 894416
+  },
+  {
+    "file": "libjson-glib-1.0-0_1.4.4-2ubuntu2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/j/json-glib/libjson-glib-1.0-0_1.4.4-2ubuntu2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 59396
+  },
+  {
+    "file": "libjson-glib-1.0-common_1.4.4-2ubuntu2_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/j/json-glib/libjson-glib-1.0-common_1.4.4-2ubuntu2_all.deb",
+    "status": "downloaded",
+    "bytes": 3468
+  },
+  {
+    "file": "libjson-c-dev_0.13.1+dfsg-7ubuntu0.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/j/json-c/libjson-c-dev_0.13.1+dfsg-7ubuntu0.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 46920
+  },
+  {
+    "file": "libmp3lame0_3.100-3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/l/lame/libmp3lame0_3.100-3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 132544
+  },
+  {
+    "file": "libblas-dev_3.9.0-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/l/lapack/libblas-dev_3.9.0-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 146640
+  },
+  {
+    "file": "liblcms2-2_2.9-4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/l/lcms2/liblcms2-2_2.9-4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 140296
+  },
+  {
+    "file": "humanity-icon-theme_0.6.15_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/h/humanity-icon-theme/humanity-icon-theme_0.6.15_all.deb",
+    "status": "downloaded",
+    "bytes": 1250380
+  },
+  {
+    "file": "libsensors-config_3.6.0-2ubuntu1.1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/l/lm-sensors/libsensors-config_3.6.0-2ubuntu1.1_all.deb",
+    "status": "downloaded",
+    "bytes": 6052
+  },
+  {
+    "file": "libsensors5_3.6.0-2ubuntu1.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/l/lm-sensors/libsensors5_3.6.0-2ubuntu1.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 27152
+  },
+  {
+    "file": "libcap2-bin_2.32-1ubuntu0.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libc/libcap2/libcap2-bin_2.32-1ubuntu0.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 26188
+  },
+  {
+    "file": "adwaita-icon-theme_3.36.1-2ubuntu0.20.04.2_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/a/adwaita-icon-theme/adwaita-icon-theme_3.36.1-2ubuntu0.20.04.2_all.deb",
+    "status": "downloaded",
+    "bytes": 3441200
+  },
+  {
+    "file": "libdrm-amdgpu1_2.4.107-8ubuntu1~20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libd/libdrm/libdrm-amdgpu1_2.4.107-8ubuntu1~20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 18600
+  },
+  {
+    "file": "libdrm-common_2.4.107-8ubuntu1~20.04.2_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libd/libdrm/libdrm-common_2.4.107-8ubuntu1~20.04.2_all.deb",
+    "status": "downloaded",
+    "bytes": 5396
+  },
+  {
+    "file": "libdrm-intel1_2.4.107-8ubuntu1~20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libd/libdrm/libdrm-intel1_2.4.107-8ubuntu1~20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 60256
+  },
+  {
+    "file": "libdatrie1_0.2.12-3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libd/libdatrie/libdatrie1_0.2.12-3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 18692
+  },
+  {
+    "file": "libdrm-nouveau2_2.4.107-8ubuntu1~20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libd/libdrm/libdrm-nouveau2_2.4.107-8ubuntu1~20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 16572
+  },
+  {
+    "file": "libgtk-3-0_3.24.20-0ubuntu1.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/gtk+3.0/libgtk-3-0_3.24.20-0ubuntu1.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2620220
+  },
+  {
+    "file": "libdrm-radeon1_2.4.107-8ubuntu1~20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libd/libdrm/libdrm-radeon1_2.4.107-8ubuntu1~20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 19676
+  },
+  {
+    "file": "libdrm2_2.4.107-8ubuntu1~20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libd/libdrm/libdrm2_2.4.107-8ubuntu1~20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 34112
+  },
+  {
+    "file": "libevdev2_1.9.0+dfsg-1ubuntu0.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libe/libevdev/libevdev2_1.9.0+dfsg-1ubuntu0.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 31584
+  },
+  {
+    "file": "liberror-perl_0.17029-1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libe/liberror-perl/liberror-perl_0.17029-1_all.deb",
+    "status": "downloaded",
+    "bytes": 26460
+  },
+  {
+    "file": "libexif-dev_0.6.21-6ubuntu0.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libe/libexif/libexif-dev_0.6.21-6ubuntu0.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 84036
+  },
+  {
+    "file": "libexif12_0.6.21-6ubuntu0.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libe/libexif/libexif12_0.6.21-6ubuntu0.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 78616
+  },
+  {
+    "file": "libgd3_2.2.5-5.2ubuntu2.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libgd2/libgd3_2.2.5-5.2ubuntu2.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 118120
+  },
+  {
+    "file": "libepoxy0_1.5.4-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libe/libepoxy/libepoxy0_1.5.4-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 190748
+  },
+  {
+    "file": "libegl-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libegl-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 17212
+  },
+  {
+    "file": "libglu1-mesa_9.0.1-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglu/libglu1-mesa_9.0.1-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 168356
+  },
+  {
+    "file": "libglu1-mesa-dev_9.0.1-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglu/libglu1-mesa-dev_9.0.1-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 207332
+  },
+  {
+    "file": "libegl1_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libegl1_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 31908
+  },
+  {
+    "file": "libgl-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libgl-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 97812
+  },
+  {
+    "file": "libgl1_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libgl1_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 85848
+  },
+  {
+    "file": "libgles1_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libgles1_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 10340
+  },
+  {
+    "file": "libgles-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libgles-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 47940
+  },
+  {
+    "file": "libgles2_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libgles2_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 15612
+  },
+  {
+    "file": "libglvnd-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libglvnd-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 11572
+  },
+  {
+    "file": "libglvnd0_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libglvnd0_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 48148
+  },
+  {
+    "file": "libglx-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libglx-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 13980
+  },
+  {
+    "file": "iso-codes_4.4-1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/i/iso-codes/iso-codes_4.4-1_all.deb",
+    "status": "downloaded",
+    "bytes": 2694644
+  },
+  {
+    "file": "libglx0_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libglx0_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 32536
+  },
+  {
+    "file": "libopengl0_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libopengl0_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 29236
+  },
+  {
+    "file": "libopengl-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libglvnd/libopengl-dev_1.3.2-1~ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 3584
+  },
+  {
+    "file": "libgphoto2-port12_2.5.25-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libgphoto2/libgphoto2-port12_2.5.25-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 51824
+  },
+  {
+    "file": "libgudev-1.0-0_233-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libgudev/libgudev-1.0-0_233-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 13988
+  },
+  {
+    "file": "libice-dev_1.0.10-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libi/libice/libice-dev_1.0.10-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 47800
+  },
+  {
+    "file": "libinput-bin_1.15.5-1ubuntu0.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libi/libinput/libinput-bin_1.15.5-1ubuntu0.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 19340
+  },
+  {
+    "file": "libinput10_1.15.5-1ubuntu0.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libi/libinput/libinput10_1.15.5-1ubuntu0.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 111980
+  },
+  {
+    "file": "libice6_1.0.10-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libi/libice/libice6_1.0.10-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 40976
+  },
+  {
+    "file": "libjpeg-turbo8_2.0.3-0ubuntu1.20.04.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libj/libjpeg-turbo/libjpeg-turbo8_2.0.3-0ubuntu1.20.04.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 118048
+  },
+  {
+    "file": "libgphoto2-dev_2.5.25-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libgphoto2/libgphoto2-dev_2.5.25-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 625260
+  },
+  {
+    "file": "libjpeg-dev_8c-2ubuntu8_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libj/libjpeg8-empty/libjpeg-dev_8c-2ubuntu8_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1546
+  },
+  {
+    "file": "libjpeg-turbo8-dev_2.0.3-0ubuntu1.20.04.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libj/libjpeg-turbo/libjpeg-turbo8-dev_2.0.3-0ubuntu1.20.04.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 238312
+  },
+  {
+    "file": "libjpeg8-dev_8c-2ubuntu8_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libj/libjpeg8-empty/libjpeg8-dev_8c-2ubuntu8_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1552
+  },
+  {
+    "file": "libjpeg8_8c-2ubuntu8_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libj/libjpeg8-empty/libjpeg8_8c-2ubuntu8_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2194
+  },
+  {
+    "file": "libjsoncpp-dev_1.7.4-3.1ubuntu2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libj/libjsoncpp/libjsoncpp-dev_1.7.4-3.1ubuntu2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 91132
+  },
+  {
+    "file": "libgphoto2-6_2.5.25-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libg/libgphoto2/libgphoto2-6_2.5.25-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 652656
+  },
+  {
+    "file": "libogg0_1.3.4-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libo/libogg/libogg0_1.3.4-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 23952
+  },
+  {
+    "file": "libpcap0.8_1.9.1-3ubuntu1.20.04.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libp/libpcap/libpcap0.8_1.9.1-3ubuntu1.20.04.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 127832
+  },
+  {
+    "file": "git_2.25.1-1ubuntu3.14_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/g/git/git_2.25.1-1ubuntu3.14_amd64.deb",
+    "status": "downloaded",
+    "bytes": 4613292
+  },
+  {
+    "file": "libogg-dev_1.3.4-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libo/libogg/libogg-dev_1.3.4-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 161324
+  },
+  {
+    "file": "libproxy1v5_0.4.15-10ubuntu1.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libp/libproxy/libproxy1v5_0.4.15-10ubuntu1.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 49096
+  },
+  {
+    "file": "libpng-dev_1.6.37-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libp/libpng1.6/libpng-dev_1.6.37-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 175348
+  },
+  {
+    "file": "libpthread-stubs0-dev_0.4-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libp/libpthread-stubs/libpthread-stubs0-dev_0.4-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5384
+  },
+  {
+    "file": "libraw1394-11_2.1.2-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libr/libraw1394/libraw1394-11_2.1.2-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 30718
+  },
+  {
+    "file": "librest-0.7-0_0.8.1-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libr/librest/librest-0.7-0_0.8.1-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 32152
+  },
+  {
+    "file": "libraw1394-dev_2.1.2-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libr/libraw1394/libraw1394-dev_2.1.2-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 35470
+  },
+  {
+    "file": "librsvg2-common_2.48.9-1ubuntu0.20.04.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libr/librsvg/librsvg2-common_2.48.9-1ubuntu0.20.04.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 9224
+  },
+  {
+    "file": "libsm-dev_1.2.3-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libs/libsm/libsm-dev_1.2.3-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 17048
+  },
+  {
+    "file": "libpng16-16_1.6.37-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libp/libpng1.6/libpng16-16_1.6.37-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 179076
+  },
+  {
+    "file": "libsoup-gnome2.4-1_2.70.0-1ubuntu0.5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libs/libsoup2.4/libsoup-gnome2.4-1_2.70.0-1ubuntu0.5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 6148
+  },
+  {
+    "file": "libraw19_0.19.5-1ubuntu1.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libr/libraw/libraw19_0.19.5-1ubuntu1.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 261380
+  },
+  {
+    "file": "libsm6_1.2.3-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libs/libsm/libsm6_1.2.3-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 16144
+  },
+  {
+    "file": "libsoxr0_0.1.3-2build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libs/libsoxr/libsoxr0_0.1.3-2build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 77984
+  },
+  {
+    "file": "libthai-data_0.1.28-3_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libt/libthai/libthai-data_0.1.28-3_all.deb",
+    "status": "downloaded",
+    "bytes": 134404
+  },
+  {
+    "file": "libssh-gcrypt-4_0.9.3-2ubuntu2.5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libs/libssh/libssh-gcrypt-4_0.9.3-2ubuntu2.5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 202428
+  },
+  {
+    "file": "libthai0_0.1.28-3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libt/libthai/libthai0_0.1.28-3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 18124
+  },
+  {
+    "file": "libsoup2.4-1_2.70.0-1ubuntu0.5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libs/libsoup2.4/libsoup2.4-1_2.70.0-1ubuntu0.5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 262712
+  },
+  {
+    "file": "libvdpau1_1.3-1ubuntu2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libv/libvdpau/libvdpau1_1.3-1ubuntu2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 25624
+  },
+  {
+    "file": "libusb-1.0-0_1.0.23-2build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libu/libusb-1.0/libusb-1.0-0_1.0.23-2build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 46488
+  },
+  {
+    "file": "libtheora0_1.1.1+dfsg.1-15ubuntu2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libt/libtheora/libtheora0_1.1.1+dfsg.1-15ubuntu2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 162300
+  },
+  {
+    "file": "libvorbisenc2_1.3.6-2ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libv/libvorbis/libvorbisenc2_1.3.6-2ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 70684
+  },
+  {
+    "file": "libvorbis0a_1.3.6-2ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libv/libvorbis/libvorbis0a_1.3.6-2ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 86980
+  },
+  {
+    "file": "libtheora-dev_1.1.1+dfsg.1-15ubuntu2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libt/libtheora/libtheora-dev_1.1.1+dfsg.1-15ubuntu2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 178324
+  },
+  {
+    "file": "libwacom-common_1.3-2ubuntu3_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libw/libwacom/libwacom-common_1.3-2ubuntu3_all.deb",
+    "status": "downloaded",
+    "bytes": 45256
+  },
+  {
+    "file": "libvorbisfile3_1.3.6-2ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libv/libvorbis/libvorbisfile3_1.3.6-2ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 16140
+  },
+  {
+    "file": "libwacom2_1.3-2ubuntu3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libw/libwacom/libwacom2_1.3-2ubuntu3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 19968
+  },
+  {
+    "file": "libwebpdemux2_0.6.1-2ubuntu0.20.04.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libw/libwebp/libwebpdemux2_0.6.1-2ubuntu0.20.04.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 9560
+  },
+  {
+    "file": "libwebpmux3_0.6.1-2ubuntu0.20.04.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libw/libwebp/libwebpmux3_0.6.1-2ubuntu0.20.04.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 19496
+  },
+  {
+    "file": "liblapack-dev_3.9.0-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/l/lapack/liblapack-dev_3.9.0-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 4241644
+  },
+  {
+    "file": "libwebp6_0.6.1-2ubuntu0.20.04.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libw/libwebp/libwebp6_0.6.1-2ubuntu0.20.04.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 185248
+  },
+  {
+    "file": "libx11-xcb1_1.6.9-2ubuntu1.6_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libx11/libx11-xcb1_1.6.9-2ubuntu1.6_amd64.deb",
+    "status": "downloaded",
+    "bytes": 9448
+  },
+  {
+    "file": "libwebp-dev_0.6.1-2ubuntu0.20.04.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libw/libwebp/libwebp-dev_0.6.1-2ubuntu0.20.04.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 266592
+  },
+  {
+    "file": "libxau-dev_1.0.9-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxau/libxau-dev_1.0.9-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 9552
+  },
+  {
+    "file": "libxcb-dri2-0_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-dri2-0_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 6920
+  },
+  {
+    "file": "libxaw7_1.0.13-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxaw/libxaw7_1.0.13-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 173220
+  },
+  {
+    "file": "libxcb-dri3-0_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-dri3-0_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 6552
+  },
+  {
+    "file": "libxcb-glx0_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-glx0_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 22068
+  },
+  {
+    "file": "libvpx6_1.8.2-1ubuntu0.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libv/libvpx/libvpx6_1.8.2-1ubuntu0.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 819380
+  },
+  {
+    "file": "libxcb-randr0_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-randr0_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 16316
+  },
+  {
+    "file": "libxcb-present0_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-present0_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5560
+  },
+  {
+    "file": "libxcb-render0_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-render0_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 14840
+  },
+  {
+    "file": "libxcb-shape0_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-shape0_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5928
+  },
+  {
+    "file": "libx11-dev_1.6.9-2ubuntu1.6_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libx11/libx11-dev_1.6.9-2ubuntu1.6_amd64.deb",
+    "status": "downloaded",
+    "bytes": 647700
+  },
+  {
+    "file": "libxcb-xinerama0_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-xinerama0_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5260
+  },
+  {
+    "file": "libxcb-sync1_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-sync1_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 8884
+  },
+  {
+    "file": "libxcb-xinput0_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-xinput0_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 29344
+  },
+  {
+    "file": "libxcb-xfixes0_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-xfixes0_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 9296
+  },
+  {
+    "file": "libxcb-xkb1_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-xkb1_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 29572
+  },
+  {
+    "file": "libxcb-shm0_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb-shm0_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5584
+  },
+  {
+    "file": "libxcb1-dev_1.14-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcb/libxcb1-dev_1.14-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 80452
+  },
+  {
+    "file": "libxdmcp-dev_1.1.3-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxdmcp/libxdmcp-dev_1.1.3-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 25328
+  },
+  {
+    "file": "libxcomposite1_0.4.5-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcomposite/libxcomposite1_0.4.5-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 6976
+  },
+  {
+    "file": "libxcursor1_1.2.0-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxcursor/libxcursor1_1.2.0-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 20068
+  },
+  {
+    "file": "libxdamage1_1.1.5-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxdamage/libxdamage1_1.1.5-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 6996
+  },
+  {
+    "file": "libxkbcommon-x11-0_0.10.0-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxkbcommon/libxkbcommon-x11-0_0.10.0-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 13432
+  },
+  {
+    "file": "libxext-dev_1.3.4-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxext/libxext-dev_1.3.4-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 82216
+  },
+  {
+    "file": "libxfixes3_5.0.3-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxfixes/libxfixes3_5.0.3-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 10932
+  },
+  {
+    "file": "libxinerama1_1.1.4-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxinerama/libxinerama1_1.1.4-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 6904
+  },
+  {
+    "file": "libxkbcommon0_0.10.0-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxkbcommon/libxkbcommon0_0.10.0-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 98444
+  },
+  {
+    "file": "libxi6_1.7.10-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxi/libxi6_1.7.10-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 29896
+  },
+  {
+    "file": "libxpm4_3.5.12-1ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxpm/libxpm4_3.5.12-1ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 34924
+  },
+  {
+    "file": "libxmu6_1.1.3-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxmu/libxmu6_1.1.3-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 45832
+  },
+  {
+    "file": "libxrandr2_1.5.2-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxrandr/libxrandr2_1.5.2-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 18544
+  },
+  {
+    "file": "libxrender1_0.9.10-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxrender/libxrender1_0.9.10-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 18706
+  },
+  {
+    "file": "libxrender-dev_0.9.10-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxrender/libxrender-dev_0.9.10-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 24904
+  },
+  {
+    "file": "libxss-dev_1.2.3-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxss/libxss-dev_1.2.3-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 11924
+  },
+  {
+    "file": "libxshmfence1_1.3-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxshmfence/libxshmfence1_1.3-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5028
+  },
+  {
+    "file": "libxss1_1.2.3-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxss/libxss1_1.2.3-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 8140
+  },
+  {
+    "file": "libxslt1.1_1.1.34-4ubuntu0.20.04.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxslt/libxslt1.1_1.1.34-4ubuntu0.20.04.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 151336
+  },
+  {
+    "file": "libxt6_1.1.5-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxt/libxt6_1.1.5-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 159658
+  },
+  {
+    "file": "libxxf86vm1_1.1.4-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxxf86vm/libxxf86vm1_1.1.4-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 10164
+  },
+  {
+    "file": "librsvg2-2_2.48.9-1ubuntu0.20.04.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libr/librsvg/librsvg2-2_2.48.9-1ubuntu0.20.04.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2313068
+  },
+  {
+    "file": "libegl-mesa0_21.2.6-0ubuntu0.1~20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/m/mesa/libegl-mesa0_21.2.6-0ubuntu0.1~20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 96296
+  },
+  {
+    "file": "libgl1-mesa-dev_21.2.6-0ubuntu0.1~20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/m/mesa/libgl1-mesa-dev_21.2.6-0ubuntu0.1~20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 6420
+  },
+  {
+    "file": "libgbm1_21.2.6-0ubuntu0.1~20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/m/mesa/libgbm1_21.2.6-0ubuntu0.1~20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 29200
+  },
+  {
+    "file": "libglapi-mesa_21.2.6-0ubuntu0.1~20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/m/mesa/libglapi-mesa_21.2.6-0ubuntu0.1~20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 27412
+  },
+  {
+    "file": "libglx-mesa0_21.2.6-0ubuntu0.1~20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/m/mesa/libglx-mesa0_21.2.6-0ubuntu0.1~20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 137080
+  },
+  {
+    "file": "libxt-dev_1.1.5-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxt/libxt-dev_1.1.5-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 395280
+  },
+  {
+    "file": "libmtdev1_1.1.5-1.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/m/mtdev/libmtdev1_1.1.5-1.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 14248
+  },
+  {
+    "file": "libzstd-dev_1.4.4+dfsg-3ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libz/libzstd/libzstd-dev_1.4.4+dfsg-3ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 286408
+  },
+  {
+    "file": "libmpg123-0_1.25.13-1ubuntu0.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/m/mpg123/libmpg123-0_1.25.13-1ubuntu0.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 123724
+  },
+  {
+    "file": "libnspr4_4.35-0ubuntu0.20.04.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/n/nspr/libnspr4_4.35-0ubuntu0.20.04.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 107632
+  },
+  {
+    "file": "libopenjp2-7-dev_2.3.1-1ubuntu4.20.04.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/o/openjpeg2/libopenjp2-7-dev_2.3.1-1ubuntu4.20.04.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 26716
+  },
+  {
+    "file": "libxml2-dev_2.9.10+dfsg-5ubuntu0.20.04.10_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/libx/libxml2/libxml2-dev_2.9.10+dfsg-5ubuntu0.20.04.10_amd64.deb",
+    "status": "downloaded",
+    "bytes": 735004
+  },
+  {
+    "file": "libopenjp2-7_2.3.1-1ubuntu4.20.04.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/o/openjpeg2/libopenjp2-7_2.3.1-1ubuntu4.20.04.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 141424
+  },
+  {
+    "file": "libpangocairo-1.0-0_1.44.7-2ubuntu4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/pango1.0/libpangocairo-1.0-0_1.44.7-2ubuntu4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 24812
+  },
+  {
+    "file": "libpangoft2-1.0-0_1.44.7-2ubuntu4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/pango1.0/libpangoft2-1.0-0_1.44.7-2ubuntu4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 34928
+  },
+  {
+    "file": "libopus0_1.3.1-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/o/opus/libopus0_1.3.1-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 191092
+  },
+  {
+    "file": "liborc-0.4-0_0.4.31-1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/o/orc/liborc-0.4-0_0.4.31-1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 188460
+  },
+  {
+    "file": "libpango-1.0-0_1.44.7-2ubuntu4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/pango1.0/libpango-1.0-0_1.44.7-2ubuntu4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 162008
+  },
+  {
+    "file": "libpoppler-dev_0.86.1-0ubuntu1.7_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/poppler/libpoppler-dev_0.86.1-0ubuntu1.7_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5340
+  },
+  {
+    "file": "libpq-dev_12.22-0ubuntu0.20.04.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/postgresql-12/libpq-dev_12.22-0ubuntu0.20.04.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 137620
+  },
+  {
+    "file": "libpixman-1-0_0.38.4-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/pixman/libpixman-1-0_0.38.4-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 226932
+  },
+  {
+    "file": "libpq5_12.22-0ubuntu0.20.04.4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/postgresql-12/libpq5_12.22-0ubuntu0.20.04.4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 118564
+  },
+  {
+    "file": "libpoppler-private-dev_0.86.1-0ubuntu1.7_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/poppler/libpoppler-private-dev_0.86.1-0ubuntu1.7_amd64.deb",
+    "status": "downloaded",
+    "bytes": 173700
+  },
+  {
+    "file": "python3-hamcrest_1.9.0-3_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/pyhamcrest/python3-hamcrest_1.9.0-3_all.deb",
+    "status": "downloaded",
+    "bytes": 24852
+  },
+  {
+    "file": "python3-pyasn1_0.4.2-3build1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/pyasn1/python3-pyasn1_0.4.2-3build1_all.deb",
+    "status": "downloaded",
+    "bytes": 46664
+  },
+  {
+    "file": "python3-openssl_19.0.0-1build1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/pyopenssl/python3-openssl_19.0.0-1build1_all.deb",
+    "status": "downloaded",
+    "bytes": 43268
+  },
+  {
+    "file": "python3-attr_19.3.0-2_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/python-attrs/python3-attr_19.3.0-2_all.deb",
+    "status": "downloaded",
+    "bytes": 33880
+  },
+  {
+    "file": "python3-idna_2.8-1ubuntu0.1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/python-idna/python3-idna_2.8-1ubuntu0.1_all.deb",
+    "status": "downloaded",
+    "bytes": 36248
+  },
+  {
+    "file": "python3-service-identity_18.1.0-5build1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/python-service-identity/python3-service-identity_18.1.0-5build1_all.deb",
+    "status": "downloaded",
+    "bytes": 10688
+  },
+  {
+    "file": "python3-pyasn1-modules_0.2.1-0.2build1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/python-pyasn1-modules/python3-pyasn1-modules_0.2.1-0.2build1_all.deb",
+    "status": "downloaded",
+    "bytes": 32928
+  },
+  {
+    "file": "libsnappy1v5_1.1.8-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/s/snappy/libsnappy1v5_1.1.8-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 16672
+  },
+  {
+    "file": "libspeex1_1.2~rc1.2-1.1ubuntu1.20.04.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/s/speex/libspeex1_1.2~rc1.2-1.1ubuntu1.20.04.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 53228
+  },
+  {
+    "file": "libpam-systemd_245.4-4ubuntu3.24_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/s/systemd/libpam-systemd_245.4-4ubuntu3.24_amd64.deb",
+    "status": "downloaded",
+    "bytes": 185792
+  },
+  {
+    "file": "libprotobuf17_3.6.1.3-2ubuntu5.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/protobuf/libprotobuf17_3.6.1.3-2ubuntu5.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 798088
+  },
+  {
+    "file": "libpoppler97_0.86.1-0ubuntu1.7_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/p/poppler/libpoppler97_0.86.1-0ubuntu1.7_amd64.deb",
+    "status": "downloaded",
+    "bytes": 915156
+  },
+  {
+    "file": "tcl8.6_8.6.10+dfsg-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/t/tcl8.6/tcl8.6_8.6.10+dfsg-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 14764
+  },
+  {
+    "file": "libnss3_3.98-0ubuntu0.20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/n/nss/libnss3_3.98-0ubuntu0.20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1391200
+  },
+  {
+    "file": "shared-mime-info_1.15-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/s/shared-mime-info/shared-mime-info_1.15-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 430464
+  },
+  {
+    "file": "libtiff5_4.1.0+git191117-2ubuntu0.20.04.14_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/t/tiff/libtiff5_4.1.0+git191117-2ubuntu0.20.04.14_amd64.deb",
+    "status": "downloaded",
+    "bytes": 163968
+  },
+  {
+    "file": "libtiffxx5_4.1.0+git191117-2ubuntu0.20.04.14_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/t/tiff/libtiffxx5_4.1.0+git191117-2ubuntu0.20.04.14_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5884
+  },
+  {
+    "file": "libtiff-dev_4.1.0+git191117-2ubuntu0.20.04.14_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/t/tiff/libtiff-dev_4.1.0+git191117-2ubuntu0.20.04.14_amd64.deb",
+    "status": "downloaded",
+    "bytes": 287028
+  },
+  {
+    "file": "tk8.6_8.6.10-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/t/tk8.6/tk8.6_8.6.10-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 12480
+  },
+  {
+    "file": "python3-twisted-bin_18.9.0-11ubuntu0.20.04.5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/t/twisted/python3-twisted-bin_18.9.0-11ubuntu0.20.04.5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 11428
+  },
+  {
+    "file": "libtcl8.6_8.6.10+dfsg-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/t/tcl8.6/libtcl8.6_8.6.10+dfsg-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 902372
+  },
+  {
+    "file": "tk8.6-dev_8.6.10-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/t/tk8.6/tk8.6-dev_8.6.10-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 710864
+  },
+  {
+    "file": "libtwolame0_0.4.0-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/t/twolame/libtwolame0_0.4.0-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 47628
+  },
+  {
+    "file": "tcl8.6-dev_8.6.10+dfsg-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/t/tcl8.6/tcl8.6-dev_8.6.10+dfsg-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 905008
+  },
+  {
+    "file": "libtk8.6_8.6.10-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/t/tk8.6/libtk8.6_8.6.10-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 713528
+  },
+  {
+    "file": "odbcinst1debian2_2.3.6-0.1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/u/unixodbc/odbcinst1debian2_2.3.6-0.1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 41704
+  },
+  {
+    "file": "ucf_3.0038+nmu1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/u/ucf/ucf_3.0038+nmu1_all.deb",
+    "status": "downloaded",
+    "bytes": 51620
+  },
+  {
+    "file": "odbcinst_2.3.6-0.1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/u/unixodbc/odbcinst_2.3.6-0.1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 14508
+  },
+  {
+    "file": "ubuntu-mono_19.04-0ubuntu3_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/u/ubuntu-themes/ubuntu-mono_19.04-0ubuntu3_all.deb",
+    "status": "downloaded",
+    "bytes": 147204
+  },
+  {
+    "file": "libwavpack1_5.2.0-1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/w/wavpack/libwavpack1_5.2.0-1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 77312
+  },
+  {
+    "file": "libvulkan1_1.2.131.2-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/v/vulkan-loader/libvulkan1_1.2.131.2-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 93332
+  },
+  {
+    "file": "libwayland-client0_1.18.0-1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/w/wayland/libwayland-client0_1.18.0-1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 23868
+  },
+  {
+    "file": "libwayland-cursor0_1.18.0-1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/w/wayland/libwayland-cursor0_1.18.0-1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 10280
+  },
+  {
+    "file": "libwayland-egl1_1.18.0-1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/w/wayland/libwayland-egl1_1.18.0-1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5596
+  },
+  {
+    "file": "unixodbc-dev_2.3.6-0.1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/u/unixodbc/unixodbc-dev_2.3.6-0.1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 229736
+  },
+  {
+    "file": "libwayland-server0_1.18.0-1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/w/wayland/libwayland-server0_1.18.0-1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 31252
+  },
+  {
+    "file": "libwoff1_1.0.2-1build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/w/woff2/libwoff1_1.0.2-1build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 41972
+  },
+  {
+    "file": "libxcb-image0_0.4.0-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xcb-util-image/libxcb-image0_0.4.0-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 12308
+  },
+  {
+    "file": "libxcb-keysyms1_0.4.0-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xcb-util-keysyms/libxcb-keysyms1_0.4.0-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 8452
+  },
+  {
+    "file": "libxcb-render-util0_0.3.9-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xcb-util-renderutil/libxcb-render-util0_0.3.9-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 9912
+  },
+  {
+    "file": "libxcb-icccm4_0.4.1-1.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xcb-util-wm/libxcb-icccm4_0.4.1-1.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 10780
+  },
+  {
+    "file": "libxcb-util1_0.4.0-0ubuntu3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xcb-util/libxcb-util1_0.4.0-0ubuntu3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 11198
+  },
+  {
+    "file": "libxft-dev_2.3.3-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xft/libxft-dev_2.3.3-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 49072
+  },
+  {
+    "file": "xorg-sgml-doctools_1.11-1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xorg-sgml-doctools/xorg-sgml-doctools_1.11-1_all.deb",
+    "status": "downloaded",
+    "bytes": 12926
+  },
+  {
+    "file": "libxft2_2.3.3-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xft/libxft2_2.3.3-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 39192
+  },
+  {
+    "file": "x11proto-core-dev_2019.2-1ubuntu1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xorgproto/x11proto-core-dev_2019.2-1ubuntu1_all.deb",
+    "status": "downloaded",
+    "bytes": 2620
+  },
+  {
+    "file": "libvulkan-dev_1.2.131.2-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/v/vulkan-loader/libvulkan-dev_1.2.131.2-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 481912
+  },
+  {
+    "file": "x11-common_7.7+19ubuntu14_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xorg/x11-common_7.7+19ubuntu14_all.deb",
+    "status": "downloaded",
+    "bytes": 22344
+  },
+  {
+    "file": "x11proto-xext-dev_2019.2-1ubuntu1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xorgproto/x11proto-xext-dev_2019.2-1ubuntu1_all.deb",
+    "status": "downloaded",
+    "bytes": 2616
+  },
+  {
+    "file": "x11proto-scrnsaver-dev_2019.2-1ubuntu1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xorgproto/x11proto-scrnsaver-dev_2019.2-1ubuntu1_all.deb",
+    "status": "downloaded",
+    "bytes": 2624
+  },
+  {
+    "file": "xtrans-dev_1.4.0-1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xtrans/xtrans-dev_1.4.0-1_all.deb",
+    "status": "downloaded",
+    "bytes": 68900
+  },
+  {
+    "file": "xkb-data_2.29-2_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xkeyboard-config/xkb-data_2.29-2_all.deb",
+    "status": "downloaded",
+    "bytes": 348648
+  },
+  {
+    "file": "liblzma-dev_5.2.4-1ubuntu1.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xz-utils/liblzma-dev_5.2.4-1ubuntu1.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 146556
+  },
+  {
+    "file": "libyaml-cpp0.6_0.6.2-4ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/y/yaml-cpp/libyaml-cpp0.6_0.6.2-4ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 124160
+  },
+  {
+    "file": "libyaml-cpp-dev_0.6.2-4ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/y/yaml-cpp/libyaml-cpp-dev_0.6.2-4ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 170912
+  },
+  {
+    "file": "libann0_1.1.2+doc-7build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/a/ann/libann0_1.1.2+doc-7build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 25956
+  },
+  {
+    "file": "python3-zope.interface_4.7.1-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/z/zope.interface/python3-zope.interface_4.7.1-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 85152
+  },
+  {
+    "file": "libarmadillo9_9.800.4+dfsg-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/a/armadillo/libarmadillo9_9.800.4+dfsg-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 93212
+  },
+  {
+    "file": "libarpack2-dev_3.7.0-3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/a/arpack/libarpack2-dev_3.7.0-3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 105040
+  },
+  {
+    "file": "libarpack2_3.7.0-3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/a/arpack/libarpack2_3.7.0-3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 92756
+  },
+  {
+    "file": "python3-twisted_18.9.0-11ubuntu0.20.04.5_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/t/twisted/python3-twisted_18.9.0-11ubuntu0.20.04.5_all.deb",
+    "status": "downloaded",
+    "bytes": 1934632
+  },
+  {
+    "file": "x11proto-dev_2019.2-1ubuntu1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/x/xorgproto/x11proto-dev_2019.2-1ubuntu1_all.deb",
+    "status": "downloaded",
+    "bytes": 593592
+  },
+  {
+    "file": "libarmadillo-dev_9.800.4+dfsg-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/a/armadillo/libarmadillo-dev_9.800.4+dfsg-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 374376
+  },
+  {
+    "file": "libassimp-dev_5.0.1~ds0-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/a/assimp/libassimp-dev_5.0.1~ds0-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 131012
+  },
+  {
+    "file": "libcharls-dev_2.0.0+dfsg-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/c/charls/libcharls-dev_2.0.0+dfsg-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 6568
+  },
+  {
+    "file": "libcfitsio-dev_3.470-3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/c/cfitsio/libcfitsio-dev_3.470-3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 517140
+  },
+  {
+    "file": "libcharls2_2.0.0+dfsg-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/c/charls/libcharls2_2.0.0+dfsg-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 74072
+  },
+  {
+    "file": "libchromaprint1_1.4.3-3build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/c/chromaprint/libchromaprint1_1.4.3-3build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 37632
+  },
+  {
+    "file": "libcfitsio8_3.470-3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/c/cfitsio/libcfitsio8_3.470-3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 466432
+  },
+  {
+    "file": "libaom0_1.0.0.errata1-3+deb11u1ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/a/aom/libaom0_1.0.0.errata1-3+deb11u1ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1161188
+  },
+  {
+    "file": "libeigen3-dev_3.3.7-2_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/e/eigen3/libeigen3-dev_3.3.7-2_all.deb",
+    "status": "downloaded",
+    "bytes": 814596
+  },
+  {
+    "file": "cython3_0.29.14-0.1ubuntu3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/c/cython/cython3_0.29.14-0.1ubuntu3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1474416
+  },
+  {
+    "file": "libassimp5_5.0.1~ds0-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/a/assimp/libassimp5_5.0.1~ds0-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2775136
+  },
+  {
+    "file": "libavformat-dev_4.2.7-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/ffmpeg/libavformat-dev_4.2.7-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1186888
+  },
+  {
+    "file": "libavresample-dev_4.2.7-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/ffmpeg/libavresample-dev_4.2.7-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 64108
+  },
+  {
+    "file": "libavresample4_4.2.7-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/ffmpeg/libavresample4_4.2.7-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 54192
+  },
+  {
+    "file": "libavutil-dev_4.2.7-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/ffmpeg/libavutil-dev_4.2.7-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 365028
+  },
+  {
+    "file": "libavutil56_4.2.7-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/ffmpeg/libavutil56_4.2.7-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 241488
+  },
+  {
+    "file": "libswresample-dev_4.2.7-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/ffmpeg/libswresample-dev_4.2.7-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 70636
+  },
+  {
+    "file": "libavformat58_4.2.7-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/ffmpeg/libavformat58_4.2.7-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 984620
+  },
+  {
+    "file": "libswresample3_4.2.7-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/ffmpeg/libswresample3_4.2.7-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 57116
+  },
+  {
+    "file": "libswscale-dev_4.2.7-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/ffmpeg/libswscale-dev_4.2.7-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 176688
+  },
+  {
+    "file": "libswscale5_4.2.7-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/ffmpeg/libswscale5_4.2.7-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 157324
+  },
+  {
+    "file": "libflann-dev_1.9.1+dfsg-9build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/flann/libflann-dev_1.9.1+dfsg-9build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 657464
+  },
+  {
+    "file": "libflann1.9_1.9.1+dfsg-9build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/flann/libflann1.9_1.9.1+dfsg-9build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 746476
+  },
+  {
+    "file": "libfreeimage3_3.18.0+ds2-1ubuntu3.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/freeimage/libfreeimage3_3.18.0+ds2-1ubuntu3.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 270100
+  },
+  {
+    "file": "libfreexl-dev_1.0.5-3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/freexl/libfreexl-dev_1.0.5-3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 30888
+  },
+  {
+    "file": "libllvm10_10.0.0-4ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/l/llvm-toolchain-10/libllvm10_10.0.0-4ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 15312900
+  },
+  {
+    "file": "libfreexl1_1.0.5-3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/freexl/libfreexl1_1.0.5-3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 33368
+  },
+  {
+    "file": "libfyba0_4.1.1-6build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/fyba/libfyba0_4.1.1-6build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 112584
+  },
+  {
+    "file": "libgme0_0.6.2-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/game-music-emu/libgme0_0.6.2-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 122888
+  },
+  {
+    "file": "libfyba-dev_4.1.1-6build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/fyba/libfyba-dev_4.1.1-6build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 166640
+  },
+  {
+    "file": "gdal-data_3.0.4+dfsg-1build3_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/gdal/gdal-data_3.0.4+dfsg-1build3_all.deb",
+    "status": "downloaded",
+    "bytes": 186260
+  },
+  {
+    "file": "libgdcm-dev_3.0.5-1.1ubuntu2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/gdcm/libgdcm-dev_3.0.5-1.1ubuntu2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 258172
+  },
+  {
+    "file": "libavcodec-dev_4.2.7-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/ffmpeg/libavcodec-dev_4.2.7-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5428128
+  },
+  {
+    "file": "libavcodec58_4.2.7-0ubuntu0.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/f/ffmpeg/libavcodec58_4.2.7-0ubuntu0.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 4878032
+  },
+  {
+    "file": "libgeos-c1v5_3.8.0-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/geos/libgeos-c1v5_3.8.0-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 69936
+  },
+  {
+    "file": "libgeos-dev_3.8.0-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/geos/libgeos-dev_3.8.0-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 92256
+  },
+  {
+    "file": "libgeos-3.8.0_3.8.0-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/geos/libgeos-3.8.0_3.8.0-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 535032
+  },
+  {
+    "file": "libgl1-mesa-dri_21.2.6-0ubuntu0.1~20.04.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/m/mesa/libgl1-mesa-dri_21.2.6-0ubuntu0.1~20.04.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 10972168
+  },
+  {
+    "file": "libgl2ps-dev_1.4.0+dfsg1-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/gl2ps/libgl2ps-dev_1.4.0+dfsg1-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 239392
+  },
+  {
+    "file": "libglew-dev_2.1.0-4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/glew/libglew-dev_2.1.0-4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 134460
+  },
+  {
+    "file": "libgl2ps1.4_1.4.0+dfsg1-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/gl2ps/libgl2ps1.4_1.4.0+dfsg1-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 38248
+  },
+  {
+    "file": "libcdt5_2.42.2-3build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/graphviz/libcdt5_2.42.2-3build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 18672
+  },
+  {
+    "file": "libglew2.1_2.1.0-4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/glew/libglew2.1_2.1.0-4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 155076
+  },
+  {
+    "file": "libcgraph6_2.42.2-3build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/graphviz/libcgraph6_2.42.2-3build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 41312
+  },
+  {
+    "file": "libgvpr2_2.42.2-3build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/graphviz/libgvpr2_2.42.2-3build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 167220
+  },
+  {
+    "file": "graphviz_2.42.2-3build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/graphviz/graphviz_2.42.2-3build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 589916
+  },
+  {
+    "file": "liblab-gamut1_2.42.2-3build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/graphviz/liblab-gamut1_2.42.2-3build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 177024
+  },
+  {
+    "file": "libpathplan4_2.42.2-3build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/graphviz/libpathplan4_2.42.2-3build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 21904
+  },
+  {
+    "file": "libgvc6_2.42.2-3build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/graphviz/libgvc6_2.42.2-3build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 647116
+  },
+  {
+    "file": "hdf5-helpers_1.10.4+repack-11ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/h/hdf5/hdf5-helpers_1.10.4+repack-11ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 13640
+  },
+  {
+    "file": "libhdf5-cpp-103_1.10.4+repack-11ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/h/hdf5/libhdf5-cpp-103_1.10.4+repack-11ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 119672
+  },
+  {
+    "file": "libgts-0.7-5_0.7.6+darcs121130-4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/gts/libgts-0.7-5_0.7.6+darcs121130-4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 149554
+  },
+  {
+    "file": "libhdf5-mpi-dev_1.10.4+repack-11ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/h/hdf5/libhdf5-mpi-dev_1.10.4+repack-11ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 4748
+  },
+  {
+    "file": "libgdcm3.0_3.0.5-1.1ubuntu2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/gdcm/libgdcm3.0_3.0.5-1.1ubuntu2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1871472
+  },
+  {
+    "file": "libcodec2-0.9_0.9.2-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/c/codec2/libcodec2-0.9_0.9.2-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 7885840
+  },
+  {
+    "file": "libilmbase-dev_2.3.0-6build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/i/ilmbase/libilmbase-dev_2.3.0-6build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 71320
+  },
+  {
+    "file": "libilmbase24_2.3.0-6build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/i/ilmbase/libilmbase24_2.3.0-6build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 75128
+  },
+  {
+    "file": "libllvm12_12.0.0-3ubuntu1~20.04.5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/main/l/llvm-toolchain-12/libllvm12_12.0.0-3ubuntu1~20.04.5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 18798540
+  },
+  {
+    "file": "libjxr0_1.1-6build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/j/jxrlib/libjxr0_1.1-6build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 157508
+  },
+  {
+    "file": "libhdf5-103_1.10.4+repack-11ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/h/hdf5/libhdf5-103_1.10.4+repack-11ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1310800
+  },
+  {
+    "file": "libaec-dev_1.0.4-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/liba/libaec/libaec-dev_1.0.4-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 16884
+  },
+  {
+    "file": "libaec0_1.0.4-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/liba/libaec/libaec0_1.0.4-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 19104
+  },
+  {
+    "file": "libsz2_1.0.4-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/liba/libaec/libsz2_1.0.4-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5188
+  },
+  {
+    "file": "libhdf5-openmpi-103_1.10.4+repack-11ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/h/hdf5/libhdf5-openmpi-103_1.10.4+repack-11ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1354532
+  },
+  {
+    "file": "libbluray2_1.2.0-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libb/libbluray/libbluray2_1.2.0-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 138036
+  },
+  {
+    "file": "liblept5_1.79.0-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/l/leptonlib/liblept5_1.79.0-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 998612
+  },
+  {
+    "file": "libdapclient6v5_3.20.5-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libd/libdap/libdapclient6v5_3.20.5-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 92232
+  },
+  {
+    "file": "libdapserver7v5_3.20.5-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libd/libdap/libdapserver7v5_3.20.5-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 22956
+  },
+  {
+    "file": "libdap25_3.20.5-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libd/libdap/libdap25_3.20.5-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 434908
+  },
+  {
+    "file": "libdc1394-22-dev_2.2.5-2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libd/libdc1394-22/libdc1394-22-dev_2.2.5-2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 110968
+  },
+  {
+    "file": "libdc1394-22_2.2.5-2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libd/libdc1394-22/libdc1394-22_2.2.5-2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 79608
+  },
+  {
+    "file": "libepsilon1_0.9.2+dfsg-4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libe/libepsilon/libepsilon1_0.9.2+dfsg-4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 41008
+  },
+  {
+    "file": "libgeotiff-dev_1.5.1-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libg/libgeotiff/libgeotiff-dev_1.5.1-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 76848
+  },
+  {
+    "file": "libdap-dev_3.20.5-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libd/libdap/libdap-dev_3.20.5-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 745196
+  },
+  {
+    "file": "libepsilon-dev_0.9.2+dfsg-4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libe/libepsilon/libepsilon-dev_0.9.2+dfsg-4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 48604
+  },
+  {
+    "file": "libgsm1_1.0.18-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libg/libgsm/libgsm1_1.0.18-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 24440
+  },
+  {
+    "file": "libgeotiff5_1.5.1-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libg/libgeotiff/libgeotiff5_1.5.1-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 53140
+  },
+  {
+    "file": "libturbojpeg0-dev_2.0.3-0ubuntu1.20.04.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libj/libjpeg-turbo/libturbojpeg0-dev_2.0.3-0ubuntu1.20.04.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 179124
+  },
+  {
+    "file": "libhdf4-0-alt_4.2.14-1ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libh/libhdf4/libhdf4-0-alt_4.2.14-1ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 267540
+  },
+  {
+    "file": "libhdf5-dev_1.10.4+repack-11ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/h/hdf5/libhdf5-dev_1.10.4+repack-11ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2588924
+  },
+  {
+    "file": "libkmlbase1_1.3.0-8build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libk/libkml/libkmlbase1_1.3.0-8build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 45432
+  },
+  {
+    "file": "libhdf4-alt-dev_4.2.14-1ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libh/libhdf4/libhdf4-alt-dev_4.2.14-1ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 368808
+  },
+  {
+    "file": "libkmlconvenience1_1.3.0-8build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libk/libkml/libkmlconvenience1_1.3.0-8build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 44720
+  },
+  {
+    "file": "libkmlengine1_1.3.0-8build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libk/libkml/libkmlengine1_1.3.0-8build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 72468
+  },
+  {
+    "file": "libkmldom1_1.3.0-8build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libk/libkml/libkmldom1_1.3.0-8build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 152240
+  },
+  {
+    "file": "libturbojpeg_2.0.3-0ubuntu1.20.04.3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libj/libjpeg-turbo/libturbojpeg_2.0.3-0ubuntu1.20.04.3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 156336
+  },
+  {
+    "file": "libhdf5-openmpi-dev_1.10.4+repack-11ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/h/hdf5/libhdf5-openmpi-dev_1.10.4+repack-11ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2509688
+  },
+  {
+    "file": "libkmlregionator1_1.3.0-8build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libk/libkml/libkmlregionator1_1.3.0-8build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 19788
+  },
+  {
+    "file": "libkmlxsd1_1.3.0-8build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libk/libkml/libkmlxsd1_1.3.0-8build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 27060
+  },
+  {
+    "file": "libva-drm2_2.7.0-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libv/libva/libva-drm2_2.7.0-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 7044
+  },
+  {
+    "file": "libva-x11-2_2.7.0-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libv/libva/libva-x11-2_2.7.0-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 11896
+  },
+  {
+    "file": "libminizip-dev_1.1-8build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/m/minizip/libminizip-dev_1.1-8build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 26692
+  },
+  {
+    "file": "libminizip1_1.1-8build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/m/minizip/libminizip1_1.1-8build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 20208
+  },
+  {
+    "file": "libva2_2.7.0-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libv/libva/libva2_2.7.0-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 53532
+  },
+  {
+    "file": "libnetcdf-cxx-legacy-dev_4.2-11build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/n/netcdf-cxx-legacy/libnetcdf-cxx-legacy-dev_4.2-11build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 53844
+  },
+  {
+    "file": "libnetcdf-c++4_4.2-11build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/n/netcdf-cxx-legacy/libnetcdf-c++4_4.2-11build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 33608
+  },
+  {
+    "file": "libnetcdf-dev_4.7.3-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/n/netcdf/libnetcdf-dev_4.7.3-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 45672
+  },
+  {
+    "file": "libogdi-dev_4.1.0+ds-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/ogdi-dfsg/libogdi-dev_4.1.0+ds-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 22100
+  },
+  {
+    "file": "libnetcdf15_4.7.3-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/n/netcdf/libnetcdf15_4.7.3-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 341496
+  },
+  {
+    "file": "libkml-dev_1.3.0-8build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libk/libkml/libkml-dev_1.3.0-8build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 933312
+  },
+  {
+    "file": "libopenmpt0_0.4.11-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/libo/libopenmpt/libopenmpt0_0.4.11-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 598732
+  },
+  {
+    "file": "python3-mpi4py_3.0.3-4build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/m/mpi4py/python3-mpi4py_3.0.3-4build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 499748
+  },
+  {
+    "file": "libogdi4.1_4.1.0+ds-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/ogdi-dfsg/libogdi4.1_4.1.0+ds-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 198296
+  },
+  {
+    "file": "libgdal26_3.0.4+dfsg-1build3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/gdal/libgdal26_3.0.4+dfsg-1build3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 6155880
+  },
+  {
+    "file": "libopencv-calib3d4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-calib3d4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 540632
+  },
+  {
+    "file": "libopencv-calib3d-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-calib3d-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 743364
+  },
+  {
+    "file": "libogre-1.9-dev_1.9.0+dfsg1-12build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/ogre-1.9/libogre-1.9-dev_1.9.0+dfsg1-12build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 954796
+  },
+  {
+    "file": "libopencv-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 93616
+  },
+  {
+    "file": "libopencv-core4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-core4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1026640
+  },
+  {
+    "file": "libgdal-dev_3.0.4+dfsg-1build3_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/g/gdal/libgdal-dev_3.0.4+dfsg-1build3_amd64.deb",
+    "status": "downloaded",
+    "bytes": 8093424
+  },
+  {
+    "file": "libopencv-core-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-core-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1689628
+  },
+  {
+    "file": "libopencv-features2d-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-features2d-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 325236
+  },
+  {
+    "file": "libopencv-flann-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-flann-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 177248
+  },
+  {
+    "file": "libopencv-features2d4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-features2d4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 258144
+  },
+  {
+    "file": "libopencv-dnn-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-dnn-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1282744
+  },
+  {
+    "file": "libopencv-dnn4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-dnn4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 872600
+  },
+  {
+    "file": "libopencv-highgui4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-highgui4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 32496
+  },
+  {
+    "file": "libopencv-highgui-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-highgui-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 50776
+  },
+  {
+    "file": "libogre-1.9.0v5_1.9.0+dfsg1-12build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/ogre-1.9/libogre-1.9.0v5_1.9.0+dfsg1-12build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2831932
+  },
+  {
+    "file": "libopencv-flann4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-flann4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 104568
+  },
+  {
+    "file": "libopencv-imgcodecs4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-imgcodecs4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 112212
+  },
+  {
+    "file": "libopencv-imgcodecs-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-imgcodecs-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 167872
+  },
+  {
+    "file": "libopencv-objdetect-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-objdetect-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 184384
+  },
+  {
+    "file": "libopencv-ml4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-ml4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 238180
+  },
+  {
+    "file": "libopencv-ml-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-ml-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 313568
+  },
+  {
+    "file": "libopencv-objdetect4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-objdetect4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 148660
+  },
+  {
+    "file": "libopencv-photo-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-photo-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 240548
+  },
+  {
+    "file": "libopencv-photo4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-photo4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 200412
+  },
+  {
+    "file": "libopencv-shape-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-shape-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 74856
+  },
+  {
+    "file": "libopencv-shape4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-shape4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 57632
+  },
+  {
+    "file": "libopencv-contrib4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-contrib4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 3312060
+  },
+  {
+    "file": "libopencv-superres-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-superres-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 61136
+  },
+  {
+    "file": "libopencv-stitching4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-stitching4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 212848
+  },
+  {
+    "file": "libopencv-superres4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-superres4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 48440
+  },
+  {
+    "file": "libopencv-stitching-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-stitching-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 266136
+  },
+  {
+    "file": "libopencv-video4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-video4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 146520
+  },
+  {
+    "file": "libopencv-videoio-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-videoio-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 216476
+  },
+  {
+    "file": "libopencv-video-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-video-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 185344
+  },
+  {
+    "file": "libopencv-ts-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-ts-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 333308
+  },
+  {
+    "file": "libopencv-imgproc4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-imgproc4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1290432
+  },
+  {
+    "file": "libopencv-contrib-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-contrib-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 4266708
+  },
+  {
+    "file": "libopencv-videostab4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-videostab4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 101644
+  },
+  {
+    "file": "libopencv-videostab-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-videostab-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 129028
+  },
+  {
+    "file": "libopencv-videoio4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-videoio4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 156600
+  },
+  {
+    "file": "libopencv-viz4.2_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-viz4.2_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 122204
+  },
+  {
+    "file": "libopencv-viz-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-viz-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 173072
+  },
+  {
+    "file": "libopencv-imgproc-dev_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv-imgproc-dev_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1683432
+  },
+  {
+    "file": "libclang1-10_10.0.0-4ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/l/llvm-toolchain-10/libclang1-10_10.0.0-4ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 7570624
+  },
+  {
+    "file": "libopencv4.2-jni_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv4.2-jni_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 367260
+  },
+  {
+    "file": "libopenni-dev_1.5.4.0+dfsg-4build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/openni/libopenni-dev_1.5.4.0+dfsg-4build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 137820
+  },
+  {
+    "file": "liborocos-kdl-dev_1.4.0-7ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/orocos-kdl/liborocos-kdl-dev_1.4.0-7ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 68796
+  },
+  {
+    "file": "libopenexr24_2.3.0-6ubuntu0.5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/openexr/libopenexr24_2.3.0-6ubuntu0.5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 592252
+  },
+  {
+    "file": "libopenni2-dev_2.2.0.33+dfsg-13build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/openni2/libopenni2-dev_2.2.0.33+dfsg-13build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 53728
+  },
+  {
+    "file": "python3-pykdl_1.4.0-7ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/orocos-kdl/python3-pykdl_1.4.0-7ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 100320
+  },
+  {
+    "file": "libopenni0_1.5.4.0+dfsg-4build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/openni/libopenni0_1.5.4.0+dfsg-4build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 288772
+  },
+  {
+    "file": "libopenexr-dev_2.3.0-6ubuntu0.5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/openexr/libopenexr-dev_2.3.0-6ubuntu0.5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 729688
+  },
+  {
+    "file": "liborocos-kdl1.4_1.4.0-7ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/orocos-kdl/liborocos-kdl1.4_1.4.0-7ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 226444
+  },
+  {
+    "file": "libopencv4.2-java_4.2.0+dfsg-5_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/libopencv4.2-java_4.2.0+dfsg-5_all.deb",
+    "status": "downloaded",
+    "bytes": 891796
+  },
+  {
+    "file": "libopenni2-0_2.2.0.33+dfsg-13build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/openni2/libopenni2-0_2.2.0.33+dfsg-13build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 417632
+  },
+  {
+    "file": "libpcl-common1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-common1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 175384
+  },
+  {
+    "file": "libpcl-apps1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-apps1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 210912
+  },
+  {
+    "file": "libpcl-keypoints1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-keypoints1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 240644
+  },
+  {
+    "file": "libpcl-kdtree1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-kdtree1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 222444
+  },
+  {
+    "file": "libpcl-ml1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-ml1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 65876
+  },
+  {
+    "file": "libpcl-people1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-people1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 19104
+  },
+  {
+    "file": "python3-opencv_4.2.0+dfsg-5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/o/opencv/python3-opencv_4.2.0+dfsg-5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1213764
+  },
+  {
+    "file": "libpcl-octree1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-octree1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 213752
+  },
+  {
+    "file": "libpcl-outofcore1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-outofcore1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 36808
+  },
+  {
+    "file": "libpcl-io1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-io1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 595288
+  },
+  {
+    "file": "libpcl-search1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-search1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 240184
+  },
+  {
+    "file": "libpcl-registration1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-registration1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 363268
+  },
+  {
+    "file": "libpcl-dev_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-dev_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1087832
+  },
+  {
+    "file": "libpcl-stereo1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-stereo1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 59980
+  },
+  {
+    "file": "libpcl-filters1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-filters1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 987528
+  },
+  {
+    "file": "libpcl-recognition1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-recognition1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 688656
+  },
+  {
+    "file": "libpcl-tracking1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-tracking1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 394204
+  },
+  {
+    "file": "libpcl-visualization1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-visualization1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 342020
+  },
+  {
+    "file": "python3-ubjson_0.14.0-2build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/py-ubjson/python3-ubjson_0.14.0-2build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 32980
+  },
+  {
+    "file": "libpcl-sample-consensus1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-sample-consensus1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1299812
+  },
+  {
+    "file": "libproj15_6.3.1-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/proj/libproj15_6.3.1-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 925016
+  },
+  {
+    "file": "libpcl-segmentation1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-segmentation1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1464856
+  },
+  {
+    "file": "libproj-dev_6.3.1-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/proj/libproj-dev_6.3.1-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1091568
+  },
+  {
+    "file": "python3-pyqt5.qtsvg_5.14.1+dfsg-3build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pyqt5/python3-pyqt5.qtsvg_5.14.1+dfsg-3build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 26916
+  },
+  {
+    "file": "pyqt5-dev_5.14.1+dfsg-3build1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pyqt5/pyqt5-dev_5.14.1+dfsg-3build1_all.deb",
+    "status": "downloaded",
+    "bytes": 308936
+  },
+  {
+    "file": "libpcl-surface1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-surface1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1390676
+  },
+  {
+    "file": "libpyside2-py3-5.14_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pyside2/libpyside2-py3-5.14_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 74040
+  },
+  {
+    "file": "libshiboken2-dev_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pyside2/libshiboken2-dev_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 32312
+  },
+  {
+    "file": "libpyside2-dev_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pyside2/libpyside2-dev_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 154012
+  },
+  {
+    "file": "libshiboken2-py3-5.14_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pyside2/libshiboken2-py3-5.14_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 150964
+  },
+  {
+    "file": "python3-pyside2.qtsvg_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pyside2/python3-pyside2.qtsvg_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 47916
+  },
+  {
+    "file": "python3-autobahn_17.10.1+dfsg1-6_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/python-autobahn/python3-autobahn_17.10.1+dfsg1-6_all.deb",
+    "status": "downloaded",
+    "bytes": 156908
+  },
+  {
+    "file": "python3-cbor_1.0.0-1.1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/python-cbor/python3-cbor_1.0.0-1.1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 20524
+  },
+  {
+    "file": "shiboken2_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pyside2/shiboken2_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 588080
+  },
+  {
+    "file": "python3-lz4_3.0.2+dfsg-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/python-lz4/python3-lz4_3.0.2+dfsg-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 31216
+  },
+  {
+    "file": "python3-pyside2.qtcore_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pyside2/python3-pyside2.qtcore_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 887164
+  },
+  {
+    "file": "python3-pyqrcode_1.2.1-4_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/python-pyqrcode/python3-pyqrcode_1.2.1-4_all.deb",
+    "status": "downloaded",
+    "bytes": 30304
+  },
+  {
+    "file": "python3-pyside2.qtgui_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pyside2/python3-pyside2.qtgui_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 995012
+  },
+  {
+    "file": "python3-snappy_0.5.3-1.1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/python-snappy/python3-snappy_0.5.3-1.1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 16860
+  },
+  {
+    "file": "python3-txaio_2.10.0-2_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/python-txaio/python3-txaio_2.10.0-2_all.deb",
+    "status": "downloaded",
+    "bytes": 18844
+  },
+  {
+    "file": "python3-pip_20.0.2-5ubuntu1.11_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/python-pip/python3-pip_20.0.2-5ubuntu1.11_all.deb",
+    "status": "downloaded",
+    "bytes": 230528
+  },
+  {
+    "file": "python3-wsaccel_0.6.2-2build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/python-wsaccel/python3-wsaccel_0.6.2-2build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 41408
+  },
+  {
+    "file": "python3-trie_0.2+ds-2_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/python-trie/python3-trie_0.2+ds-2_all.deb",
+    "status": "downloaded",
+    "bytes": 7520
+  },
+  {
+    "file": "libpcl-features1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pcl/libpcl-features1.10_1.10.0+dfsg-5ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 3633488
+  },
+  {
+    "file": "libqhull-r7_2015.2-4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qhull/libqhull-r7_2015.2-4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 149444
+  },
+  {
+    "file": "libqt5concurrent5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5concurrent5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 33532
+  },
+  {
+    "file": "libqhull-dev_2015.2-4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qhull/libqhull-dev_2015.2-4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 357024
+  },
+  {
+    "file": "libqhull7_2015.2-4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qhull/libqhull7_2015.2-4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 151848
+  },
+  {
+    "file": "libqt5dbus5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5dbus5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 208196
+  },
+  {
+    "file": "libqt5opengl5-dev_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5opengl5-dev_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 39848
+  },
+  {
+    "file": "python3-pyside2.qtwidgets_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pyside2/python3-pyside2.qtwidgets_5.14.0-1~exp1ubuntu5_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1554040
+  },
+  {
+    "file": "libqt5opengl5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5opengl5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 135816
+  },
+  {
+    "file": "libqt5printsupport5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5printsupport5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 192736
+  },
+  {
+    "file": "libqt5sql5-sqlite_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5sql5-sqlite_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 47592
+  },
+  {
+    "file": "python3-pyqt5_5.14.1+dfsg-3build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/pyqt5/python3-pyqt5_5.14.1+dfsg-3build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2317648
+  },
+  {
+    "file": "libqt5network5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5network5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 673296
+  },
+  {
+    "file": "libqt5sql5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5sql5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 120736
+  },
+  {
+    "file": "libqt5test5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5test5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 131056
+  },
+  {
+    "file": "libqt5xml5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5xml5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 105284
+  },
+  {
+    "file": "qt5-qmake_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/qt5-qmake_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 189508
+  },
+  {
+    "file": "python-pip-whl_20.0.2-5ubuntu1.11_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/python-pip/python-pip-whl_20.0.2-5ubuntu1.11_all.deb",
+    "status": "downloaded",
+    "bytes": 1808412
+  },
+  {
+    "file": "qtchooser_66-2build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtchooser/qtchooser_66-2build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 24712
+  },
+  {
+    "file": "qtbase5-dev-tools_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/qtbase5-dev-tools_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 700280
+  },
+  {
+    "file": "qt5-qmake-bin_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/qt5-qmake-bin_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 989900
+  },
+  {
+    "file": "libqt5core5a_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5core5a_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2006296
+  },
+  {
+    "file": "libqt5quickshapes5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtdeclarative-opensource-src/libqt5quickshapes5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 75140
+  },
+  {
+    "file": "libqt5quickparticles5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtdeclarative-opensource-src/libqt5quickparticles5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 172760
+  },
+  {
+    "file": "libqt5quicktest5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtdeclarative-opensource-src/libqt5quicktest5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 66580
+  },
+  {
+    "file": "libqt5quickwidgets5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtdeclarative-opensource-src/libqt5quickwidgets5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 39792
+  },
+  {
+    "file": "qtbase5-dev_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/qtbase5-dev_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 991364
+  },
+  {
+    "file": "qt5-qmltooling-plugins_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtdeclarative-opensource-src/qt5-qmltooling-plugins_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 179612
+  },
+  {
+    "file": "libqt5positioning5_5.12.8+dfsg-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtlocation-opensource-src/libqt5positioning5_5.12.8+dfsg-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 196688
+  },
+  {
+    "file": "qtdeclarative5-dev-tools_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtdeclarative-opensource-src/qtdeclarative5-dev-tools_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 430468
+  },
+  {
+    "file": "qtdeclarative5-dev_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtdeclarative-opensource-src/qtdeclarative5-dev_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 358832
+  },
+  {
+    "file": "libqt5qml5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtdeclarative-opensource-src/libqt5qml5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1438128
+  },
+  {
+    "file": "libqt5sensors5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtsensors-opensource-src/libqt5sensors5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 113688
+  },
+  {
+    "file": "libqt5svg5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtsvg-opensource-src/libqt5svg5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 131096
+  },
+  {
+    "file": "libqt5help5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qttools-opensource-src/libqt5help5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 134100
+  },
+  {
+    "file": "libqt5widgets5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5widgets5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2294552
+  },
+  {
+    "file": "qhelpgenerator-qt5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qttools-opensource-src/qhelpgenerator-qt5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 64260
+  },
+  {
+    "file": "libqt5gui5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtbase-opensource-src/libqt5gui5_5.12.8+dfsg-0ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2971260
+  },
+  {
+    "file": "qtattributionsscanner-qt5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qttools-opensource-src/qtattributionsscanner-qt5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 25984
+  },
+  {
+    "file": "libqt5quick5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtdeclarative-opensource-src/libqt5quick5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1335060
+  },
+  {
+    "file": "qttools5-private-dev_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qttools-opensource-src/qttools5-private-dev_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 69016
+  },
+  {
+    "file": "libqt5webchannel5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtwebchannel-opensource-src/libqt5webchannel5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 51152
+  },
+  {
+    "file": "qttools5-dev_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qttools-opensource-src/qttools5-dev_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 178504
+  },
+  {
+    "file": "qdoc-qt5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qttools-opensource-src/qdoc-qt5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 506524
+  },
+  {
+    "file": "qt5-assistant_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qttools-opensource-src/qt5-assistant_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 369112
+  },
+  {
+    "file": "libqt5x11extras5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtx11extras-opensource-src/libqt5x11extras5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 10292
+  },
+  {
+    "file": "libqt5webkit5-dev_5.212.0~alpha4-1ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtwebkit-opensource-src/libqt5webkit5-dev_5.212.0~alpha4-1ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 52668
+  },
+  {
+    "file": "libshine3_3.1.1-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/s/shine/libshine3_3.1.1-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 23160
+  },
+  {
+    "file": "libqt5designercomponents5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qttools-opensource-src/libqt5designercomponents5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 717764
+  },
+  {
+    "file": "python3-sip-dev_4.19.21+dfsg-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/s/sip4/python3-sip-dev_4.19.21+dfsg-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 22348
+  },
+  {
+    "file": "libsocket++1_1.12.13-10build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/s/socket++/libsocket++1_1.12.13-10build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 40672
+  },
+  {
+    "file": "python3-sip_4.19.21+dfsg-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/s/sip4/python3-sip_4.19.21+dfsg-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 87896
+  },
+  {
+    "file": "sip-dev_4.19.21+dfsg-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/s/sip4/sip-dev_4.19.21+dfsg-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 167532
+  },
+  {
+    "file": "libsuperlu-dev_5.2.1+dfsg1-4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/s/superlu/libsuperlu-dev_5.2.1+dfsg1-4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 16372
+  },
+  {
+    "file": "qttools5-dev-tools_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qttools-opensource-src/qttools5-dev-tools_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1031364
+  },
+  {
+    "file": "libsuperlu5_5.2.1+dfsg1-4_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/s/superlu/libsuperlu5_5.2.1+dfsg1-4_amd64.deb",
+    "status": "downloaded",
+    "bytes": 158732
+  },
+  {
+    "file": "libtbb-dev_2020.1-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/t/tbb/libtbb-dev_2020.1-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 272600
+  },
+  {
+    "file": "tcl_8.6.9+1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/t/tcltk-defaults/tcl_8.6.9+1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5112
+  },
+  {
+    "file": "libtbb2_2020.1-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/t/tbb/libtbb2_2020.1-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 124364
+  },
+  {
+    "file": "tk_8.6.9+1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/t/tcltk-defaults/tk_8.6.9+1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 3240
+  },
+  {
+    "file": "tk-dev_8.6.9+1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/t/tcltk-defaults/tk-dev_8.6.9+1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 3076
+  },
+  {
+    "file": "tcl-dev_8.6.9+1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/t/tcltk-defaults/tcl-dev_8.6.9+1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5760
+  },
+  {
+    "file": "libtinyxml2.6.2v5_2.6.2-4+deb10u2build0.20.04.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/t/tinyxml/libtinyxml2.6.2v5_2.6.2-4+deb10u2build0.20.04.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 31036
+  },
+  {
+    "file": "libtinyxml-dev_2.6.2-4+deb10u2build0.20.04.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/t/tinyxml/libtinyxml-dev_2.6.2-4+deb10u2build0.20.04.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 44960
+  },
+  {
+    "file": "python3-u-msgpack_2.1-1build1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/u/u-msgpack-python/python3-u-msgpack_2.1-1build1_all.deb",
+    "status": "downloaded",
+    "bytes": 7576
+  },
+  {
+    "file": "liburdfdom-headers-dev_1.0.4-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/u/urdfdom-headers/liburdfdom-headers-dev_1.0.4-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 12860
+  },
+  {
+    "file": "liburdfdom-dev_1.0.4+ds-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/u/urdfdom/liburdfdom-dev_1.0.4+ds-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 5056
+  },
+  {
+    "file": "liburdfdom-model-state_1.0.4+ds-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/u/urdfdom/liburdfdom-model-state_1.0.4+ds-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 15556
+  },
+  {
+    "file": "liburdfdom-model_1.0.4+ds-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/u/urdfdom/liburdfdom-model_1.0.4+ds-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 48812
+  },
+  {
+    "file": "libspatialite7_4.3.0a-6build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/s/spatialite/libspatialite7_4.3.0a-6build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1286472
+  },
+  {
+    "file": "libspatialite-dev_4.3.0a-6build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/s/spatialite/libspatialite-dev_4.3.0a-6build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1386912
+  },
+  {
+    "file": "liburdfdom-sensor_1.0.4+ds-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/u/urdfdom/liburdfdom-sensor_1.0.4+ds-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 12252
+  },
+  {
+    "file": "liburiparser-dev_0.9.3-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/u/uriparser/liburiparser-dev_0.9.3-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 11996
+  },
+  {
+    "file": "liburiparser1_0.9.3-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/u/uriparser/liburiparser1_0.9.3-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 39296
+  },
+  {
+    "file": "liburdfdom-world_1.0.4+ds-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/u/urdfdom/liburdfdom-world_1.0.4+ds-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 47920
+  },
+  {
+    "file": "proj-data_6.3.1-1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/p/proj/proj-data_6.3.1-1_all.deb",
+    "status": "downloaded",
+    "bytes": 7646692
+  },
+  {
+    "file": "libvtk7-qt-dev_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/v/vtk7/libvtk7-qt-dev_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 20696
+  },
+  {
+    "file": "libqt5designer5_5.12.8-0ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qttools-opensource-src/libqt5designer5_5.12.8-0ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2778344
+  },
+  {
+    "file": "libtesseract4_4.1.1-2build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/t/tesseract/libtesseract4_4.1.1-2build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1237028
+  },
+  {
+    "file": "libvtk7.1p-qt_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/v/vtk7/libvtk7.1p-qt_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 98772
+  },
+  {
+    "file": "python3-vtk7_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/v/vtk7/python3-vtk7_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 254512
+  },
+  {
+    "file": "tcl-vtk7_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/v/vtk7/tcl-vtk7_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 150744
+  },
+  {
+    "file": "python3-wheel_0.34.2-1ubuntu0.1_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/w/wheel/python3-wheel_0.34.2-1ubuntu0.1_all.deb",
+    "status": "downloaded",
+    "bytes": 23940
+  },
+  {
+    "file": "vtk7_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/v/vtk7/vtk7_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 172644
+  },
+  {
+    "file": "libx264-155_0.155.2917+git0a84d98-2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/x/x264/libx264-155_0.155.2917+git0a84d98-2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 520964
+  },
+  {
+    "file": "libvtk7-java_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/v/vtk7/libvtk7-java_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2225092
+  },
+  {
+    "file": "libvtk7-dev_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/v/vtk7/libvtk7-dev_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2241108
+  },
+  {
+    "file": "libx265-179_3.2.1-1build1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/x/x265/libx265-179_3.2.1-1build1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1059940
+  },
+  {
+    "file": "libxvidcore4_1.3.7-1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/x/xvidcore/libxvidcore4_1.3.7-1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 201320
+  },
+  {
+    "file": "libzvbi-common_0.2.35-17_all.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/z/zvbi/libzvbi-common_0.2.35-17_all.deb",
+    "status": "downloaded",
+    "bytes": 32480
+  },
+  {
+    "file": "libzzip-0-13_0.13.62-3.2ubuntu1.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/z/zziplib/libzzip-0-13_0.13.62-3.2ubuntu1.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 26248
+  },
+  {
+    "file": "libzvbi0_0.2.35-17_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/z/zvbi/libzvbi0_0.2.35-17_amd64.deb",
+    "status": "downloaded",
+    "bytes": 237288
+  },
+  {
+    "file": "libxerces-c3.2_3.2.2+debian-1ubuntu0.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/x/xerces-c/libxerces-c3.2_3.2.2+debian-1ubuntu0.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 877824
+  },
+  {
+    "file": "ros-noetic-python-qt-binding_0.4.6-1focal.20250426.201332_amd64.deb",
+    "url": "http://snapshots.ros.org/noetic/final/ubuntu/pool/main/r/ros-noetic-python-qt-binding/ros-noetic-python-qt-binding_0.4.6-1focal.20250426.201332_amd64.deb",
+    "status": "downloaded",
+    "bytes": 19116
+  },
+  {
+    "file": "libxerces-c-dev_3.2.2+debian-1ubuntu0.2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/x/xerces-c/libxerces-c-dev_3.2.2+debian-1ubuntu0.2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 1694912
+  },
+  {
+    "file": "ros-noetic-resource-retriever_1.12.10-1focal.20250426.231456_amd64.deb",
+    "url": "http://snapshots.ros.org/noetic/final/ubuntu/pool/main/r/ros-noetic-resource-retriever/ros-noetic-resource-retriever_1.12.10-1focal.20250426.231456_amd64.deb",
+    "status": "downloaded",
+    "bytes": 61576
+  },
+  {
+    "file": "ros-noetic-pcl-ros_1.7.4-1focal.20250521.004323_amd64.deb",
+    "url": "http://snapshots.ros.org/noetic/final/ubuntu/pool/main/r/ros-noetic-pcl-ros/ros-noetic-pcl-ros_1.7.4-1focal.20250521.004323_amd64.deb",
+    "status": "downloaded",
+    "bytes": 966928
+  },
+  {
+    "file": "libvtk7-jni_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/v/vtk7/libvtk7-jni_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 4867916
+  },
+  {
+    "file": "ros-noetic-urdf_1.13.4-1focal.20250519.233550_amd64.deb",
+    "url": "http://snapshots.ros.org/noetic/final/ubuntu/pool/main/r/ros-noetic-urdf/ros-noetic-urdf_1.13.4-1focal.20250519.233550_amd64.deb",
+    "status": "downloaded",
+    "bytes": 78552
+  },
+  {
+    "file": "ros-noetic-rviz_1.14.26-1focal.20250520.002916_amd64.deb",
+    "url": "http://snapshots.ros.org/noetic/final/ubuntu/pool/main/r/ros-noetic-rviz/ros-noetic-rviz_1.14.26-1focal.20250520.002916_amd64.deb",
+    "status": "downloaded",
+    "bytes": 2385484
+  },
+  {
+    "file": "libqt5webkit5_5.212.0~alpha4-1ubuntu2.1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/q/qtwebkit-opensource-src/libqt5webkit5_5.212.0~alpha4-1ubuntu2.1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 12104036
+  },
+  {
+    "file": "libvtk6.3_6.3.0+dfsg2-5build2_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/v/vtk6/libvtk6.3_6.3.0+dfsg2-5build2_amd64.deb",
+    "status": "downloaded",
+    "bytes": 16385852
+  },
+  {
+    "file": "libvtk7.1p_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "url": "http://mirrors.aliyun.com/ubuntu/pool/universe/v/vtk7/libvtk7.1p_7.1.1+dfsg2-2ubuntu1_amd64.deb",
+    "status": "downloaded",
+    "bytes": 36686840
+  }
+]

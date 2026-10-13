@@ -1,0 +1,23 @@
+{
+  "run_id": "exp18_ros1_1x_03",
+  "rate": 1.0,
+  "recorded_duration_seconds": 109.404904,
+  "peak_rss_kib": 139156,
+  "status": "failed",
+  "command": [
+    "/opt/fastlivo_ws/devel/lib/fast_livo/fastlivo_mapping",
+    "/mavros/vision_pose/pose:=/fastlivo2/raw_vision_pose"
+  ],
+  "player_command": [
+    "rosbag",
+    "play",
+    "--clock",
+    "--rate",
+    "1.0",
+    "--delay",
+    "2",
+    "/work/data/derived/hilti_exp18_3topics.bag"
+  ],
+  "error": "Playback exceeded duration/rate + 120 seconds; no trajectory generated",
+  "algorithm_exit_after_signal": 0
+}

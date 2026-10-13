@@ -1,0 +1,5 @@
+{
+  "status": "infrastructure_interrupted",
+  "eligible_for_metrics": false,
+  "reason": "WSL command ended without harness summary while default-user configuration was changed; retain logs and rerun complete sequence"
+}

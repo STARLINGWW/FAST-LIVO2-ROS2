@@ -1,0 +1,24 @@
+{
+  "updated_at": "2026-09-24T11:44:30.164465+08:00",
+  "session": "second session, same day: cold-start recovery + verification + fourth sequence",
+  "validation_matrix": "finished",
+  "showcase_matrix": "finished",
+  "paper_parameter_matrix": "finished_with_documented_failed_full_LIVO_variant",
+  "visual_sensitivity_matrix": "finished_both_versions",
+  "cold_start_verification": {
+    "ros1": "results/coldstart_ros1_summary.json (0.385 cm vs archived baseline)",
+    "ros2": "results/comparisons/repro_check_ros2_vs_published_ros2 (1.35 cm vs archived)"
+  },
+  "new_sequence_exp18": "converted + 2 runs per version; run-to-run scatter ~15 cm dominates cross-version difference",
+  "environment_repair": "Docker Desktop stale socket crash fixed; see docs/05 and scripts/fix_docker_desktop_stale_sockets.ps1",
+  "active_validation_jobs": [],
+  "final_report": "docs/10_论文对照与多数据集成果.md",
+  "artifacts_qa": "evidence/final_artifact_qa.json",
+  "note": "PIDs/session ids in older files are historical; check live processes before acting. One algorithm node at a time.",
+  "final_report_rebuilt_at": "2026-09-24T11:42:57.609489+08:00",
+  "lidl_ablation_matrix": "finished_l1_l2_l3_both_versions",
+  "exp18_showcase": "videos + maps + map comparison for both versions",
+  "report_claim_audit": "evidence/report_number_audit.json (91/91 pass)",
+  "artifact_qa": "evidence/final_artifact_qa.json (8 showcases)",
+  "aggregation_index": "results/aggregated/runs.csv (45 validated) + excluded_runs.json (23 quarantined/failed); every run directory indexed exactly once"
+}

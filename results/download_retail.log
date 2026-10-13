@@ -1,0 +1,30 @@
+Using proxy: http://127.0.0.1:7897
+Traceback (most recent call last):
+  File "C:\Users\STARLING\AppData\Roaming\Python\Python313\site-packages\gdown\download.py", line 313, in download
+    url = get_url_from_gdrive_confirmation(res.text)
+  File "C:\Users\STARLING\AppData\Roaming\Python\Python313\site-packages\gdown\download.py", line 68, in get_url_from_gdrive_confirmation
+    raise FileURLRetrievalError(error)
+gdown.exceptions.FileURLRetrievalError: Too many users have viewed or downloaded this file recently. Please try accessing the file again later. If the file you are trying to access is particularly large or is shared with many people, it may take up to 24 hours to be able to view or download the file. If you still can't access a file after 24 hours, contact your domain administrator.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import gdown;gdown.download(id='1DKOfH8pfObRenoWf4-IfkTMHcliXnigD',output='data/raw/Retail_Street.bag',proxy='http://127.0.0.1:7897',resume=True,quiet=True)
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\STARLING\AppData\Roaming\Python\Python313\site-packages\gdown\download.py", line 324, in download
+    raise FileURLRetrievalError(message)
+gdown.exceptions.FileURLRetrievalError: Failed to retrieve file url:
+
+	Too many users have viewed or downloaded this file recently. Please
+	try accessing the file again later. If the file you are trying to
+	access is particularly large or is shared with many people, it may
+	take up to 24 hours to be able to view or download the file. If you
+	still can't access a file after 24 hours, contact your domain
+	administrator.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?id=1DKOfH8pfObRenoWf4-IfkTMHcliXnigD
+
+but Gdown can't. Please check connections and permissions.

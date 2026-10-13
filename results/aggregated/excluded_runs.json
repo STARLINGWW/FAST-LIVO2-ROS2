@@ -1,0 +1,117 @@
+[
+  {
+    "run": "abl_l2_paper_structure_released_ros1",
+    "status": "failed",
+    "reason": "; nonphysical trajectory for this dataset"
+  },
+  {
+    "run": "abl_l3_paper_subsample_released_ros1",
+    "status": "incomplete_coverage",
+    "reason": "Algorithm exited during playback; trajectory coverage 0.065 below 0.99; the node fell behind playback and stopped consuming sensor data before the bag ended"
+  },
+  {
+    "run": "abl_l3_paper_subsample_released_ros1_node_exited_01",
+    "status": "incomplete_coverage",
+    "reason": "Algorithm exited during playback; trajectory coverage 0.348 below 0.99; the node fell behind playback and stopped consuming sensor data before the bag ended"
+  },
+  {
+    "run": "exp07_ros1_paper_1x",
+    "status": "failed",
+    "reason": "Trajectory reached 35.7 km radius on a 132 s handheld sequence; nonphysical divergence under literal paper-parameter experiment"
+  },
+  {
+    "run": "exp07_ros1_paperlidar_restore_normal_1x",
+    "status": "failed",
+    "reason": "; nonphysical trajectory for this dataset"
+  },
+  {
+    "run": "exp07_ros1_paperlidar_restore_raycast_1x",
+    "status": "failed",
+    "reason": "; nonphysical trajectory for this dataset"
+  },
+  {
+    "run": "exp07_ros2_paper_1x",
+    "status": "failed",
+    "reason": "Algorithm exited before playback; algorithm did not shut down cleanly; no trajectory generated"
+  },
+  {
+    "run": "exp07_ros2_paper_retry01_1x",
+    "status": "failed",
+    "reason": "Trajectory reached 423 m radius and 46.3 m/s in a 132 s handheld sequence; excluded as nonphysical under literal paper-parameter experiment"
+  },
+  {
+    "run": "exp07_ros2_paperlidar_restore_normal_1x",
+    "status": "failed",
+    "reason": "; nonphysical trajectory for this dataset"
+  },
+  {
+    "run": "exp07_ros2_paperlidar_restore_raycast_1x",
+    "status": "failed",
+    "reason": "; trajectory coverage 0.048 below 0.99; the node fell behind playback and stopped consuming sensor data before the bag ended; nonphysical trajectory for this dataset"
+  },
+  {
+    "run": "exp18_ros1_1x_02",
+    "status": "failed",
+    "reason": "Playback exceeded duration/rate + 120 seconds; no trajectory generated"
+  },
+  {
+    "run": "exp18_ros1_1x_03",
+    "status": "failed",
+    "reason": "Playback exceeded duration/rate + 120 seconds; no trajectory generated"
+  },
+  {
+    "run": "exp18_ros2_1x_01",
+    "status": "failed",
+    "reason": "other ROS2 players or mapping nodes are already running on ROS_DOMAIN_ID=73: ['1732 /home/livo/repro/fastlivo2_ws/install/fast_livo/lib/fast_livo/fastlivo_mapping --ros-args -r __node:=laserMapping --params-file /mnt/d/_AAA_CODE_ALL/Tech_reproduction/FASTLIVO2_reproduction/configs/experiments/HILTI22_paper_noise_released_ros2.yaml --params-file /home/livo/repro/fastlivo2_ws/src/FAST-LIVO2/config/camera_fisheye_HILTI22.yaml -p use_sim_time:=true -p evo.pose_output_en:=true -p evo.seq_name:=abl_l1_paper_noise_released_ros2 -p common.img_en:=1 -p pcd_save.pcd_save_en:=false -p pcd_save.type:=0 -p pcd_save.interval:=-1 -p image_save.img_save_en:=false -r /mavros/vision_pose/pose:=/fastlivo2/raw_vision_pose', '1771 /usr/bin/python3 /opt/ros/humble/bin/ros2 bag play /home/livo/repro/datasets/hilti_exp07_ros2 --clock --rate 1.0 --delay 2 --read-ahead-queue-size 2000']"
+  },
+  {
+    "run": "exp18_ros2_1x_03",
+    "status": "failed",
+    "reason": "other ROS2 players or mapping nodes are already running on ROS_DOMAIN_ID=73: ['1994 /home/livo/repro/fastlivo2_ws/install/fast_livo/lib/fast_livo/fastlivo_mapping --ros-args -r __node:=laserMapping --params-file /mnt/d/_AAA_CODE_ALL/Tech_reproduction/FASTLIVO2_reproduction/configs/experiments/HILTI22_paper_structure_released_ros2.yaml --params-file /home/livo/repro/fastlivo2_ws/src/FAST-LIVO2/config/camera_fisheye_HILTI22.yaml -p use_sim_time:=true -p evo.pose_output_en:=true -p evo.seq_name:=abl_l2_paper_structure_released_ros2 -p common.img_en:=1 -p pcd_save.pcd_save_en:=false -p pcd_save.type:=0 -p pcd_save.interval:=-1 -p image_save.img_save_en:=false -r /mavros/vision_pose/pose:=/fastlivo2/raw_vision_pose', '2026 /usr/bin/python3 /opt/ros/humble/bin/ros2 bag play /home/livo/repro/datasets/hilti_exp07_ros2 --clock --rate 1.0 --delay 2 --read-ahead-queue-size 2000']"
+  },
+  {
+    "run": "hilti_ros2_half_01",
+    "status": "failed",
+    "reason": "Algorithm exited before playback; algorithm did not shut down cleanly; no trajectory generated"
+  },
+  {
+    "run": "hilti_ros2_showcase",
+    "status": "failed",
+    "reason": "; no trajectory generated; copied PCDs were byte-identical to previous Retail run and quarantined"
+  },
+  {
+    "run": "repro_check_ros2_01_contended",
+    "status": "quarantined",
+    "reason": "rejected by editorial review; see evidence/quarantined_verification_runs.md"
+  },
+  {
+    "run": "repro_check_ros2_01_graph_collision",
+    "status": "quarantined",
+    "reason": "rejected by editorial review; see evidence/quarantined_verification_runs.md"
+  },
+  {
+    "run": "repro_check_ros2_01_tail_truncated",
+    "status": "quarantined",
+    "reason": "rejected by editorial review; see evidence/quarantined_verification_runs.md"
+  },
+  {
+    "run": "retail_ros2_half_01",
+    "status": "no_run_json",
+    "reason": "aborted before the runner wrote run.json; retained files: avia.yaml"
+  },
+  {
+    "run": "retail_ros2_half_02",
+    "status": "infrastructure_interrupted",
+    "reason": "WSL command ended without harness summary while default-user configuration was changed; retain logs and rerun complete sequence"
+  },
+  {
+    "run": "retail_ros2_half_03",
+    "status": "failed",
+    "reason": "Complete playback followed by SIGSEGV at shutdown; gdb and compiler macro probes identify PCL/Eigen allocation ABI mismatch."
+  },
+  {
+    "run": "retail_ros2_lio_01",
+    "status": "failed",
+    "reason": "; algorithm did not shut down cleanly"
+  }
+]

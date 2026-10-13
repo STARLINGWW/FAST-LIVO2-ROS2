@@ -1,0 +1,50 @@
+# ---------------------------------------------------------------------------
+# FAST-LIVO2 reproduction: things that must NOT be published
+# ---------------------------------------------------------------------------
+
+# Datasets and derived data (licence-restricted; fetch with scripts/download_*.py)
+data/
+downloads/*
+# keep the placeholder that docker/Dockerfile bind-mounts
+!downloads/noetic_debs/
+downloads/noetic_debs/*
+!downloads/noetic_debs/.gitkeep
+
+# WSL distribution disk and exported Docker image archives
+wsl/
+*.vhdx
+*.tar
+
+# Third-party upstream clones (pinned by URL+commit in manifests/source_versions.json)
+upstream/
+
+# Local Python tool virtualenv (recreate from manifests/python_tools_requirements.txt)
+.venv-tools/
+
+# Run outputs: keep small metadata (run.json, trajectory.tum, *_metrics.json),
+# drop large binaries and raw logs.
+results/runs/**/*.log
+results/runs/**/*.pcd
+results/runs/**/*.bag
+results/runs/**/*.db3
+results/runs/**/*.npz
+results/runs/**/*.ply
+results/videos/
+results/maps/**/*.ply
+evidence/invalid_artifacts/
+
+# Third-party dataset ground truth that ships inside the upstream port
+# (keep the empty output directories so the estimator can write into them)
+ros2/FAST-LIVO2/Log/result/*
+!ros2/FAST-LIVO2/Log/result/.gitkeep
+
+# Local site overrides (machine specific; see docs/12 and scripts/site.ps1)
+configs/site.json
+configs/site.psd1
+
+# Editor / OS noise
+__pycache__/
+*.pyc
+.pytest_cache/
+Thumbs.db
+Desktop.ini

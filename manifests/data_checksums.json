@@ -1,0 +1,44 @@
+[
+  {
+    "label": "hilti",
+    "path": "data/raw/HILTI22/exp14_basement_2.bag",
+    "sha256": "18eea013076b8263ababf4f36eb68d331564a0a493262b006dc0dddc2aa85b82",
+    "bytes": 6260771085,
+    "checksum_source": "Hilti public HF file SHA256"
+  },
+  {
+    "label": "retail_ros2_mirror",
+    "path": "data/ros2_mirror/Retail_Street/Retail_Street.db3",
+    "sha256": "f8d09bfbb753f7a84c6a6b8bd55580845f1f736b2fbd4f029f4be87e8ae95687",
+    "bytes": 1995526144,
+    "checksum_source": "local download SHA256; no primary raw-file checksum available"
+  },
+  {
+    "label": "hilti_exp07",
+    "path": "data/raw/HILTI22/exp07_long_corridor.bag",
+    "sha256": "afdcb7e779ed15d2fb7ea9bcc2175f8dd1f39d1fd3246a543dda61993bb2f50b",
+    "bytes": 11496012760,
+    "checksum_source": "Hilti-Research public Hugging Face file SHA256; verified by scripts/download_hf_resumable.py"
+  },
+  {
+    "label": "hilti_exp18",
+    "path": "data/raw/HILTI22/exp18_corridor_lower_gallery_2.bag",
+    "sha256": "98373b52f207b9ace3914792b5604a6642f89441190cabca6acbaf1d17249280",
+    "bytes": 8657654860,
+    "checksum_source": "Hilti-Research public Hugging Face file SHA256 (lfs oid); verified by scripts/download_hf_resumable.py"
+  },
+  {
+    "label": "hilti_exp18_gt",
+    "path": "data/raw/HILTI22/exp18_corridor_lower_gallery_2_imu.txt",
+    "sha256": "138def6a40884a87372a4f18938cce5180d6aa7ad4e705349abf47ac4ec9fa32",
+    "bytes": 88743,
+    "checksum_source": "local download SHA256; byte size matches the published Hilti ground_truth file listing"
+  },
+  {
+    "label": "hilti_exp18_gt_3dof",
+    "path": "data/raw/HILTI22/exp18_corridor_lower_gallery_2_imu_3dof.txt",
+    "sha256": "13f963c4a2e9d583532051b581a19cf73ade0aadc83f530ea3e66c6d52036dec",
+    "bytes": 185,
+    "checksum_source": "local download SHA256; byte size matches the published Hilti ground_truth file listing"
+  }
+]

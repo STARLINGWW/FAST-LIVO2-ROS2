@@ -1,0 +1,36 @@
+# Cross-platform line-ending policy.
+#
+# Windows checkout users usually have core.autocrlf=true; without these rules
+# the bash scripts and Python files would be converted to CRLF on checkout and
+# then fail inside WSL/Linux ("bad interpreter: /usr/bin/env bash^M").
+# Keep everything that runs on Linux in LF, and the Windows-only files in CRLF.
+
+* text=auto
+
+*.sh    text eol=lf
+*.py    text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+*.cff   text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+NOTICE  text eol=lf
+LICENSE text eol=lf
+
+*.ps1   text eol=crlf
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+
+# binary artefact types that must never be rewritten
+*.deb   binary
+*.bag   binary
+*.db3   binary
+*.pcd   binary
+*.npz   binary
+*.ply   binary
+*.mp4   binary
+*.png   binary
+*.pdf   binary
+*.tar   binary

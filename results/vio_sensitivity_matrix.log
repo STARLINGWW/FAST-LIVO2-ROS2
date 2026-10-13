@@ -1,0 +1,9 @@
+START exp07_ros1_paperlidar_release_vio_1x 2026-09-24T04:53:34.3314862+08:00
+RESULT exp07_ros1_paperlidar_release_vio_1x valid=True 2026-09-24T04:56:02.8882406+08:00
+START exp07_ros2_paperlidar_release_vio_1x 2026-09-24T04:56:02.8893685+08:00
+RESULT exp07_ros2_paperlidar_release_vio_1x valid=True 2026-09-24T04:58:32.7820254+08:00
+START exp07_ros1_paperlidar_restore_cov_1x 2026-09-24T04:58:32.7829299+08:00
+RESULT exp07_ros1_paperlidar_restore_cov_1x valid=True 2026-09-24T05:01:01.3128933+08:00
+START exp07_ros2_paperlidar_restore_cov_1x 2026-09-24T05:01:01.3136437+08:00
+RESULT exp07_ros2_paperlidar_restore_cov_1x valid=True 2026-09-24T05:03:31.6237326+08:00
+ISOLATED: restoring only released photometric covariance stabilized both implementations.

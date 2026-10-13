@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "node stays alive without sensors",
+    "calibration read from local node without parameter_blackboard",
+    "fractional photometric covariance and outlier threshold accepted",
+    "official lio.max_iterations key accepted",
+    "simulated clock enabled"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "cold-start reproducibility of the ROS1 official baseline after the host restart, with Docker Desktop repaired by scripts/fix_docker_desktop_stale_sockets.ps1",
+  "performed_at": "2026-09-24T10:42:41.416137+08:00",
+  "run_id": "coldstart_ros1_retail_01",
+  "container": "fastlivo2-ros1",
+  "image": "fastlivo2:noetic-local sha256:c37e61a5c612d452fd03c2807ae58e3d19464667d1d20b8fbb8c75ae0e8b614c",
+  "dataset": "Retail_Street (official ROS1 bag rebuilt from the public ROS2 mirror; see docs/10)",
+  "rate": 1.0,
+  "validation": {
+    "status": "playback_completed",
+    "algorithm_exit_after_signal": 0,
+    "playback_exit": 0,
+    "trajectory_rows": 1351,
+    "trajectory_coverage_fraction": 0.9965285076159038,
+    "max_trajectory_radius_m": 26.13121235257404,
+    "max_segment_speed_mps": 1.2304487735851952,
+    "playback_wall_seconds": 139.19253023199963,
+    "peak_rss_kib": 1014284
+  },
+  "comparison": {
+    "reference": "results\\runs\\retail_ros1_1x_01\\trajectory.tum",
+    "matched_rows": 1350,
+    "reference_association_fraction": 1.0,
+    "estimate_association_fraction": 0.999259807549963,
+    "aligned_rmse_m": 0.003852041712506345,
+    "aligned_median_m": 0.0019457297361973247,
+    "aligned_p95_m": 0.007788019705447848,
+    "aligned_max_m": 0.02140586273601411,
+    "rpe_translation_rmse_m": 0.00482804226634355,
+    "rpe_rotation_rmse_deg": 0.020463722219978466,
+    "alignment": "SE3, scale fixed to 1",
+    "association": "nearest_one_to_one"
+  },
+  "acceptance_threshold_m": 0.02,
+  "threshold_rule": "plan doc 08: max(baseline ATE x 5%, 0.02 m, archived 3-run spread) -> governed by the 0.02 m floor here",
+  "archived_run_spread_m": 0.0041,
+  "verdict": "pass",
+  "notes": [
+    "Host was shared with another project (yopo-formal-seed0 container); timing numbers are contended-machine numbers, not benchmark values.",
+    "Trajectory/exit-status checks are unaffected by CPU contention because the run reached 0.9965 coverage with a finite, physical trajectory.",
+    "Artifacts were added only; nothing from the archived runs was modified."
+  ]
+}

@@ -1,0 +1,13 @@
+SKIP verified retail_ros1_1x_02
+SKIP verified retail_ros1_1x_03
+SKIP verified retail_ros2_1x_02
+SKIP verified retail_ros2_1x_03
+SKIP verified hilti_ros1_half_01
+SKIP verified hilti_ros1_1x_01
+SKIP verified hilti_ros2_1x_01
+SKIP verified retail_ros1_lio_01
+SKIP verified retail_ros2_lio_retry_01
+START retail_ros1_half_01 2026-09-24T03:47:51.8665184+08:00
+PASS retail_ros1_half_01 2026-09-24T03:52:38.9346964+08:00
+START retail_ros2_half_04 2026-09-24T03:52:38.9354910+08:00
+PASS retail_ros2_half_04 2026-09-24T03:57:11.0139641+08:00

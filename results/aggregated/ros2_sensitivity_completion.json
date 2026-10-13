@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-09-24T10:45:00+08:00",
+  "purpose": "Close the two ROS2 cells that docs/10 previously listed as not executed: restoring only normal_en, and restoring only raycast_en=false, on Hilti Exp07 with the paper LiDAR parameters fixed.",
+  "environment": "WSL2 FASTLIVO-Ubuntu-22.04, ROS2 Humble, ROS_DOMAIN_ID=73, 1x playback, dataset /home/livo/repro/datasets/hilti_exp07_ros2",
+  "reported_runs": [
+    {
+      "run": "exp07_ros2_paperlidar_restore_normal_retry01_1x",
+      "variant": "restore_normal",
+      "config": "configs/experiments/HILTI22_paper_lidar_restore_normal_ros2.yaml",
+      "status": "playback_completed",
+      "algorithm_exit_after_signal": 0,
+      "trajectory_rows": 1317,
+      "trajectory_coverage_fraction": 0.994887358016286,
+      "max_trajectory_radius_m": 81.127052226127,
+      "max_segment_speed_mps": 8.12249266058153,
+      "peak_rss_kib": 2701528,
+      "playback_wall_seconds": 135.163649637,
+      "sparse_position_rmse_m": 16.1045458628979,
+      "sparse_truth_points": 6,
+      "evidence": [
+        "results/runs/exp07_ros2_paperlidar_restore_normal_retry01_1x/run.json",
+        "results/runs/exp07_ros2_paperlidar_restore_normal_retry01_1x/trajectory.tum",
+        "results/comparisons/final_exp07_ros2_paperlidar_restore_normal_retry01_1x_sparse_gt/metrics.json",
+        "results/exp07_ros2_paperlidar_restore_normal_retry01_1x_harness.log"
+      ]
+    },
+    {
+      "run": "exp07_ros2_paperlidar_restore_raycast_retry01_1x",
+      "variant": "restore_raycast",
+      "config": "configs/experiments/HILTI22_paper_lidar_restore_raycast_ros2.yaml",
+      "status": "playback_completed",
+      "algorithm_exit_after_signal": 0,
+      "trajectory_rows": 1318,
+      "trajectory_coverage_fraction": 0.995643363362692,
+      "max_trajectory_radius_m": 100.618904469084,
+      "max_segment_speed_mps": 2.27931949484833,
+      "peak_rss_kib": 2375404,
+      "playback_wall_seconds": 135.161346516,
+      "sparse_position_rmse_m": 0.80734554447252,
+      "sparse_truth_points": 6,
+      "evidence": [
+        "results/runs/exp07_ros2_paperlidar_restore_raycast_retry01_1x/run.json",
+        "results/runs/exp07_ros2_paperlidar_restore_raycast_retry01_1x/trajectory.tum",
+        "results/comparisons/final_exp07_ros2_paperlidar_restore_raycast_retry01_1x_sparse_gt/metrics.json",
+        "results/exp07_ros2_paperlidar_restore_raycast_retry01_1x_harness.log"
+      ]
+    }
+  ],
+  "quarantined_first_attempts": [
+    {
+      "run": "exp07_ros2_paperlidar_restore_normal_1x",
+      "status": "failed",
+      "trajectory_rows": 847,
+      "max_trajectory_radius_m": 157.684388097653,
+      "max_segment_speed_mps": 21.0180558754488,
+      "reason": "played back while other ROS2 replays shared the machine; only 64% of the LiDAR frames reached the node and the trajectory diverged",
+      "evidence": "results/runs/exp07_ros2_paperlidar_restore_normal_1x/run.json"
+    },
+    {
+      "run": "exp07_ros2_paperlidar_restore_raycast_1x",
+      "status": "failed",
+      "trajectory_rows": 64,
+      "trajectory_coverage_fraction": 0.047628919087231165,
+      "max_trajectory_radius_m": 46.0386973813025,
+      "reason": "node fell behind playback and stopped consuming sensor data after 6.3 s of the 132 s bag",
+      "evidence": "results/runs/exp07_ros2_paperlidar_restore_raycast_1x/run.json"
+    }
+  ],
+  "ros1_counterparts": [
+    {"run": "exp07_ros1_paperlidar_restore_normal_1x", "status": "failed", "max_trajectory_radius_m": 4480.93487812904, "max_segment_speed_mps": 90.2435698496954},
+    {"run": "exp07_ros1_paperlidar_restore_raycast_1x", "status": "failed", "max_trajectory_radius_m": 2149.87690057787, "max_segment_speed_mps": 122.529072001717}
+  ],
+  "interpretation": "On an unloaded machine the ROS2 port stays finite for both single-factor restores, but neither is accurate: restoring only raycast_en leaves about 0.81 m of sparse position error and restoring only normal_en about 16.1 m, both far worse than the 0.069 m of the released configuration. The ROS1 original loses stability for the same two settings (trajectory radii of 4.5 km and 2.1 km). Input starvation is itself a failure mode: when ROS2 was denied CPU by concurrent replays, a configuration that is finite on an idle machine diverged to 158 m, so playback pacing must be recorded and checked alongside every result."
+}

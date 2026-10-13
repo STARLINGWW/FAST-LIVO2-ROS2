@@ -1,0 +1,15 @@
+Starting >>> fast_livo
+--- stderr: fast_livo
+/home/livo/repro/fastlivo2_ws/src/FAST-LIVO2/src/LIVMapper.cpp: In member function ‘void LIVMapper::readParameters(rclcpp::Node::SharedPtr&)’:
+/home/livo/repro/fastlivo2_ws/src/FAST-LIVO2/src/LIVMapper.cpp:156:59: error: ‘using element_type = class Preprocess’ {aka ‘class Preprocess’} has no member named ‘hilti_en’
+  156 |   this->node->get_parameter("preprocess.hilti_en", p_pre->hilti_en);
+      |                                                           ^~~~~~~~
+gmake[2]: *** [CMakeFiles/laser_mapping.dir/build.make:76: CMakeFiles/laser_mapping.dir/src/LIVMapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/laser_mapping.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
+---
+Failed   <<< fast_livo [16.4s, exited with code 2]
+
+Summary: 0 packages finished [16.7s]
+  1 package failed: fast_livo
+  1 package had stderr output: fast_livo

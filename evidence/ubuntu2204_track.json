@@ -1,0 +1,89 @@
+{
+  "track": "native Ubuntu 22.04 (verified inside the WSL2 distro, same userland as a native install)",
+  "verified_at": "2026-10-13T15:27:40.274798+08:00",
+  "host": {
+    "os": "Ubuntu 22.04.5 LTS (WSL2)",
+    "ros": "humble (/opt/ros/humble)",
+    "arch": "x86_64",
+    "workspace": "$HOME/xplat_ws (fresh, built only through scripts/build_ros2_workspace.sh)"
+  },
+  "dependencies_reference": {
+    "source": "scripts/install_deps_ubuntu2204.sh --check (dpkg versions on the verified host)",
+    "ros-humble-sophus": "1.22.9102-2jammy",
+    "libpcl-dev": "1.12.1+dfsg-3build1",
+    "libeigen3-dev": "3.4.0-2ubuntu2",
+    "libopencv-dev": "4.5.4+dfsg-9ubuntu4",
+    "libfmt-dev": "8.1.1+ds1-2"
+  },
+  "build": {
+    "command": "FASTLIVO2_WS=$HOME/xplat_ws FASTLIVO2_BUILD_JOBS=4 bash scripts/build_ros2_workspace.sh",
+    "log": "results/build_ros2_workspace_native.log",
+    "packages": [
+      {
+        "name": "livox_ros_driver2",
+        "time": "54.0s"
+      },
+      {
+        "name": "vikit_common",
+        "time": "10.9s"
+      },
+      {
+        "name": "vikit_py",
+        "time": "2.53s"
+      },
+      {
+        "name": "vikit_ros",
+        "time": "18.5s"
+      },
+      {
+        "name": "fast_livo",
+        "time": "1min 33s"
+      }
+    ],
+    "summary": "Summary: 5 packages finished [2min 59s]",
+    "binary": "$HOME/xplat_ws/install/fast_livo/lib/fast_livo/fastlivo_mapping"
+  },
+  "smoke_replay": {
+    "command": "FASTLIVO2_WS=$HOME/xplat_ws python3 scripts/run_ros2_bag.py $HOME/repro/datasets/hilti_exp14_ros2 xplat_ubuntu_smoke_02 --rate 0.5 --dataset HILTI22 --output-root results/runs",
+    "run_id": "xplat_ubuntu_smoke_02",
+    "status": "playback_completed",
+    "algorithm_exit_after_signal": 0,
+    "playback_exit": 0,
+    "trajectory_rows": 738,
+    "trajectory_coverage_fraction": 0.9956661848316268,
+    "max_trajectory_radius_m": 21.4274481347345,
+    "ate_rmse_m": 0.043546078084438056,
+    "ate_matched_rows": 677,
+    "reference": "data/raw/HILTI22/exp14_basement_2_imu.txt (Hilti Exp14 dense 6DoF truth)",
+    "note": "fresh-workspace smoke run at 0.5x; archived 0.5x Exp14 runs scored 3.57/3.73 cm, so this is the same order. Purpose is build+runner validation, not a new accuracy claim."
+  },
+  "issue_found_and_fixed": {
+    "symptom": "first smoke run (xplat_ubuntu_smoke_01) produced no trajectory; algorithm.log showed \"open fail\" every frame",
+    "cause": "build_ros2_workspace.sh initially excluded src/FAST-LIVO2/Log/result, the directory the estimator writes its TUM output into",
+    "fix": "the script now keeps the directory (and Log/pcd), removes only the third-party ntu_viral ground truth that ships with the upstream port, and .gitignore keeps the empty dirs via .gitkeep",
+    "evidence": "results/runs/xplat_ubuntu_smoke_01/run.json (failed, quarantined) vs results/runs/xplat_ubuntu_smoke_02/run.json (passed)"
+  },
+  "not_yet_verified": [
+    "a real non-WSL Ubuntu 22.04 install (same userland, but USB/network/systemd paths differ)",
+    "ARM/aarch64 builds (the code has an aarch64 branch; we have not run it)",
+    "hardware drivers (Mid-360, D455) and PX4 integration - see docs/04"
+  ],
+  "ros1_container_smoke": {
+    "purpose": "after the cross-platform refactor, prove the ROS1 runner still resolves its container paths (/work, /datasets) via scripts/site_config.py",
+    "command": "docker exec fastlivo2-ros1 bash -lc \"... python3 /work/scripts/run_ros1_bag.py /datasets/hilti_exp14_3topics.bag xplat_ubuntu_smoke_ros1_01 --rate 0.5 --dataset HILTI22\"",
+    "run_id": "xplat_ubuntu_smoke_ros1_01",
+    "status": "playback_completed",
+    "algorithm_exit_after_signal": 0,
+    "trajectory_rows": 738,
+    "trajectory_coverage_fraction": 0.995666184535669,
+    "ate_rmse_m": 0.040072347997007866,
+    "ate_matched_rows": 677,
+    "note": "0.5x Exp14; archived 0.5x ROS1 value was 3.57 cm"
+  },
+  "cross_platform_scripts": {
+    "linux_side": "scripts/site_config.py (env: FASTLIVO2_PROJECT/WS/DATASETS/RECORDED/RESULTS/ROS1_MOUNT)",
+    "windows_side": "scripts/site.ps1 (dot-sourced by the five matrix drivers)",
+    "verified_absent": "no hardcoded D:\\, /mnt/d/, /home/<user> or proxy strings remain in scripts/ (scripts/preflight_publish.py reports 0 blockers)"
+  },
+  "updated_at": "2026-10-13T15:30:53.133614+08:00"
+}

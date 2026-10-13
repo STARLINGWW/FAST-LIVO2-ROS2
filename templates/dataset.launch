@@ -1,0 +1,22 @@
+<launch>
+  <!-- Explicit dataset/camera pairing. This wrapper disables direct PX4 publication. -->
+  <arg name="config" default="$(find fast_livo)/config/avia.yaml"/>
+  <arg name="camera" default="$(find fast_livo)/config/camera_pinhole.yaml"/>
+  <arg name="sequence" default="first_run"/>
+  <arg name="image_compressed" default="false"/>
+  <arg name="save_pcd" default="false"/>
+  <param name="use_sim_time" value="true"/>
+  <rosparam command="load" file="$(arg config)"/>
+  <param name="evo/pose_output_en" value="true"/>
+  <param name="evo/seq_name" value="$(arg sequence)"/>
+  <param name="pcd_save/pcd_save_en" value="$(arg save_pcd)"/>
+  <param name="pcd_save/interval" value="100"/>
+  <node pkg="fast_livo" type="fastlivo_mapping" name="laserMapping" output="screen">
+    <rosparam command="load" file="$(arg camera)"/>
+    <remap from="/mavros/vision_pose/pose" to="/fastlivo2/raw_vision_pose"/>
+  </node>
+  <!-- This republisher applies only to the Avia /left_camera/image topic. -->
+  <node if="$(arg image_compressed)" pkg="image_transport" type="republish"
+        name="dataset_image_decode"
+        args="compressed in:=/left_camera/image raw out:=/left_camera/image"/>
+</launch>

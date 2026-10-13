@@ -1,0 +1,77 @@
+{
+  "source": "D:\\_AAA_CODE_ALL\\Tech_reproduction\\FASTLIVO2_reproduction\\data\\raw\\HILTI22\\exp07_long_corridor.bag",
+  "topics": {
+    "/alphasense/cam0/image_raw": {
+      "expected": 5288,
+      "messages": 5288,
+      "roundtrip_passed": 5288,
+      "header_backwards": 0,
+      "first_header_ns": 1646404202097229480,
+      "last_header_ns": 1646404334254265677,
+      "image_profile": [
+        720,
+        540,
+        "mono8"
+      ],
+      "source_record_stream_sha256": "8f3b0415a80bd63e3b73d18d094f227475f76966ca97833423650bdaecdab2e6"
+    },
+    "/alphasense/imu": {
+      "expected": 52757,
+      "messages": 52757,
+      "roundtrip_passed": 52757,
+      "header_backwards": 0,
+      "first_header_ns": 1646404202120621080,
+      "last_header_ns": 1646404334296929377,
+      "source_record_stream_sha256": "dbc43ae2609b71b2a4d282039c6401d6f4325379b4918133c661887bf078fb92"
+    },
+    "/hesai/pandar": {
+      "expected": 1322,
+      "messages": 1322,
+      "roundtrip_passed": 1322,
+      "header_backwards": 0,
+      "first_header_ns": 1646404202038627000,
+      "last_header_ns": 1646404334122805000,
+      "point_fields": [
+        [
+          "x",
+          0,
+          7,
+          1
+        ],
+        [
+          "y",
+          4,
+          7,
+          1
+        ],
+        [
+          "z",
+          8,
+          7,
+          1
+        ],
+        [
+          "intensity",
+          16,
+          7,
+          1
+        ],
+        [
+          "timestamp",
+          24,
+          8,
+          1
+        ],
+        [
+          "ring",
+          32,
+          4,
+          1
+        ]
+      ],
+      "source_record_stream_sha256": "43cb95079474907bcb3e255357f595356b13b6ad65f19d1cb2517cec32481d2c"
+    }
+  },
+  "only_intentional_loss": "ROS1 Header.seq omitted by ROS2 format",
+  "identical_selected_inputs_for_both_algorithms": true
+}

@@ -1,0 +1,12 @@
+test_paper_ros2_matches_ros1_values_and_declared_double_types (test_ros2_parameter_types.ParameterTypeTests.test_paper_ros2_matches_ros1_values_and_declared_double_types) ... ok
+test_dense_ground_truth_interpolates_phase_shift (test_trajectory_metrics.MetricTests.test_dense_ground_truth_interpolates_phase_shift) ... ok
+test_rigid_world_change_has_zero_ate_and_rpe (test_trajectory_metrics.MetricTests.test_rigid_world_change_has_zero_ate_and_rpe) ... ok
+test_ros2_phase_shift_uses_interpolated_reference_times (test_trajectory_metrics.MetricTests.test_ros2_phase_shift_uses_interpolated_reference_times) ... ok
+test_scale_error_is_not_hidden (test_trajectory_metrics.MetricTests.test_scale_error_is_not_hidden) ... ok
+test_sparse_truth_scores_positions_without_fake_orientation (test_trajectory_metrics.MetricTests.test_sparse_truth_scores_positions_without_fake_orientation) ... ok
+test_unmatched_timestamps_fail (test_trajectory_metrics.MetricTests.test_unmatched_timestamps_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 6.483s
+
+OK

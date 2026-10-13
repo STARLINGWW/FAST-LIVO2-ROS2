@@ -1,0 +1,34 @@
+[
+  {
+    "config": "avia.yaml",
+    "values_equal_to_official": true
+  },
+  {
+    "config": "camera_fisheye_HILTI22.yaml",
+    "values_equal_to_official": true
+  },
+  {
+    "config": "camera_MARS_LVIG.yaml",
+    "values_equal_to_official": true
+  },
+  {
+    "config": "camera_NTU_VIRAL.yaml",
+    "values_equal_to_official": true
+  },
+  {
+    "config": "camera_pinhole.yaml",
+    "values_equal_to_official": true
+  },
+  {
+    "config": "HILTI22.yaml",
+    "values_equal_to_official": true
+  },
+  {
+    "config": "MARS_LVIG.yaml",
+    "values_equal_to_official": true
+  },
+  {
+    "config": "NTU_VIRAL.yaml",
+    "values_equal_to_official": true
+  }
+]

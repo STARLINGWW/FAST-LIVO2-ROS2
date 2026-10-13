@@ -1,0 +1,72 @@
+{
+  "ros1_internal": {
+    "pairs": [
+      {
+        "reference": "retail_ros1_1x_01",
+        "estimate": "retail_ros1_1x_02",
+        "aligned_rmse_m": 0.004226876670801231,
+        "matched_rows": 1350,
+        "estimate_association_fraction": 1.0
+      },
+      {
+        "reference": "retail_ros1_1x_01",
+        "estimate": "retail_ros1_1x_03",
+        "aligned_rmse_m": 0.004039858490371768,
+        "matched_rows": 1350,
+        "estimate_association_fraction": 1.0
+      }
+    ],
+    "mean_rmse_m": 0.0041333675805865,
+    "std_rmse_m": 0.0001322418235868424,
+    "max_rmse_m": 0.004226876670801231
+  },
+  "ros2_internal": {
+    "pairs": [
+      {
+        "reference": "retail_ros2_1x_01",
+        "estimate": "retail_ros2_1x_02",
+        "aligned_rmse_m": 0.0073309854917219495,
+        "matched_rows": 1352,
+        "estimate_association_fraction": 1.0
+      },
+      {
+        "reference": "retail_ros2_1x_01",
+        "estimate": "retail_ros2_1x_03",
+        "aligned_rmse_m": 0.0014653171674550748,
+        "matched_rows": 1352,
+        "estimate_association_fraction": 1.0
+      }
+    ],
+    "mean_rmse_m": 0.004398151329588512,
+    "std_rmse_m": 0.00414765384828024,
+    "max_rmse_m": 0.0073309854917219495
+  },
+  "cross_implementation": {
+    "pairs": [
+      {
+        "reference": "retail_ros1_1x_01",
+        "estimate": "retail_ros2_1x_01",
+        "aligned_rmse_m": 0.010848590624423856,
+        "matched_rows": 1350,
+        "estimate_association_fraction": 0.9985207100591716
+      },
+      {
+        "reference": "retail_ros1_1x_01",
+        "estimate": "retail_ros2_1x_02",
+        "aligned_rmse_m": 0.008313773823414122,
+        "matched_rows": 1350,
+        "estimate_association_fraction": 0.9985207100591716
+      },
+      {
+        "reference": "retail_ros1_1x_01",
+        "estimate": "retail_ros2_1x_03",
+        "aligned_rmse_m": 0.01085364170400139,
+        "matched_rows": 1350,
+        "estimate_association_fraction": 0.9985207100591716
+      }
+    ],
+    "mean_rmse_m": 0.010005335383946455,
+    "std_rmse_m": 0.001464937460492483,
+    "max_rmse_m": 0.01085364170400139
+  }
+}

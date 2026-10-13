@@ -1,0 +1,36 @@
+{
+  "run_id": "hilti_ros1_showcase",
+  "rate": 1.0,
+  "recorded_duration_seconds": 74.012804,
+  "peak_rss_kib": 1413596,
+  "status": "playback_completed",
+  "command": [
+    "/opt/fastlivo_ws/devel/lib/fast_livo/fastlivo_mapping",
+    "/mavros/vision_pose/pose:=/fastlivo2/raw_vision_pose"
+  ],
+  "player_command": [
+    "rosbag",
+    "play",
+    "--clock",
+    "--rate",
+    "1.0",
+    "--delay",
+    "2",
+    "/datasets/hilti_exp14_3topics.bag"
+  ],
+  "playback_exit": 0,
+  "playback_wall_seconds": 78.14515626799948,
+  "algorithm_exit_after_signal": 0,
+  "trajectory_rows": 738,
+  "visual_recording": "/work/results/runs/hilti_ros1_showcase/registered_ros1.bag",
+  "map_files": [
+    {
+      "path": "/work/results/runs/hilti_ros1_showcase/all_raw_points.pcd",
+      "bytes": 206213948
+    },
+    {
+      "path": "/work/results/runs/hilti_ros1_showcase/all_downsampled_points.pcd",
+      "bytes": 621382
+    }
+  ]
+}

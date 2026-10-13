@@ -1,0 +1,15 @@
+SKIP verified run retail_ros1_showcase
+PASS visuals retail_ros1_showcase 2026-09-24T04:21:50.6161511+08:00
+SKIP verified run retail_ros2_showcase
+PASS visuals retail_ros2_showcase 2026-09-24T04:21:50.6191124+08:00
+SKIP verified run hilti_ros1_showcase
+PASS visuals hilti_ros1_showcase 2026-09-24T04:21:50.6209082+08:00
+START hilti_ros2_showcase_retry01 2026-09-24T04:21:50.6214147+08:00
+PASS run hilti_ros2_showcase_retry01 2026-09-24T04:23:28.2529668+08:00
+PASS visuals hilti_ros2_showcase_retry01 2026-09-24T04:23:37.4083784+08:00
+START exp07_ros1_release_showcase 2026-09-24T04:23:37.4097925+08:00
+PASS run exp07_ros1_release_showcase 2026-09-24T04:26:19.7140780+08:00
+PASS visuals exp07_ros1_release_showcase 2026-09-24T04:26:37.9660150+08:00
+START exp07_ros2_release_showcase 2026-09-24T04:26:37.9684323+08:00
+PASS run exp07_ros2_release_showcase 2026-09-24T04:29:17.0122323+08:00
+PASS visuals exp07_ros2_release_showcase 2026-09-24T04:29:31.8346872+08:00

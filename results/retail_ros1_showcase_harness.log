@@ -1,0 +1,36 @@
+{
+  "run_id": "retail_ros1_showcase",
+  "rate": 1.0,
+  "recorded_duration_seconds": 135.470252,
+  "peak_rss_kib": 1462320,
+  "status": "playback_completed",
+  "command": [
+    "/opt/fastlivo_ws/devel/lib/fast_livo/fastlivo_mapping",
+    "/mavros/vision_pose/pose:=/fastlivo2/raw_vision_pose"
+  ],
+  "player_command": [
+    "rosbag",
+    "play",
+    "--clock",
+    "--rate",
+    "1.0",
+    "--delay",
+    "2",
+    "/datasets/Retail_Street_from_ros2_mirror.bag"
+  ],
+  "playback_exit": 0,
+  "playback_wall_seconds": 145.2882151169997,
+  "algorithm_exit_after_signal": 0,
+  "trajectory_rows": 1350,
+  "visual_recording": "/work/results/runs/retail_ros1_showcase/registered_ros1.bag",
+  "map_files": [
+    {
+      "path": "/work/results/runs/retail_ros1_showcase/all_raw_points.pcd",
+      "bytes": 302091916
+    },
+    {
+      "path": "/work/results/runs/retail_ros1_showcase/all_downsampled_points.pcd",
+      "bytes": 1610104
+    }
+  ]
+}

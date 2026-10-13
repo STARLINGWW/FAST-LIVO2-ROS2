@@ -1,0 +1,9 @@
+EXISTING exp07_ros1_paperlidar_release_vio_1x valid=True
+EXISTING exp07_ros2_paperlidar_release_vio_1x valid=True
+EXISTING exp07_ros1_paperlidar_restore_cov_1x valid=True
+EXISTING exp07_ros2_paperlidar_restore_cov_1x valid=True
+PHYSICAL_STABILITY_ONLY: restoring covariance avoided extreme divergence; evaluate position error separately.
+START exp07_ros1_paperlidar_restore_normal_1x 2026-09-24T05:05:14.8255845+08:00
+RESULT exp07_ros1_paperlidar_restore_normal_1x valid=False 2026-09-24T05:07:43.5527031+08:00
+START exp07_ros1_paperlidar_restore_raycast_1x 2026-09-24T05:07:43.5538464+08:00
+RESULT exp07_ros1_paperlidar_restore_raycast_1x valid=False 2026-09-24T05:10:12.2678669+08:00

@@ -1,0 +1,11 @@
+{
+  "video": "D:\\_AAA_CODE_ALL\\Tech_reproduction\\FASTLIVO2_reproduction\\results\\videos\\retail_ros2_showcase\\full_replay_1x.mp4",
+  "frames": 678,
+  "fps": 5,
+  "video_duration_s": 135.6,
+  "registered_cloud_messages": 1351,
+  "odometry_messages": 1352,
+  "recorded_output": "D:\\_AAA_CODE_ALL\\Tech_reproduction\\FASTLIVO2_reproduction\\results\\runs\\retail_ros2_showcase\\registered_ros2",
+  "map_pcd": "D:\\_AAA_CODE_ALL\\Tech_reproduction\\FASTLIVO2_reproduction\\results\\runs\\retail_ros2_showcase\\all_downsampled_points.pcd",
+  "rendering": "1x time axis from recorded 1x ROS output; encoded offline"
+}

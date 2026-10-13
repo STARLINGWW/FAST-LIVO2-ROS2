@@ -1,0 +1,9 @@
+SKIP verified run retail_ros1_showcase
+PASS visuals retail_ros1_showcase 2026-09-24T03:57:40.2646666+08:00
+START retail_ros2_showcase 2026-09-24T03:57:40.2671626+08:00
+PASS run retail_ros2_showcase 2026-09-24T04:00:16.7494330+08:00
+PASS visuals retail_ros2_showcase 2026-09-24T04:00:30.6806299+08:00
+START hilti_ros1_showcase 2026-09-24T04:00:30.6826075+08:00
+PASS run hilti_ros1_showcase 2026-09-24T04:02:08.8929778+08:00
+PASS visuals hilti_ros1_showcase 2026-09-24T04:02:18.5609573+08:00
+START hilti_ros2_showcase 2026-09-24T04:02:18.5622026+08:00

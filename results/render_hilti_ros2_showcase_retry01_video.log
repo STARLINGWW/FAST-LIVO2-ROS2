@@ -1,0 +1,11 @@
+{
+  "video": "D:\\_AAA_CODE_ALL\\Tech_reproduction\\FASTLIVO2_reproduction\\results\\videos\\hilti_ros2_showcase_retry01\\full_replay_1x.mp4",
+  "frames": 370,
+  "fps": 5,
+  "video_duration_s": 74.0,
+  "registered_cloud_messages": 312,
+  "odometry_messages": 738,
+  "recorded_output": "D:\\_AAA_CODE_ALL\\Tech_reproduction\\FASTLIVO2_reproduction\\results\\runs\\hilti_ros2_showcase_retry01\\registered_samples_ros2.npz",
+  "map_pcd": "D:\\_AAA_CODE_ALL\\Tech_reproduction\\FASTLIVO2_reproduction\\results\\runs\\hilti_ros2_showcase_retry01\\all_downsampled_points.pcd",
+  "rendering": "1x time axis from recorded 1x ROS output; encoded offline"
+}

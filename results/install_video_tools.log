@@ -1,0 +1,10 @@
+Collecting opencv-python-headless
+  Downloading opencv_python_headless-5.0.0.93-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Requirement already satisfied: numpy>=2 in d:\_aaa_code_all\tech_reproduction\fastlivo2_reproduction\.venv-tools\lib\site-packages (from opencv-python-headless) (2.5.3)
+Downloading opencv_python_headless-5.0.0.93-cp37-abi3-win_amd64.whl (43.8 MB)
+   ---------------------------------------- 43.8/43.8 MB 2.7 MB/s  0:00:17
+Installing collected packages: opencv-python-headless
+Successfully installed opencv-python-headless-5.0.0.93
+
+[notice] A new release of pip is available: 25.2 -> 26.2.1
+[notice] To update, run: D:\_AAA_CODE_ALL\Tech_reproduction\FASTLIVO2_reproduction\.venv-tools\Scripts\python.exe -m pip install --upgrade pip

@@ -1,0 +1,87 @@
+== FAST-LIVO2 ROS2 workspace build ==
+repo    : /mnt/d/_AAA_CODE_ALL/Tech_reproduction/FASTLIVO2_reproduction
+ros     : humble
+workspace: /home/livo/xplat_ws
+arch    : x86_64
+-- Livox-SDK2 already installed (use --rebuild-sdk to force)
+-- syncing sources into /home/livo/xplat_ws/src
+-- colcon build (jobs=4)
+Starting >>> livox_ros_driver2
+--- stderr: livox_ros_driver2
+/home/livo/xplat_ws/src/livox_ros_driver2/src/comm/pub_handler.cpp: In member function ‘void livox_ros::LidarPubHandler::ProcessDoubleEchoPoint(livox_ros::RawPacket&)’:
+/home/livo/xplat_ws/src/livox_ros_driver2/src/comm/pub_handler.cpp:466:12: warning: unused variable ‘index’ [-Wunused-variable]
+  466 |   uint32_t index = 0;
+      |            ^~~~~
+---
+Finished <<< livox_ros_driver2 [54.0s]
+Starting >>> vikit_common
+--- stderr: vikit_common
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DISTRO_ROS
+    ROS_EDITION
+
+
+---
+Finished <<< vikit_common [10.9s]
+Starting >>> vikit_py
+--- stderr: vikit_py
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DISTRO_ROS
+    ROS_EDITION
+
+
+---
+Finished <<< vikit_py [2.53s]
+Starting >>> vikit_ros
+--- stderr: vikit_ros
+Current CPU architecture: x86_64
+Processor number: 28
+Cores for MP: 3
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DISTRO_ROS
+    ROS_EDITION
+
+
+---
+Finished <<< vikit_ros [18.5s]
+Starting >>> fast_livo
+--- stderr: fast_livo
+CMake Warning (dev) at CMakeLists.txt:98 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DISTRO_ROS
+    ROS_EDITION
+
+
+---
+Finished <<< fast_livo [1min 33s]
+
+Summary: 5 packages finished [2min 59s]
+  5 packages had stderr output: fast_livo livox_ros_driver2 vikit_common vikit_py vikit_ros
+
+== build finished ==
+workspace : /home/livo/xplat_ws
+env       : export FASTLIVO2_WS=/home/livo/xplat_ws
+            source /opt/ros/humble/setup.bash
+            source /home/livo/xplat_ws/install/setup.bash
+next      : python3 /mnt/d/_AAA_CODE_ALL/Tech_reproduction/FASTLIVO2_reproduction/scripts/run_ros2_bag.py <bag> <run_id> --rate 1.0 \
+                --dataset HILTI22 --output-root /mnt/d/_AAA_CODE_ALL/Tech_reproduction/FASTLIVO2_reproduction/results/runs
+(see docs/12_跨平台安装与运行.md for data preparation and verification)

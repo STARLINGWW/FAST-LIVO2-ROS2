@@ -1,0 +1,544 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- main project dir: /home/livo/repro/deps/Livox-SDK2
+-- main project dir: /home/livo/repro/deps/Livox-SDK2/samples
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/livo/repro/deps/Livox-SDK2/build
+[  3%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o
+[  4%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/device_manager.cpp.o
+[  3%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/device_manager.cpp.o
+[  4%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o
+[  5%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/livox_lidar_sdk.cpp.o
+[  6%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/livox_lidar_sdk.cpp.o
+[  7%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/params_check.cpp.o
+[  8%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/params_check.cpp.o
+[  9%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/parse_cfg_file.cpp.o
+[ 10%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/parse_cfg_file.cpp.o
+[ 11%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade_manager.cpp.o
+[ 12%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade_manager.cpp.o
+[ 13%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_loop.cpp.o
+[ 15%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_loop.cpp.o
+[ 16%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/thread_base.cpp.o
+[ 17%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/thread_base.cpp.o
+[ 18%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_thread.cpp.o
+[ 19%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_thread.cpp.o
+[ 20%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/logging.cpp.o
+[ 21%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/logging.cpp.o
+[ 22%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/network/unix/network_util.cpp.o
+[ 23%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/network/unix/network_util.cpp.o
+[ 24%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_base.cpp.o
+[ 25%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_base.cpp.o
+[ 26%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_epoll.cpp.o
+[ 27%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_epoll.cpp.o
+[ 29%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_poll.cpp.o
+[ 30%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_poll.cpp.o
+[ 31%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_select.cpp.o
+[ 32%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_select.cpp.o
+[ 33%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_kqueue.cpp.o
+[ 34%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_kqueue.cpp.o
+[ 35%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/wake_up/unix/wake_up_pipe.cpp.o
+[ 36%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/comm_port.cpp.o
+[ 37%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/wake_up/unix/wake_up_pipe.cpp.o
+[ 38%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/comm_port.cpp.o
+[ 39%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/sdk_protocol.cpp.o
+[ 40%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/generate_seq.cpp.o
+[ 41%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/sdk_protocol.cpp.o
+[ 43%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/generate_seq.cpp.o
+[ 44%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/firmware.cpp.o
+[ 45%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/firmware.cpp.o
+[ 46%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/livox_lidar_upgrader.cpp.o
+[ 47%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/livox_lidar_upgrader.cpp.o
+[ 48%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_manager.cpp.o
+[ 49%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_manager.cpp.o
+[ 50%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_handler.cpp.o
+[ 51%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_handler.cpp.o
+[ 52%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/file_manager.cpp.o
+[ 53%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/file_manager.cpp.o
+[ 54%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/data_handler/data_handler.cpp.o
+[ 55%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/data_handler/data_handler.cpp.o
+[ 56%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/command_impl.cpp.o
+[ 58%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/general_command_handler.cpp.o
+[ 59%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/hap_command_handler.cpp.o
+[ 60%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/command_impl.cpp.o
+In file included from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37:
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 61%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/mid360_command_handler.cpp.o
+[ 62%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/build_request.cpp.o
+[ 63%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/general_command_handler.cpp.o
+In file included from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37:
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 64%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/parse_lidar_state_info.cpp.o
+In file included from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2:
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 65%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/mid360s_command_handler.cpp.o
+[ 66%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/avia2_command_handler.cpp.o
+In file included from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/mid360s_command_handler.cpp:37:
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+In file included from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/avia2_command_handler.cpp:37:
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 67%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/mid360l_command_handler.cpp.o
+[ 68%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/hap_command_handler.cpp.o
+In file included from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/mid360l_command_handler.cpp:37:
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+In file included from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37:
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 69%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o
+[ 70%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o
+[ 72%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/mid360_command_handler.cpp.o
+[ 73%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/build_request.cpp.o
+In file included from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37:
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 74%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/parse_lidar_state_info.cpp.o
+[ 75%] Linking CXX shared library liblivox_lidar_sdk_shared.so
+In file included from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2:
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 75%] Built target livox_lidar_sdk_shared
+[ 76%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/mid360s_command_handler.cpp.o
+In file included from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/mid360s_command_handler.cpp:37:
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 77%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/avia2_command_handler.cpp.o
+[ 78%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/mid360l_command_handler.cpp.o
+In file included from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/avia2_command_handler.cpp:37:
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+In file included from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38,
+                 from /home/livo/repro/deps/Livox-SDK2/sdk_core/command_handler/mid360l_command_handler.cpp:37:
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: warning: unknown option after ‘#pragma GCC diagnostic’ kind [-Wpragmas]
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29: note: did you mean ‘-Warray-bounds’?
+  542 | #define RAPIDJSON_PRAGMA(x) _Pragma(RAPIDJSON_STRINGIFY(x))
+      |                             ^~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34: note: in expansion of macro ‘RAPIDJSON_PRAGMA’
+  543 | #define RAPIDJSON_DIAG_PRAGMA(x) RAPIDJSON_PRAGMA(GCC diagnostic x)
+      |                                  ^~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3: note: in expansion of macro ‘RAPIDJSON_DIAG_PRAGMA’
+  545 |   RAPIDJSON_DIAG_PRAGMA(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/livo/repro/deps/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1: note: in expansion of macro ‘RAPIDJSON_DIAG_OFF’
+   36 | RAPIDJSON_DIAG_OFF(array - bounds)  // some gcc versions generate wrong warnings
+      | ^~~~~~~~~~~~~~~~~~
+[ 79%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o
+[ 80%] Building CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o
+[ 81%] Linking CXX static library liblivox_lidar_sdk_static.a
+[ 81%] Built target livox_lidar_sdk_static
+[ 86%] Building CXX object samples/multi_lidars_upgrade/CMakeFiles/multi_lidars_upgrade.dir/main.cpp.o
+[ 86%] Building CXX object samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.o
+[ 86%] Building CXX object samples/logger/CMakeFiles/logger.dir/main.cpp.o
+[ 86%] Building CXX object samples/livox_lidar_quick_start/CMakeFiles/livox_lidar_quick_start.dir/main.cpp.o
+[ 87%] Linking CXX executable livox_lidar_quick_start
+[ 88%] Linking CXX executable logger
+[ 89%] Linking CXX executable debug_point_cloud
+[ 90%] Linking CXX executable multi_lidars_upgrade
+[ 90%] Built target logger
+[ 90%] Built target livox_lidar_quick_start
+[ 91%] Building CXX object samples/lidar_cmd_observer/CMakeFiles/lidar_cmd_observer.dir/main.cpp.o
+[ 92%] Building CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/main.cpp.o
+[ 92%] Built target debug_point_cloud
+[ 92%] Built target multi_lidars_upgrade
+[ 93%] Building CXX object samples/livox_lidar_ip_set/CMakeFiles/livox_lidar_ip_set.dir/main.cpp.o
+[ 94%] Building CXX object samples/livox_lidar_info_get/CMakeFiles/livox_lidar_info_get.dir/main.cpp.o
+[ 95%] Linking CXX executable lidar_cmd_observer
+[ 96%] Building CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/linux/synchro.cpp.o
+[ 97%] Linking CXX executable livox_lidar_ip_set
+[ 98%] Linking CXX executable livox_lidar_info_get
+[ 98%] Built target lidar_cmd_observer
+[ 98%] Built target livox_lidar_info_get
+[ 98%] Built target livox_lidar_ip_set
+[100%] Linking CXX executable livox_lidar_rmc_time_sync
+[100%] Built target livox_lidar_rmc_time_sync
+-- Install configuration: "Release"
+-- Installing: /usr/local/lib/liblivox_lidar_sdk_static.a
+-- Installing: /usr/local/include/livox_lidar_def.h
+-- Installing: /usr/local/include/livox_lidar_api.h
+-- Installing: /usr/local/include/livox_lidar_cfg.h
+-- Installing: /usr/local/lib/liblivox_lidar_sdk_shared.so
+Starting >>> livox_ros_driver2
+--- stderr: livox_ros_driver2
+/home/livo/repro/fastlivo2_ws/src/livox_ros_driver2/src/comm/pub_handler.cpp: In member function ‘void livox_ros::LidarPubHandler::ProcessDoubleEchoPoint(livox_ros::RawPacket&)’:
+/home/livo/repro/fastlivo2_ws/src/livox_ros_driver2/src/comm/pub_handler.cpp:466:12: warning: unused variable ‘index’ [-Wunused-variable]
+  466 |   uint32_t index = 0;
+      |            ^~~~~
+---
+Finished <<< livox_ros_driver2 [50.5s]
+Starting >>> vikit_common
+--- stderr: vikit_common
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DISTRO_ROS
+    ROS_EDITION
+
+
+---
+Finished <<< vikit_common [11.2s]
+Starting >>> vikit_py
+--- stderr: vikit_py
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DISTRO_ROS
+    ROS_EDITION
+
+
+---
+Finished <<< vikit_py [2.60s]
+Starting >>> vikit_ros
+--- stderr: vikit_ros
+Current CPU architecture: x86_64
+Processor number: 28
+Cores for MP: 3
+CMake Error in CMakeLists.txt:
+  Target "vikit_ros" INTERFACE_INCLUDE_DIRECTORIES property contains path:
+
+    "/home/livo/repro/fastlivo2_ws/src/rpg_vikit/vikit_ros"
+
+  which is prefixed in the source directory.
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DISTRO_ROS
+    ROS_EDITION
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+---
+Failed   <<< vikit_ros [15.0s, exited with code 1]
+
+Summary: 3 packages finished [1min 19s]
+  1 package failed: vikit_ros
+  4 packages had stderr output: livox_ros_driver2 vikit_common vikit_py vikit_ros
+  1 package not processed

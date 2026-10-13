@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\_AAA_CODE_ALL\Tech_reproduction\FASTLIVO2_reproduction\scripts\prepare_hilti.py", line 25, in <module>
+    with Reader(source) as reader, Writer1(out/f'{args.tag}_3topics.bag') as w1, Writer2(out/f'{args.tag}_ros2', version=8) as w2:
+                                   ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\_AAA_CODE_ALL\Tech_reproduction\FASTLIVO2_reproduction\.venv-tools\Lib\site-packages\rosbags\rosbag1\writer.py", line 177, in __init__
+    raise WriterError(msg)
+rosbags.rosbag1.writer.WriterError: D:\_AAA_CODE_ALL\Tech_reproduction\FASTLIVO2_reproduction\data\derived\hilti_exp18_3topics.bag exists already, not overwriting.

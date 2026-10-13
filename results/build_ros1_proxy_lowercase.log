@@ -1,0 +1,73 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2.27kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ros:noetic-ros-base-focal@sha256:72b8bc59035dc0a5b8e07aae28c16caa84192971d72d207c72ed734fb1d5e97d
+#2 DONE 2.9s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 302B done
+#3 DONE 0.0s
+
+#4 [stage-0  1/11] FROM docker.io/library/ros:noetic-ros-base-focal@sha256:72b8bc59035dc0a5b8e07aae28c16caa84192971d72d207c72ed734fb1d5e97d
+#4 resolve docker.io/library/ros:noetic-ros-base-focal@sha256:72b8bc59035dc0a5b8e07aae28c16caa84192971d72d207c72ed734fb1d5e97d 0.0s done
+#4 CACHED
+
+#5 [internal] load build context
+#5 transferring context: 13.35kB done
+#5 DONE 0.0s
+
+#6 [stage-0  2/11] RUN --mount=type=cache,target=/var/cache/apt,id=fastlivo-noetic-apt     rm -f /etc/apt/apt.conf.d/docker-clean     && sed -i -e 's|http://archive.ubuntu.com/ubuntu|https://mirrors.tuna.tsinghua.edu.cn/ubuntu|g'               -e 's|http://security.ubuntu.com/ubuntu|https://mirrors.tuna.tsinghua.edu.cn/ubuntu|g' /etc/apt/sources.list     && apt-get -o Acquire::Retries=3 update     && apt-get -o Acquire::Retries=3 install -y --no-install-recommends     build-essential cmake git ca-certificates python3-yaml python3-pip     libeigen3-dev libopencv-dev libpcl-dev libboost-thread-dev     ros-noetic-pcl-ros ros-noetic-eigen-conversions ros-noetic-cv-bridge     ros-noetic-image-transport ros-noetic-compressed-image-transport     ros-noetic-tf ros-noetic-rviz ros-noetic-image-proc     && rm -rf /var/lib/apt/lists/*
+#6 0.856 Ign:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal InRelease
+#6 0.860 Get:2 http://snapshots.ros.org/noetic/final/ubuntu focal InRelease [13.8 kB]
+#6 1.538 Ign:3 https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-updates InRelease
+#6 1.686 Get:4 http://snapshots.ros.org/noetic/final/ubuntu focal/main amd64 Packages [1054 kB]
+#6 2.221 Ign:5 https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-backports InRelease
+#6 3.336 Ign:6 https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-security InRelease
+#6 4.018 Err:7 https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal Release
+#6 4.018   Could not handshake: The TLS connection was non-properly terminated. [IP: 192.168.65.254 7897]
+#6 4.698 Err:8 https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-updates Release
+#6 4.698   Could not handshake: The TLS connection was non-properly terminated. [IP: 192.168.65.254 7897]
+#6 5.381 Err:9 https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-backports Release
+#6 5.381   Could not handshake: The TLS connection was non-properly terminated. [IP: 192.168.65.254 7897]
+#6 6.098 Err:10 https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-security Release
+#6 6.098   Could not handshake: The TLS connection was non-properly terminated. [IP: 192.168.65.254 7897]
+#6 6.100 Reading package lists...
+#6 6.132 E: The repository 'https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal Release' does not have a Release file.
+#6 6.132 E: The repository 'https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-updates Release' does not have a Release file.
+#6 6.132 E: The repository 'https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-backports Release' does not have a Release file.
+#6 6.132 E: The repository 'https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-security Release' does not have a Release file.
+#6 ERROR: process "/bin/bash -o pipefail -c rm -f /etc/apt/apt.conf.d/docker-clean     && sed -i -e 's|http://archive.ubuntu.com/ubuntu|https://mirrors.tuna.tsinghua.edu.cn/ubuntu|g'               -e 's|http://security.ubuntu.com/ubuntu|https://mirrors.tuna.tsinghua.edu.cn/ubuntu|g' /etc/apt/sources.list     && apt-get -o Acquire::Retries=3 update     && apt-get -o Acquire::Retries=3 install -y --no-install-recommends     build-essential cmake git ca-certificates python3-yaml python3-pip     libeigen3-dev libopencv-dev libpcl-dev libboost-thread-dev     ros-noetic-pcl-ros ros-noetic-eigen-conversions ros-noetic-cv-bridge     ros-noetic-image-transport ros-noetic-compressed-image-transport     ros-noetic-tf ros-noetic-rviz ros-noetic-image-proc     && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 100
+------
+ > [stage-0  2/11] RUN --mount=type=cache,target=/var/cache/apt,id=fastlivo-noetic-apt     rm -f /etc/apt/apt.conf.d/docker-clean     && sed -i -e 's|http://archive.ubuntu.com/ubuntu|https://mirrors.tuna.tsinghua.edu.cn/ubuntu|g'               -e 's|http://security.ubuntu.com/ubuntu|https://mirrors.tuna.tsinghua.edu.cn/ubuntu|g' /etc/apt/sources.list     && apt-get -o Acquire::Retries=3 update     && apt-get -o Acquire::Retries=3 install -y --no-install-recommends     build-essential cmake git ca-certificates python3-yaml python3-pip     libeigen3-dev libopencv-dev libpcl-dev libboost-thread-dev     ros-noetic-pcl-ros ros-noetic-eigen-conversions ros-noetic-cv-bridge     ros-noetic-image-transport ros-noetic-compressed-image-transport     ros-noetic-tf ros-noetic-rviz ros-noetic-image-proc     && rm -rf /var/lib/apt/lists/*:
+4.698   Could not handshake: The TLS connection was non-properly terminated. [IP: 192.168.65.254 7897]
+5.381 Err:9 https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-backports Release
+5.381   Could not handshake: The TLS connection was non-properly terminated. [IP: 192.168.65.254 7897]
+6.098 Err:10 https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-security Release
+6.098   Could not handshake: The TLS connection was non-properly terminated. [IP: 192.168.65.254 7897]
+6.100 Reading package lists...
+6.132 E: The repository 'https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal Release' does not have a Release file.
+6.132 E: The repository 'https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-updates Release' does not have a Release file.
+6.132 E: The repository 'https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-backports Release' does not have a Release file.
+6.132 E: The repository 'https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-security Release' does not have a Release file.
+------
+Dockerfile:7
+--------------------
+   6 |     ARG VIKIT_COMMIT=6c886c8e5d83997806e00294826d528cea3581dd
+   7 | >>> RUN --mount=type=cache,target=/var/cache/apt,id=fastlivo-noetic-apt \
+   8 | >>>     rm -f /etc/apt/apt.conf.d/docker-clean \
+   9 | >>>     && sed -i -e 's|http://archive.ubuntu.com/ubuntu|https://mirrors.tuna.tsinghua.edu.cn/ubuntu|g' \
+  10 | >>>               -e 's|http://security.ubuntu.com/ubuntu|https://mirrors.tuna.tsinghua.edu.cn/ubuntu|g' /etc/apt/sources.list \
+  11 | >>>     && apt-get -o Acquire::Retries=3 update \
+  12 | >>>     && apt-get -o Acquire::Retries=3 install -y --no-install-recommends \
+  13 | >>>     build-essential cmake git ca-certificates python3-yaml python3-pip \
+  14 | >>>     libeigen3-dev libopencv-dev libpcl-dev libboost-thread-dev \
+  15 | >>>     ros-noetic-pcl-ros ros-noetic-eigen-conversions ros-noetic-cv-bridge \
+  16 | >>>     ros-noetic-image-transport ros-noetic-compressed-image-transport \
+  17 | >>>     ros-noetic-tf ros-noetic-rviz ros-noetic-image-proc \
+  18 | >>>     && rm -rf /var/lib/apt/lists/*
+  19 |     COPY upstream/Sophus_pinned/ /opt/Sophus/
+--------------------
+ERROR: failed to build: failed to solve: process "/bin/bash -o pipefail -c rm -f /etc/apt/apt.conf.d/docker-clean     && sed -i -e 's|http://archive.ubuntu.com/ubuntu|https://mirrors.tuna.tsinghua.edu.cn/ubuntu|g'               -e 's|http://security.ubuntu.com/ubuntu|https://mirrors.tuna.tsinghua.edu.cn/ubuntu|g' /etc/apt/sources.list     && apt-get -o Acquire::Retries=3 update     && apt-get -o Acquire::Retries=3 install -y --no-install-recommends     build-essential cmake git ca-certificates python3-yaml python3-pip     libeigen3-dev libopencv-dev libpcl-dev libboost-thread-dev     ros-noetic-pcl-ros ros-noetic-eigen-conversions ros-noetic-cv-bridge     ros-noetic-image-transport ros-noetic-compressed-image-transport     ros-noetic-tf ros-noetic-rviz ros-noetic-image-proc     && rm -rf /var/lib/apt/lists/*" did not complete successfully: exit code: 100
