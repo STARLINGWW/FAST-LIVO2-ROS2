@@ -18,6 +18,7 @@ import json
 import shutil
 import sys
 import tarfile
+import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -73,11 +74,27 @@ def sha256(path):
     return digest.hexdigest()
 
 
-def download(url, target):
+def download(url, target, attempts=5):
+    """Download with retries: codeload.github.com drops TLS connections now and then."""
     target.parent.mkdir(parents=True, exist_ok=True)
-    request = urllib.request.Request(url, headers={'User-Agent': 'fastlivo2-repro-fetch'})
-    with urllib.request.urlopen(request, timeout=180) as response, target.open('wb') as out:
-        shutil.copyfileobj(response, out, length=1 << 20)
+    last_error = None
+    for attempt in range(1, attempts + 1):
+        request = urllib.request.Request(url, headers={'User-Agent': 'fastlivo2-repro-fetch'})
+        try:
+            with urllib.request.urlopen(request, timeout=180) as response, target.open('wb') as out:
+                shutil.copyfileobj(response, out, length=1 << 20)
+            return
+        except Exception as exc:                       # URLError, ssl.SSLError, timeout, ...
+            last_error = exc
+            target.unlink(missing_ok=True)
+            if attempt < attempts:
+                wait = min(2 ** attempt, 15)
+                print(f'  download attempt {attempt}/{attempts} failed ({exc}); retrying in {wait}s',
+                      file=sys.stderr, flush=True)
+                time.sleep(wait)
+    raise RuntimeError(f'download failed after {attempts} attempts: {url}\n'
+                       f'last error: {last_error}\n'
+                       'if your network needs a proxy, set HTTPS_PROXY (or pass --proxy where supported)')
 
 
 def extract(archive, dest, archive_root=None):
